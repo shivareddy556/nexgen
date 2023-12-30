@@ -12,6 +12,7 @@ import Footer from './components/Footer'
 import Mobile_App from './components/Mobile_App'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Design_Page from './components/Design_Page'
+import Contacts from './components/Contacts'
 
 const App = () => {
   return (
@@ -24,7 +25,7 @@ const App = () => {
           <Route exact path="/viewportfolio" element={<View_Portfolio_Page />} />
           <Route exact path="/viewportfolio/:id"  element={<Design_Page />} />
           <Route exact path="/price" element={<PricePage />} />
-          <Route exact path="/bloge" element={<BlogsPage />} />
+          <Route exact path="/contacts" element={<Contacts />} />
           <Route exact path="/viewportfolio/Mobile" element={<Mobile_App />} />
         </Routes>
         <Footer/>

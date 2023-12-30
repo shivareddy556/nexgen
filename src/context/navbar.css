@@ -160,3 +160,18 @@
         margin: 0.2rem 0.5rem;
     }
 }
+
+
+.Contact_button_nav {
+    background: #3DBF42;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15.812px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    line-height: 19.966px;
+    /* 126.273% */
+}

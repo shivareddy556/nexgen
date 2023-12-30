@@ -913,3 +913,143 @@
 .carsusel_bg {
   background: none !important;
 }
+
+
+ .your_faq {
+  border-radius: 12px;
+  background: conic-gradient(from 21deg at 60.16% 50.15%, #892B85 0deg, #28005E 360deg);
+  height: 30vh;
+  display: grid;
+  flex: 1 1;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  padding: 0.5rem 2.5rem;
+}
+
+.Call_faq_style {
+  border-radius: 17.901px;
+  background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+  color: #050427;
+  text-align: center;
+  font-family: Inter;
+  font-size: 23.408px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  line-height: 100%;
+  /* 23.408px */
+}
+
+.Digital_faq {
+  text-align: start;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 32.114px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.461px;
+}
+
+.Digital_faq1 {
+  color: #FFE359;
+  font-family: Inter;
+  font-size: 32.114px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.461px;
+}
+ .home_Happy_font {
+  color: #FDF9FF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.faont_47_home {
+  color: #FDF9FF;
+  font-family: 'Poppins';
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Reviews_font_home {
+  color: #F5F5F5;
+  font-family: Helvetica;
+  font-size: 11.298px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.337px;
+  /* 126.891% */
+}
+
+.font_5P_home {
+  color: #F5F5F5;
+  font-family: Helvetica Neue;
+  font-size: 27.859px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.824px;
+  /* 125% */
+}
+
+.ensuring_flex_home {
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+}
+
+.border_happy_font {
+  border-right: 2px solid #B1A3AC;
+  height: 50px;
+}
+
+.Design_home_card12 {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
+  padding: 1rem;
+  width: 100%;
+  height: 250px;
+}
+
+.margi_top_desine {
+  margin-top: -6rem;
+}
+
+.Responsive_font_home {
+  color: #27272E;
+  font-family: Inter;
+  font-size: 23.399px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31.202px;
+  letter-spacing: -0.741px;
+}
+
+.Fintech_home_font {
+  color: #425466;
+  font-family: Inter;
+  font-size: 14.806px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.059px;
+  /* 148.983% */
+}
+
+.home_bg_images {
+  background: #FFF;
+  background-blend-mode: overlay, normal;
+  width: 100%;
+  height: 100%;
+}
+
+.margi_top_desine {
+  margin-top: 0.2rem;
+}

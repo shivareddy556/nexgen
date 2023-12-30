@@ -480,3 +480,39 @@
         width: 30%;
     }
 }
+
+.vestibulum_font_price_sroling {
+    padding: 1rem;
+    color: var(--Black, #000);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Hellen_price_scrolling {
+    color: var(--Black, #000);
+    font-family: inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+}
+
+.Counselor_price_srolling {
+    color: var(--Blue-Gray-600, #475569);
+    /* Body/M */
+    font-family: inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.shadow_indamap {
+    -webkit-box-shadow: 13px 2px 16px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 2px 16px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 2px 16px -16px rgba(0, 0, 0, 0.75);
+}

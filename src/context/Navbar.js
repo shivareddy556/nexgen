@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavbarBrand } from "reactstrap";
 import Nexgen_icon from "../context/Images/Nexgen_icon.png";
 import "../context/navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 const NavbarPage = (args) => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -17,6 +17,11 @@ const NavbarPage = (args) => {
         }
     };
     window.addEventListener("scroll", changeNavbarColor);
+    const location = useLocation(); // once ready it returns the 'window.location' object
+    const [url, setUrl] = useState(null);
+    useEffect(() => {
+      setUrl(location.pathname);
+    }, [location]);
     return (
         <div>
             <div className="nav_bg">
@@ -41,7 +46,7 @@ const NavbarPage = (args) => {
                         <li className="li1">
                             <Link
                                 to="/"
-                                className={active === true ? "nav_bgfont" : "nav_bgfont"}
+                                 className={url === '/' ? ' nav_bgfont' : 'nav_bgfont1'}
                             >
                                 <span>Home</span>
                             </Link>
@@ -49,7 +54,7 @@ const NavbarPage = (args) => {
                         <li className="li1">
                             <Link
                                 to="/services"
-                                className={active === true ? "nav_bgfont" : "nav_bgfont"}
+                                 className={url === '/services' ? ' nav_bgfont' : 'nav_bgfont1'}
                             >
                                 Services
                             </Link>
@@ -57,7 +62,7 @@ const NavbarPage = (args) => {
                         <li className="li1">
                             <Link
                                 to="/price"
-                                className={active === true ? "nav_bgfont" : "nav_bgfont"}
+                                 className={url === '/price' ? ' nav_bgfont' : 'nav_bgfont1'}
                             >
                                 Price & Plan
                             </Link>
@@ -65,7 +70,7 @@ const NavbarPage = (args) => {
                         <li className="li1">
                             <Link
                                 to="/viewportfolio"
-                                className={active === true ? "nav_bgfont" : "nav_bgfont"}
+                                 className={url === '/viewportfolio' ? ' nav_bgfont' : 'nav_bgfont1'}
                             >
                                 {" "}
                                 View Portfolio
@@ -74,7 +79,7 @@ const NavbarPage = (args) => {
                         <li className="li1">
                             <Link
                                 to="/contacts"
-                                className={active === true ? "nav_bgfont" : "nav_bgfont"}
+                                 className={url === '/contacts' ? ' nav_bgfont' : 'nav_bgfont1'}
                             >
                                 Free Consultation
                             </Link>

@@ -34,6 +34,7 @@ import desine_homeimages from "../Images/HomeImages/desine_homeimages.png";
 import desine_homeimages3 from "../Images/HomeImages/desine_homeimages3.png";
 import desine_homeimages2 from "../Images/HomeImages/desine_homeimages2.png";
 import NavbarPage from "../context/Navbar";
+import { Element } from "react-scroll";
 function HomePage() {
   const items_slide = [
     {
@@ -78,14 +79,27 @@ function HomePage() {
   const slides = items_slide.map((item) => {
     return (
       <CarouselItem
-        className='carsusel_bg'
+        className="carsusel_bg"
         in={false}
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.side_images}
-        style={{ width: "100%", boxShadow: 'none', background: 'transparent', backgroundColor: 'transparent' }}
+        style={{
+          width: "100%",
+          boxShadow: "none",
+          background: "transparent",
+          backgroundColor: "transparent",
+        }}
       >
-        <img src={require(`../Images/HomeImages/${item.side_images}`)} alt={"text"} style={{ width: "100%", background: 'transparent', backgroundColor: 'transparent' }} />
+        <img
+          src={require(`../Images/HomeImages/${item.side_images}`)}
+          alt={"text"}
+          style={{
+            width: "100%",
+            background: "transparent",
+            backgroundColor: "transparent",
+          }}
+        />
       </CarouselItem>
     );
   });
@@ -194,7 +208,8 @@ function HomePage() {
                   <div className="home_dev_font">
                     Stunning website
                     <br /> designed to boost
-                    <br /> your <span className="home_dev1_Revenue">Revenue</span>
+                    <br /> your{" "}
+                    <span className="home_dev1_Revenue">Revenue</span>
                   </div>
                 </div>
                 <div className="my-4 dev_flex1_home">
@@ -358,13 +373,15 @@ function HomePage() {
                 seamlessly across{" "}
               </div>
               <div className="button_flex_homeget">
-                <button className="Proposal_home_button">Get Proposal</button>
-                <button className="Proposal_home_button1">
+                <button className="Proposal_home_button py-1">
+                  Get Proposal
+                </button>
+                <button className="Proposal_home_button1 py-1">
                   Get Website Audit
                 </button>
               </div>
             </div>
-            <div className="py-5">
+            <div className="pb-5">
               <ScrollCarousel
                 // smartSpeed={true}
                 autoplay
@@ -468,11 +485,11 @@ function HomePage() {
                 </div>
                 <div className="home_arefont2 py-3">
                   Are you looking for top-notch Website Design Services that
-                  resonate with your brand's uniqueness? At Nexgen, we specialize
-                  in Custom Web Design solutions tailored to your specific needs.
-                  Our team crafts Responsive Web Designs that adapt seamlessly
-                  across devices, ensuring an optimal user experience for your
-                  audience.
+                  resonate with your brand's uniqueness? At Nexgen, we
+                  specialize in Custom Web Design solutions tailored to your
+                  specific needs. Our team crafts Responsive Web Designs that
+                  adapt seamlessly across devices, ensuring an optimal user
+                  experience for your audience.
                 </div>
                 <div className="ensuring_flex_home">
                   <div className="w-25">
@@ -542,8 +559,9 @@ function HomePage() {
                     Responsive Design & Development Services
                   </div>
                   <div className="Fintech_home_font py-2">
-                    Fintech & healthcare software development with a human touch.
-                    We develop feature-packed solutions that are easy to use.
+                    Fintech & healthcare software development with a human
+                    touch. We develop feature-packed solutions that are easy to
+                    use.
                   </div>
                 </div>
               </Col>
@@ -556,10 +574,13 @@ function HomePage() {
                       style={{ width: "20%" }}
                     />{" "}
                   </div>
-                  <div className="Responsive_font_home">E-commerce Solutions</div>
+                  <div className="Responsive_font_home">
+                    E-commerce Solutions
+                  </div>
                   <div className="Fintech_home_font py-2">
-                    Fintech & healthcare software development with a human touch.
-                    We develop feature-packed solutions that are easy to use.
+                    Fintech & healthcare software development with a human
+                    touch. We develop feature-packed solutions that are easy to
+                    use.
                   </div>
                 </div>
               </Col>
@@ -576,8 +597,9 @@ function HomePage() {
                     UI/UX Design Excellence
                   </div>
                   <div className="Fintech_home_font py-2">
-                    Fintech & healthcare software development with a human touch.
-                    We develop feature-packed solutions that are easy to use.
+                    Fintech & healthcare software development with a human
+                    touch. We develop feature-packed solutions that are easy to
+                    use.
                   </div>
                 </div>
               </Col>
@@ -594,8 +616,9 @@ function HomePage() {
                     Social media Design & branding
                   </div>
                   <div className="Fintech_home_font py-2">
-                    Fintech & healthcare software development with a human touch.
-                    We develop feature-packed solutions that are easy to use.
+                    Fintech & healthcare software development with a human
+                    touch. We develop feature-packed solutions that are easy to
+                    use.
                   </div>
                 </div>
               </Col>
@@ -631,7 +654,11 @@ function HomePage() {
                   over other?
                 </div>
                 <div className="w-100 text-center py-5">
-                  <img src={Leadgenaration_abuot} alt="Leadgenaration_abuot" style={{ width: "80%" }} />
+                  <img
+                    src={Leadgenaration_abuot}
+                    alt="Leadgenaration_abuot"
+                    style={{ width: "80%" }}
+                  />
                 </div>
               </div>
               <div></div>

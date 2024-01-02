@@ -21,6 +21,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    border-bottom: 2px solid #FFD851;
 }
 
 /* .active {
@@ -82,7 +83,7 @@
     display: block;
     text-decoration: none;
     color: white;
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
 }
 
 /* nav ul li a:not(.active):hover {
@@ -125,7 +126,12 @@
 } */
 
 .nav_bgfont1 {
-    color: red;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 @media (max-width: 768px) {

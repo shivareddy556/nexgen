@@ -326,6 +326,7 @@
     font-style: normal;
     font-weight: 700;
     border: none;
+    width: 100%;
     line-height: 100%;
     /* 23.408px */
 }
@@ -349,4 +350,14 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.461px;
+}
+
+.laptogaqimage_style{
+    width: 150%;
+    margin-top: -10%;
+    /* height: 30vh; */
+}
+
+.top_call_back{
+    padding-top: 26%;
 }

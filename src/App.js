@@ -22,6 +22,7 @@ const App = () => {
           <ScrollToTop />
           <Routes>
             <Route exact path="/" element={<HomePage />} />
+            <Route exact path="*" element={<ErrorBoundary />} />
             <Route exact path="/services" element={<ServicesPage />} />
             <Route
               exact

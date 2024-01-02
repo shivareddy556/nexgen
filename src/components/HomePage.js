@@ -34,7 +34,6 @@ import desine_homeimages from "../Images/HomeImages/desine_homeimages.png";
 import desine_homeimages3 from "../Images/HomeImages/desine_homeimages3.png";
 import desine_homeimages2 from "../Images/HomeImages/desine_homeimages2.png";
 import NavbarPage from "../context/Navbar";
-import { Element } from "react-scroll";
 function HomePage() {
   const items_slide = [
     {
@@ -529,7 +528,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="py-3">
-                  <button className="home_get_style py-2 px-4">
+                  <button className="home_get_style_Consultation py-2 px-4">
                     Get Free Consultation <BsArrowRight />
                   </button>
                 </div>
@@ -663,31 +662,33 @@ function HomePage() {
               </div>
               <div></div>
             </div>
-            <div className="">
-              <div className="dev_flex_home tdi9mq0 tdi9mq4">
-                <div className="system_homeimage13">
-                  <div className="home_Create_font">
-                    Create a constant Lead supply using your website.
-                  </div>
-                  <div className="Homeimage2_button my-4 py-3">
-                    <button className="home_botton py-2 px-3">
-                      <img
-                        src={Homeimage2}
-                        alt="Homeimage2"
-                        style={{ width: "22px" }}
-                      />{" "}
-                      Get Started
-                    </button>
-                  </div>
-                </div>
-                <div className="system_homeimage12 w-100">
-                  <img
-                    src={system_homeimage}
-                    alt="system_homeimage"
-                    className="system_homeimage pt-5"
-                  />{" "}
-                </div>
+
+          </div>
+
+        </div>
+        <div className="Hpme_card5_bg_create ">
+          <div className="dev_flex_home tdi9mq0 tdi9mq4">
+            <div className="system_homeimage13">
+              <div className="home_Create_font">
+                Create a <span className="constant_home_Create_font">constant Lead supply</span> using your website.
               </div>
+              <div className="Homeimage2_button pb-5 pt-2">
+                <button className="home_botton py-2 px-3">
+                  <img
+                    src={Homeimage2}
+                    alt="Homeimage2"
+                    style={{ width: "22px" }}
+                  />{" "}
+                  Get Started
+                </button>
+              </div>
+            </div>
+            <div className="system_homeimage12 w-100">
+              <img
+                src={system_homeimage}
+                alt="system_homeimage"
+                className="system_homeimage"
+              />{" "}
             </div>
           </div>
         </div>

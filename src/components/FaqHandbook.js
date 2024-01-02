@@ -3,7 +3,10 @@ import "../Styles/FaqHandbookstyle.css"
 import { BsChevronDown } from "react-icons/bs";
 import { BsChevronUp } from "react-icons/bs";
 import { Queries_Decoded } from "../HomePage/HomePagejson"
-import imagehandbook from "../Images/AboutImages/imagehandbook.png"
+import laptogaqimage from "../Images/AboutImages/laptogaqimage.png"
+import profile_homelogo12 from "../Images/HomeImages/profile_homelogo12.png";
+import { IoIosStar } from "react-icons/io";
+import { IoIosStarHalf } from "react-icons/io";
 const FaqHandbook = () => {
     const [toggle, setToggle] = useState(true)
     useEffect(() => {
@@ -23,7 +26,7 @@ const FaqHandbook = () => {
             <div className='Queries_handbook py-5'>Queries Decoded: <span className='Queries_handbookfont'>Your FAQ Handbook</span></div>
             <div className='faqhand_bg_grid'>
                 {Queries_Decoded.map((item, index) => {
-                    console.log("toggle[item.id]",toggle[item.id])
+                    console.log("toggle[item.id]", toggle[item.id])
                     return (
                         <div className=''>
                             <div className="faqhand_bg_white">
@@ -35,59 +38,58 @@ const FaqHandbook = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div > {toggle[item.id]  && <div className='content_bspan'> {item.discription} </div>} </div>
+                                <div > {toggle[item.id] && <div className='content_bspan'> {item.discription} </div>} </div>
                             </div>
                         </div>
                     )
                 })}
             </div>
-            <div className='' >
-                <div className='Together_handbook py-5'>Let's Create Your <br />
-                    Digital Success Story Together 🤝</div>
-                <div className='d-flex justify-content-center'>
-                    <div className='Consultation_handbook'>
-                        <div className='Consultation1_faq align-item-center'>
-                            <div className='w-100'>
-                                <div className='Free_handbook'>Free Consultation 🤙</div>
-                                <div className='hearhandbook'>We’re happy to hear from you! </div>
-                                <div className=' py-3'>
-                                    <div className=''>
-                                        <div className='py-2'>
-                                            <label className='name_handbook'>Name*</label><br />
-                                            <input className='handbook_input' placeholder='mail@simmmple.com' />
+            <div className='py-5' >
+                <div className='your_faq'>
+                    <div className='py-4'>
+                        <div className='Digital_faq'>Let's Create Your <span className='Digital_faq1'>Digital
+                            Success</span> Story Together 🤝</div>
+                        <div className="ensuring_flex_home pt-3">
+                            <div className="w-25">
+                                <img
+                                    src={profile_homelogo12}
+                                    alt="profile_homelogo12"
+                                    style={{ width: "100%" }}
+                                />{" "}
+                            </div>
+                            <div className="">
+                                <div className="faont_47_home">473+</div>
+                                <div className="home_Happy_font">Happy customers</div>
+                            </div>
+                            <div className="border_happy_font"></div>
+                            <div>
+                                <div className="Reviews_font_home">Reviews</div>
+                                <div>
+                                    <div className="d-flex gap-1">
+                                        <div className="font_5P_home"> 5.0 </div>
+                                        <div>
+                                            <IoIosStar className="homestar_color" />
                                         </div>
-                                        <div className='py-2'>
-                                            <label className='name_handbook'>Phone Number*</label><br />
-                                            <input className='handbook_input' placeholder='' />
+                                        <div>
+                                            <IoIosStar className="homestar_color" />
                                         </div>
-                                        <div className='py-2'>
-                                            <label className='name_handbook'>Mail ID*</label><br />
-                                            <input className='handbook_input' placeholder='' />
+                                        <div>
+                                            <IoIosStar className="homestar_color" />
                                         </div>
-                                        <div className='py-2'>
-                                            <label className='name_handbook'>Interested in</label><br />
-                                            <input className='handbook_input' placeholder='' />
+                                        <div>
+                                            <IoIosStar className="homestar_color" />
                                         </div>
-                                        <div className='d-flex gap-3'>
-                                            <div className='py-2 w-50'>
-                                                <label className='name_handbook'>Preferred Time to talk</label><br />
-                                                <input className='handbook_input' placeholder='' />
-                                            </div>
-                                            <div className='py-2 w-50'>
-                                                <label className='name_handbook'>Preferred Mode</label><br />
-                                                <input className='handbook_input' placeholder='' />
-                                            </div>
-                                        </div>
-                                        <div className='text-center'>
-                                            <button className='handbook_submit py-3 my-2'>Submit</button>
+                                        <div>
+                                            <IoIosStarHalf className="homestar_color" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className=''>
-                                <img src={imagehandbook} alt="imagehandbook"  className='imagehandbook_syle'/>
-                            </div>
                         </div>
+                    </div>
+                    <div className='d-flex justify-content-between w-100'>
+                        <div className='top_call_back w-100'><button className='Call_faq_style py-2'>Get a Call back</button></div>
+                        <div className='text-end w-100'><img src={laptogaqimage} alt='laptogaqimage' className='laptogaqimage_style'/> </div>
                     </div>
                 </div>
             </div>

@@ -99,7 +99,7 @@
   flex-direction: row;
   align-items: center;
   gap: 1rem;
-  padding: 2.5rem 0rem;
+  /* padding: 2.5rem 0rem; */
 }
 
 .margin_our {
@@ -115,10 +115,10 @@
 .home_dev_font {
   color: #FFF;
   font-family: 'Inter';
-  font-size: 65px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 600;
-  line-height: 79px;
+  line-height: 70px;
   /* 121.538% */
   position: relative;
 }
@@ -334,6 +334,19 @@
   /* 96.564% */
 }
 
+.home_get_style_Consultation {
+  border-radius: 13px;
+  background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+  color: #000;
+  border: none;
+  font-family: Inter;
+  font-size: 15.812px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.966px;
+  /* 126.273% */
+}
+
 .home_get_style {
   border-radius: 16px;
   border: 1px solid #010101;
@@ -363,6 +376,16 @@
 .home_card4_bg {
   background: linear-gradient(180deg, #F9DDE5 0%, rgba(241, 232, 235, 0) 100%);
   /* height: 100vh; */
+}
+
+.constant_home_Create_font {
+  color: #FFE359;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
 }
 
 .home_mostly_font {
@@ -399,7 +422,11 @@
 
 .Hpme_card5_bg {
   background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
-  height: 157vh;
+}
+
+.Hpme_card5_bg_create {
+  background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+  height: 40vh;
 }
 
 .bg_home_card_makes {
@@ -410,7 +437,7 @@
   /* backdrop-filter: blur(34.79788589477539px); */
   /* width: 80%; */
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .what_home_bg {
@@ -475,6 +502,7 @@
 
 .system_homeimage12 {
   width: 100%;
+  padding-top: 1rem;
   /* -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1; */
@@ -487,6 +515,7 @@
 
 .higher_home1 {
   text-align: start;
+  padding: 5.5% 0%;
 }
 
 .Covering_hme_font {
@@ -568,8 +597,8 @@
   width: 100%;
   /* height: 120vh; */
   /* background-position: center;  */
-  background-repeat: no-repeat; 
-  background-size: cover; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 768px) {
@@ -866,6 +895,10 @@
     -ms-flex-order: 1;
     order: 1;
   }
+
+  .margi_top_desine {
+    margin-top: 0.2rem;
+  }
 }
 
 
@@ -971,19 +1004,7 @@
   padding: 0.5rem 2.5rem;
 }
 
-.Call_faq_style {
-  border-radius: 17.901px;
-  background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
-  color: #050427;
-  text-align: center;
-  font-family: Inter;
-  font-size: 23.408px;
-  font-style: normal;
-  font-weight: 700;
-  border: none;
-  line-height: 100%;
-  /* 23.408px */
-}
+
 
 .Digital_faq {
   text-align: start;
@@ -1095,7 +1116,3 @@
   width: 100%;
   height: 100%;
 } */
-
-.margi_top_desine {
-  margin-top: 0.2rem;
-}

@@ -12,10 +12,10 @@ const View_Portfolio_Page = () => {
     <NavbarPage />
     
     
-    <div className='protfilo_bg'>
-      <div className='py-5 d-flex justify-content-center' 
+    <div className='protfilo_bg '>
+      <div className='py-5 d-flex justify-content-center position-sticky top-0' style={{zIndex:'999'}} 
       >
-        <div className='ul_portfilo py-4 w-75 mt-5 shadow'>
+        <div className='ul_portfilo py-4 w-75 mt-4  shadow'>
           <div className='websit_font'>
             <Link to="/viewportfolio" className='link_web1'> Website</Link>
           </div>

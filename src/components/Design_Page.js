@@ -12,7 +12,7 @@ const Design_Page = () => {
         <div>
         <div className='bg-dark position-sticky top-0 d-flex align-items-center' style={{zIndex:'999'}}>
         <div className='ms-5' style={{width:'20%'}}>
-            <Link to="/" className='link_web1'> <RxHome  className='fs-2'/>
+            <Link to="/viewportfolio" className='link_web1'> <RxHome  className='fs-2'/>
             </Link>
           </div>
         <div className='ul_portfilo11 ms-5'>

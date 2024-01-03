@@ -79,6 +79,16 @@
   max-width: var(--_1iiu2e01h);
   padding-left: var(--_1iiu2e0e);
   padding-right: var(--_1iiu2e0e);
+  /* margin-top: -5rem; */
+}
+
+.solution_card {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--_1iiu2e01h);
+  padding-left: var(--_1iiu2e0e);
+  padding-right: var(--_1iiu2e0e);
+  margin-top: -5rem;
 }
 
 .tdi9mq4 {
@@ -915,7 +925,7 @@
 }
 
 
- .your_faq {
+.your_faq {
   border-radius: 12px;
   background: conic-gradient(from 21deg at 60.16% 50.15%, #892B85 0deg, #28005E 360deg);
   height: 30vh;
@@ -960,7 +970,8 @@
   line-height: normal;
   letter-spacing: 0.461px;
 }
- .home_Happy_font {
+
+.home_Happy_font {
   color: #FDF9FF;
   text-align: center;
   font-family: Inter;
@@ -1012,11 +1023,22 @@
 
 .Design_home_card12 {
   border-radius: 12px;
+  border: 1px solid #E7E7E7;
   background: #FFF;
-  box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
+  box-shadow: 0px 4px 4px -2px rgba(24, 39, 75, 0.08), 0px 2px 4px -2px rgba(24, 39, 75, 0.12);
+
+
   padding: 1rem;
   width: 100%;
   height: 250px;
+  cursor: pointer;
+}
+
+.Design_home_card12:hover {
+  transition: 0.5s ease;
+  transform: translate(0, -50px);
+  box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
+
 }
 
 .margi_top_desine {
@@ -1052,4 +1074,83 @@
 
 .margi_top_desine {
   margin-top: 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 79px;
+
+}
+
+
+
+
+.heading_card {
+  width: 75%;
+  background: transparent;
+  border-radius: 1.5em;
+  color: whitesmoke;
+
+  cursor: pointer;
+
+}
+
+
+
+.scroller {
+  height: 1.2em;
+  position: relative;
+  overflow: hidden;
+  width: 10em;
+}
+
+.scroller>span {
+  background: linear-gradient(91deg, #FCE26B 8.63%, #FE685F 24.3%, #FF40A6 44.29%, #C26FFD 68.83%, #01F2F6 86.35%, #01FEAD 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  position: absolute;
+  top: 0;
+  animation: slide 7s infinite;
+  font-weight: bold;
+
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+
+  25% {
+    top: -1.2em;
+  }
+
+  50% {
+    top: -2.4em;
+  }
+
+  75% {
+    top: -3.6em;
+  }
+
+  100% {
+    top: -5em;
+  }
 }

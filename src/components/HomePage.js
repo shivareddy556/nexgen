@@ -190,6 +190,9 @@ function HomePage() {
             />
             <div className="higher_home1">
               <div className="align-item-center">
+             
+                
+
                 <div>
                   <div className="home_dev_font">
                     Stunning website
@@ -528,7 +531,7 @@ function HomePage() {
             <div className="h-100">.</div>
           </div>
           <div className="margi_top_desine d-flex justify-content-center">
-            <Row className="tdi9mq0">
+            <Row className="solution_card">
               <Col md={3}>
                 <div className="Design_home_card12">
                   <div>

@@ -89,7 +89,7 @@
 
 .home_dev_card {
   background: linear-gradient(47deg, rgba(69, 52, 114, 0.87) 1.8%, rgba(47, 35, 90, 0.00) 39.32%), linear-gradient(245deg, rgba(97, 80, 165, 0.75) -4.52%, rgba(99, 82, 168, 0.00) 33.5%), linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
-  padding-top: 65px;
+  /* padding-top: 65px; */
   height: 100%;
 }
 
@@ -98,12 +98,20 @@
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  gap: 1rem;
-  /* padding: 2.5rem 0rem; */
+  gap: 3rem;
+  padding-top: 6%;
+}
+
+.dev_flex_home_constant {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
 }
 
 .margin_our {
-  margin-top: 4rem;
+  padding-top: 10%;
 }
 
 .videoTag {
@@ -115,10 +123,10 @@
 .home_dev_font {
   color: #FFF;
   font-family: 'Inter';
-  font-size: 60px;
+  font-size: 55px;
   font-style: normal;
   font-weight: 600;
-  line-height: 70px;
+  line-height: 65px;
   /* 121.538% */
   position: relative;
 }
@@ -292,11 +300,10 @@
 .home_arefont2 {
   color: #FDF9FF;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 35px;
-  /* 194.444% */
+  line-height: 27px;
 }
 
 .services_arefont2 {
@@ -340,7 +347,7 @@
   color: #000;
   border: none;
   font-family: Inter;
-  font-size: 15.812px;
+  font-size: 14.812px;
   font-style: normal;
   font-weight: 700;
   line-height: 19.966px;
@@ -426,7 +433,7 @@
 
 .Hpme_card5_bg_create {
   background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
-  height: 40vh;
+  height: 47vh;
 }
 
 .bg_home_card_makes {
@@ -444,7 +451,8 @@
   color: #FFF;
   text-align: center;
   font-family: 'Inter';
-  font-size: 55px;
+  padding-top: 5%;
+  font-size: 50px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -471,7 +479,7 @@
   font-family: Inter;
   font-size: 50px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 0.5px;
   text-align: start;
@@ -485,7 +493,7 @@
 .system_homeimage {
   position: relative;
   z-index: 999;
-  width: 100%;
+  width: 120%;
 }
 
 .Homeimage2_button {
@@ -509,7 +517,7 @@
 }
 
 .corosal_image {
-  text-align: center;
+  text-align: end;
   width: 50%;
 }
 
@@ -585,7 +593,7 @@
 
 .button_flex_homeget {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   padding: 1rem 0rem;
@@ -595,10 +603,9 @@
   background: url('../Images/AboutImages/bg_home_designe.svg');
   background-blend-mode: overlay, normal;
   width: 100%;
-  /* height: 120vh; */
-  /* background-position: center;  */
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 5%;
 }
 
 @media (max-width: 768px) {
@@ -628,6 +635,7 @@
     order: 2;
     text-align: start;
     width: 100%;
+    margin-top: 1rem;
   }
 
   .videoTag {

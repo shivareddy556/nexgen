@@ -24,7 +24,8 @@ const Navbarsecond = (args) => {
     return (
         <div>
             <div className="nav_bg">
-                <nav className={colorChange ? "nav1 nav12" : "nav1 nav12"}>
+            <div className={colorChange ? "nav13 nav12" : "nav13 nav12"}>
+                <nav className={colorChange ? "nav1 tdi9mq0":"nav1 tdi9mq0 "}>
                     <Link to="/" className="title">
                         <NavbarBrand href="/">
                             <img
@@ -97,6 +98,7 @@ const Navbarsecond = (args) => {
                         }
                     </ul>
                 </nav>
+                </div>
             </div>
         </div>
     );

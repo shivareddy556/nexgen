@@ -5,11 +5,12 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-family: 'Inter';
-    font-size: 55px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.55px;
+    padding-top: 10%;
 }
 
 /* .convenient_style_price {
@@ -138,6 +139,7 @@
 
 .price_ul {
     list-style: none;
+    height: 50vh;
 }
 
 .price_li {
@@ -379,6 +381,7 @@
 
     .price_ul {
         list-style: none;
+        height: 50vh;
     }
 
     .price_li {

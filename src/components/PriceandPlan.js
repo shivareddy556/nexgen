@@ -46,7 +46,7 @@ const PriceandPlan = () => {
     return (
         <div className=''>
             <div className='tdi9mq0 tdi9mq4 py-5'>
-                <div className='price_font mt-5'>Choose a package that fits your needs <br></br>with our <span className='convenient_style_price'>convenient EMI</span></div>
+                <div className='price_font'>Choose a package that fits your needs <br></br>with our <span className='convenient_style_price'>convenient EMI</span></div>
                 <div className='price_bg_flex'>
                     <div className="price_bg py-4 my-5">
                         <div className="">
@@ -78,7 +78,7 @@ const PriceandPlan = () => {
                                     />
                                     <label htmlFor="s1" id="slide1">
                                         <div className='my-2 py-3 px-4'>
-                                            <div className='Starter_price'>Starter</div>
+                                            <div className='Starter_price pb-2'>Starter</div>
                                             <div className='Unleash_price'>Unleash the power of <br />automation.</div>
                                             <div className='price_ul'>
                                                 <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /><span>  Upto 1 Page Designing</span></li>
@@ -94,7 +94,7 @@ const PriceandPlan = () => {
                                     </label>
                                     <label htmlFor="s2" id="slide2">
                                         <div className='my-2 py-3 px-4'>
-                                            <div className='Starter_price'>Business Plan</div>
+                                            <div className='Starter_price pb-2'>Business Plan</div>
                                             <div className='Unleash_price'><img src={profile_homelogo12} alt="profile_homelogo12" style={{width:"30%"}}/>  (654+ benefited)</div>
                                             <div className='price_ul'>
                                                 <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> Upto 3 Pages Designing</li>
@@ -113,7 +113,7 @@ const PriceandPlan = () => {
                                     </label>
                                     <label htmlFor="s3" id="slide3">
                                         <div className='my-2 py-3 px-4'>
-                                            <div className='Starter_price'>Futuristic Web</div>
+                                            <div className='Starter_price pb-2'>Futuristic Web</div>
                                             <div className='Unleash_price'>Unleash the power of <br />automation.</div>
                                             <div className='price_ul'>
                                                 <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> All Pages Designing</li>

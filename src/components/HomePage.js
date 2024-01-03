@@ -34,6 +34,7 @@ import desine_homeimages from "../Images/HomeImages/desine_homeimages.png";
 import desine_homeimages3 from "../Images/HomeImages/desine_homeimages3.png";
 import desine_homeimages2 from "../Images/HomeImages/desine_homeimages2.png";
 import NavbarPage from "../context/Navbar";
+import { FcGoogle } from "react-icons/fc";
 function HomePage() {
   const items_slide = [
     {
@@ -182,7 +183,7 @@ function HomePage() {
     attemptPlay();
   }, []);
   return (
-    <div>
+    <>
       <NavbarPage />
       <div className="" style={{ overflow: "hidden", overflowX: "hidden" }}>
         <div className="home_dev_card ">
@@ -221,9 +222,6 @@ function HomePage() {
                       />{" "}
                       Get a Proposal
                     </button>
-                  </div>
-                  <div className="home_dev2_get py-2">
-                    Get Free website audit <BsArrowRight />
                   </div>
                 </div>
               </div>
@@ -387,7 +385,7 @@ function HomePage() {
                 autoplaySpeed={80}
                 speed={5}
               >
-                <div className="d-flex w-100 gap-4">
+                <div className="d-flex w-100 gap-5">
                   <div>
                     {" "}
                     <img
@@ -504,7 +502,7 @@ function HomePage() {
                   </div>
                   <div className="border_happy_font"></div>
                   <div>
-                    <div className="Reviews_font_home">Reviews</div>
+                    <div className="Reviews_font_home"><FcGoogle className="fs-4"/> Reviews</div>
                     <div>
                       <div className="d-flex gap-1">
                         <div className="font_5P_home"> 5.0 </div>
@@ -527,7 +525,7 @@ function HomePage() {
                     </div>
                   </div>
                 </div>
-                <div className="py-3">
+                <div className="pt-3 pb-5">
                   <button className="home_get_style_Consultation py-2 px-4">
                     Get Free Consultation <BsArrowRight />
                   </button>
@@ -623,11 +621,11 @@ function HomePage() {
               </Col>
             </Row>
           </div>
-          <div className="py-4">
+          <div className="py-5">
             <div className="home_mostly_font mt-5">
               Experienced with top overseas firms
             </div>
-            <div className="text-center  py-2">
+            <div className="text-center  pt-4 pb-5">
               <img
                 src={companes_logs_home123}
                 alt="companes_logs_home123"
@@ -667,12 +665,12 @@ function HomePage() {
 
         </div>
         <div className="Hpme_card5_bg_create ">
-          <div className="dev_flex_home tdi9mq0 tdi9mq4">
+          <div className="dev_flex_home_constant tdi9mq0 tdi9mq4">
             <div className="system_homeimage13">
               <div className="home_Create_font">
                 Create a <span className="constant_home_Create_font">constant Lead supply</span> using your website.
               </div>
-              <div className="Homeimage2_button pb-5 pt-2">
+              <div className="Homeimage2_button pb-5 pt-4">
                 <button className="home_botton py-2 px-3">
                   <img
                     src={Homeimage2}
@@ -699,7 +697,7 @@ function HomePage() {
           <FaqHandbook />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 export default HomePage;

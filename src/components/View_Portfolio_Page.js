@@ -6,14 +6,11 @@ import { websit } from "../HomePage/HomePagejson"
 import { useNavigate } from "react-router-dom";
 import NavbarPage from '../context/Navbar';
 const View_Portfolio_Page = () => {
-  
   return (
     <div>
     <NavbarPage />
-    
-    
     <div className='protfilo_bg '>
-      <div className='py-5 d-flex justify-content-center position-sticky top-0' style={{zIndex:'999'}} 
+      <div className='py-5 d-flex justify-content-center ' style={{zIndex:'999'}} 
       >
         <div className='ul_portfilo py-4 w-75 mt-4  shadow'>
           <div className='websit_font'>
@@ -43,12 +40,8 @@ const View_Portfolio_Page = () => {
           })}
         </Row>
       </div>
-
-     
-
     </div>
     </div>
   )
 }
-
 export default View_Portfolio_Page

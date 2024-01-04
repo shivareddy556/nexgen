@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
 :root {
   --_1iiu2e00: #fff;
   --_1iiu2e01: #005BBB;
@@ -72,7 +70,6 @@
   --_1iiu2e01v: 999px;
   --_1iiu2e01w: 0px 4px 8px 0px #2e29330a, 0px 4px 24px 0px #2e293314, 0px 8px 24px 0px #473f4f29
 }
-
 .tdi9mq0 {
   margin-left: auto;
   margin-right: auto;
@@ -81,7 +78,6 @@
   padding-right: var(--_1iiu2e0e);
   /* margin-top: -5rem; */
 }
-
 .solution_card {
   margin-left: auto;
   margin-right: auto;
@@ -90,48 +86,47 @@
   padding-right: var(--_1iiu2e0e);
   margin-top: -5rem;
 }
-
 .tdi9mq4 {
   max-width: var(--_1iiu2e01i);
 }
-
-
-
 .home_dev_card {
   background: linear-gradient(47deg, rgba(69, 52, 114, 0.87) 1.8%, rgba(47, 35, 90, 0.00) 39.32%), linear-gradient(245deg, rgba(97, 80, 165, 0.75) -4.52%, rgba(99, 82, 168, 0.00) 33.5%), linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
-  padding-top: 65px;
+  /* padding-top: 65px; */
+  height: 100%;
 }
-
 .dev_flex_home {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  gap: 1rem;
-  padding: 2.5rem 0rem;
+  gap: 3rem;
+  padding-top: 6%;
 }
-
+.dev_flex_home_constant {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
 .margin_our {
-  margin-top: 4rem;
+  padding-top: 10%;
 }
-
 .videoTag {
   opacity: 0.2;
   position: absolute;
   width: 100%;
 }
-
 .home_dev_font {
   color: #FFF;
   font-family: 'Inter';
-  font-size: 65px;
+  font-size: 55px;
   font-style: normal;
   font-weight: 600;
-  line-height: 79px;
+  line-height: 65px;
   /* 121.538% */
   position: relative;
 }
-
 .home_dev1_Revenue {
   background: linear-gradient(91deg, #FCE26B 8.63%, #FE685F 24.3%, #FF40A6 44.29%, #C26FFD 68.83%, #01F2F6 86.35%, #01FEAD 100%);
   background-clip: text;
@@ -139,7 +134,6 @@
   -webkit-text-fill-color: transparent;
   position: relative;
 }
-
 .home_botton {
   border-radius: 13px;
   background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
@@ -153,7 +147,6 @@
   /* 126.273% */
   position: relative;
 }
-
 .home_dev2_get {
   color: #D6E9FF;
   font-family: 'Inter';
@@ -165,12 +158,10 @@
   letter-spacing: 0.434px;
   position: relative;
 }
-
 .homestar_color {
   color: #F3CD03;
   position: relative;
 }
-
 .home_dev3_our {
   color: #E6E6EA;
   text-align: justify;
@@ -182,7 +173,6 @@
   /* 141.667% */
   position: relative;
 }
-
 .home_font1_aswin {
   color: #E6E6EA;
   text-align: justify;
@@ -194,7 +184,6 @@
   /* 141.667% */
   position: relative;
 }
-
 .home_font2_aswin {
   color: #E6E6EA;
   text-align: justify;
@@ -206,18 +195,15 @@
   /* 210.498% */
   position: relative;
 }
-
 .dev_flex1_home {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-
 .home_dev5_card {
   background: #2F2F2F;
   position: relative;
 }
-
 .home_webfont {
   color: #FFF;
   text-align: center;
@@ -228,31 +214,26 @@
   line-height: 30.994px;
   /* 134.455% */
 }
-
 .Homeimage4_width {
   width: 3vw;
   position: relative;
 }
-
 .home_card3_bg {
   background: #FDF9FF;
   position: relative;
+  height: 100%;
   /* height: 100vh; */
 }
-
 .home_gride {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-
 }
-
 .home_gride_bg_color {
   background: linear-gradient(119deg, #522A88 41.77%, rgba(82, 42, 136, 0.00) 89.86%);
 }
-
 .home_yourfont1 {
   color: #FFF;
   font-family: Inter;
@@ -262,21 +243,53 @@
   line-height: 60.319px;
   /* 130.952% */
 }
-
+.servise_page_font {
+  background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Inter;
+  font-size: 46.062px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60.319px;
+  /* 130.952% */
+}
+.servise_page_font_web {
+  background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 46.062px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60.319px;
+}
 .Homeimage5_style {
   width: 100%;
 }
-
+.serviceimage5_style {
+  width: 90%;
+}
 .home_arefont2 {
   color: #FDF9FF;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 35px;
-  /* 194.444% */
+  line-height: 27px;
 }
-
+.services_arefont2 {
+  color: #200229;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 133.333% */
+}
 .home_yourfont1_Expert {
   color: #FFF;
   font-family: Inter;
@@ -285,13 +298,11 @@
   font-weight: 700;
   line-height: 60.319px;
 }
-
 .BsChevronDown_style {
   border: none;
   background: #FDF9FF;
   color: #A903C4;
 }
-
 .home_Responsive {
   color: #010101;
   font-family: 'inter';
@@ -301,7 +312,18 @@
   line-height: 25.107px;
   /* 96.564% */
 }
-
+.home_get_style_Consultation {
+  border-radius: 13px;
+  background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+  color: #000;
+  border: none;
+  font-family: Inter;
+  font-size: 14.812px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.966px;
+  /* 126.273% */
+}
 .home_get_style {
   border-radius: 16px;
   border: 1px solid #010101;
@@ -314,7 +336,6 @@
   line-height: 19.966px;
   /* 126.273% */
 }
-
 .home_get_style:hover {
   border-radius: 16px;
   border: 1px solid #010101;
@@ -327,12 +348,19 @@
   line-height: 19.966px;
   /* 126.273% */
 }
-
 .home_card4_bg {
   background: linear-gradient(180deg, #F9DDE5 0%, rgba(241, 232, 235, 0) 100%);
   /* height: 100vh; */
 }
-
+.constant_home_Create_font {
+  color: #FFE359;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
 .home_mostly_font {
   color: #010101;
   text-align: center;
@@ -343,7 +371,6 @@
   line-height: 25.107px;
   /* 83.688% */
 }
-
 .home_mostly_font1 {
   color: #6864ED;
   text-align: center;
@@ -356,20 +383,19 @@
   text-decoration-line: underline;
   cursor: pointer;
 }
-
 .Homeimage6_width {
   width: 30vw;
 }
-
 .FrameHome9_style {
   width: 30vw;
 }
-
 .Hpme_card5_bg {
   background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
-  height: 157vh;
 }
-
+.Hpme_card5_bg_create {
+  background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+  height: 47vh;
+}
 .bg_home_card_makes {
   border-radius: 20.879px;
   border: 1px solid rgba(3, 177, 255, 0.52);
@@ -378,25 +404,23 @@
   /* backdrop-filter: blur(34.79788589477539px); */
   /* width: 80%; */
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
-
 .what_home_bg {
   color: #FFF;
   text-align: center;
   font-family: 'Inter';
-  font-size: 55px;
+  padding-top: 5%;
+  font-size: 50px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   /* letter-spacing: 0.55px; */
 }
-
 .choice_homebg {
   border-radius: 30.699px;
   background: #C6148A;
 }
-
 .Generation_home {
   color: #FFF;
   font-family: inter;
@@ -406,33 +430,28 @@
   line-height: 32px;
   /* 133.333% */
 }
-
 .home_Create_font {
   color: #FFF;
   font-family: Inter;
   font-size: 50px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 0.5px;
   text-align: start;
 }
-
 .home_card6_bg {
   background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
   /* height: 140vh; */
 }
-
 .system_homeimage {
   position: relative;
   z-index: 999;
-  width: 100%;
+  width: 120%;
 }
-
 .Homeimage2_button {
   text-align: start;
 }
-
 .system_homeimage13 {
   /* -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
@@ -440,23 +459,21 @@
   width: 100%;
   text-align: center;
 }
-
 .system_homeimage12 {
   width: 100%;
+  padding-top: 1rem;
   /* -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1; */
 }
-
 .corosal_image {
-  text-align: center;
+  text-align: end;
   width: 50%;
 }
-
 .higher_home1 {
   text-align: start;
+  padding: 5.5% 0%;
 }
-
 .Covering_hme_font {
   background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
   background-clip: text;
@@ -470,7 +487,6 @@
   line-height: 60.319px;
   /* 130.952% */
 }
-
 .Design_home_font {
   background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
   background-clip: text;
@@ -482,7 +498,6 @@
   font-weight: 700;
   line-height: 60.319px;
 }
-
 .Nexgen_home_at {
   color: #200229;
   text-align: center;
@@ -493,50 +508,47 @@
   line-height: 24px;
   /* 133.333% */
 }
-
 .Proposal_home_button {
   border-radius: 6px;
   background: #4F2085;
   color: #FDF9FF;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 25.77px;
   /* 143.166% */
   border: none;
-  width: 15%;
+  width: 13%;
 }
-
 .Proposal_home_button1 {
   border-radius: 6px;
   border: 1px solid #B2B2B2;
   background: #FFF;
   color: #0F1825;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 25.77px;
   /* 143.166% */
-  width: 15%;
+  width: 13%;
 }
-
 .button_flex_homeget {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   padding: 1rem 0rem;
 }
-
 .home_bg_images {
-  background: url('../Images/HomeImages/bg_home_caontener.svg');
+  background: url('../Images/AboutImages/bg_home_designe.svg');
   background-blend-mode: overlay, normal;
   width: 100%;
-  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
 }
-
 @media (max-width: 768px) {
   .dev_flex_home {
     display: flex;
@@ -544,41 +556,35 @@
     flex-direction: column;
     align-items: center;
   }
-
   .Homeimage2_button {
     text-align: center;
   }
-
   .corosal_image {
     text-align: center;
     width: 100%;
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
-
   }
-
   .higher_home1 {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
     text-align: start;
     width: 100%;
+    margin-top: 1rem;
   }
-
   .videoTag {
     z-index: -1;
     position: absolute;
     width: 100%;
   }
-
   .dev_flex1_home {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
   }
-
   .home_dev_font {
     color: #FFF;
     font-family: 'Inter';
@@ -587,14 +593,12 @@
     font-weight: 600;
     line-height: 52.173px
   }
-
   .home_dev1_Revenue {
     background: linear-gradient(91deg, #FCE26B 8.63%, #FE685F 24.3%, #FF40A6 44.29%, #C26FFD 68.83%, #01F2F6 86.35%, #01FEAD 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
   .home_botton {
     border-radius: 13px;
     background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
@@ -607,7 +611,6 @@
     line-height: 20.835px;
     /* 126.273% */
   }
-
   .home_dev2_get {
     color: #D6E9FF;
     font-family: 'Inter';
@@ -618,11 +621,9 @@
     /* 120% */
     letter-spacing: 0.434px;
   }
-
   .homestar_color {
     color: #F3CD03;
   }
-
   .home_dev3_our {
     color: #E6E6EA;
     text-align: justify;
@@ -633,7 +634,6 @@
     line-height: 26.528px;
     /* 141.667% */
   }
-
   .home_font1_aswin {
     color: #E6E6EA;
     text-align: justify;
@@ -644,7 +644,6 @@
     line-height: 26.528px;
     /* 141.667% */
   }
-
   .home_font2_aswin {
     color: #E6E6EA;
     text-align: justify;
@@ -655,23 +654,19 @@
     line-height: 26.528px;
     /* 210.498% */
   }
-
   .home_gride {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .FrameHome9_style {
     width: 50vw;
   }
-
   /* .Hpme_card5_bg {
     background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
     height: 152vh;
   } */
-
   .home_yourfont1 {
     background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
     background-clip: text;
@@ -684,11 +679,9 @@
     line-height: 60.319px;
     /* 130.952% */
   }
-
   .Homeimage5_style {
     width: 100%;
   }
-
   .home_arefont2 {
     color: #333;
     font-family: Inter;
@@ -698,13 +691,11 @@
     line-height: 14.631px;
     /* 154.476% */
   }
-
   .BsChevronDown_style {
     border: none;
     background: #FDF9FF;
     color: #A903C4;
   }
-
   .home_Responsive {
     color: #010101;
     font-family: inter;
@@ -714,7 +705,6 @@
     line-height: 13.211px;
     /* 96.564% */
   }
-
   .home_get_style {
     border-radius: 16px;
     border: 1px solid #010101;
@@ -727,12 +717,10 @@
     line-height: 10.506px;
     /* 126.273% */
   }
-
   .home_card4_bg {
     background: linear-gradient(180deg, #F9DDE5 0%, rgba(241, 232, 235, 0) 100%);
     /* height: 100vh; */
   }
-
   .home_mostly_font {
     color: #010101;
     text-align: center;
@@ -743,7 +731,6 @@
     line-height: 12.818px;
     /* 83.688% */
   }
-
   .home_mostly_font1 {
     color: #6864ED;
     text-align: center;
@@ -756,24 +743,19 @@
     text-decoration-line: underline;
     cursor: pointer;
   }
-
   .Homeimage6_width {
     width: 20vw;
   }
-
-
   .Hpme_card5_bg {
     background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
     height: 100%;
   }
-
   .bg_home_card_makes {
     border-radius: 20.879px;
     /* backdrop-filter: blur(34.79788589477539px); */
     width: 90%;
     /* height: 100vh; */
   }
-
   .what_home_bg {
     background: none;
     color: #FFF;
@@ -785,12 +767,10 @@
     line-height: 50px;
     letter-spacing: 0.233px;
   }
-
   .choice_homebg {
     border-radius: 30.699px;
     background: #C6148A;
   }
-
   .Generation_home {
     color: #FFF;
     font-family: inter;
@@ -800,7 +780,6 @@
     line-height: 32px;
     /* 133.333% */
   }
-
   .home_Create_font {
     color: #FFF;
     text-align: center;
@@ -811,12 +790,10 @@
     line-height: normal;
     letter-spacing: 0.233px;
   }
-
   .home_card6_bg {
     background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
     /* height: 140vh; */
   }
-
   .system_homeimage13 {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
@@ -824,27 +801,25 @@
     width: 100%;
     text-align: center;
   }
-
   .system_homeimage12 {
     width: 100%;
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
+  .margi_top_desine {
+    margin-top: 0.2rem;
+  }
 }
-
-
 .sideBar {
   height: 100%;
   width: 400px;
   height: 100%;
 }
-
 .stepSummary {
   width: 80px;
   height: 100%;
 }
-
 .mainSection {
   height: 50%;
   width: calc(100% - 400px);
@@ -853,15 +828,12 @@
   justify-content: center;
   color: #999999;
 }
-
 .MuiPaper-root {
   background-color: none;
 }
-
 .step_bg_line {
   color: #FFFFFF;
 }
-
 .Register_home {
   color: #FFF;
   font-family: Lato;
@@ -871,7 +843,6 @@
   line-height: 32px;
   /* 133.333% */
 }
-
 .Create_home_font1 {
   color: #ABE5FF;
   font-family: Inter;
@@ -881,31 +852,25 @@
   line-height: 27.376px;
   /* 161.033% */
 }
-
-
 .slideshow {
   margin: 0 auto;
   overflow: hidden;
   max-width: 500px;
 }
-
 .slideshowSlider {
   white-space: nowrap;
   transition: ease 1000ms;
 }
-
 .slide {
   display: inline-block;
   height: 400px;
   width: 100%;
   border-radius: 40px;
 }
-
 /* Buttons */
 .slideshowDots {
   text-align: center;
 }
-
 .slideshowDot {
   display: inline-block;
   height: 20px;
@@ -915,16 +880,12 @@
   margin: 15px 7px 0px;
   /* background-color: #c4c4c4; */
 }
-
 .slideshowDot.active {
   background-color: #FFF;
 }
-
 .carsusel_bg {
   background: none !important;
 }
-
-
 .your_faq {
   border-radius: 12px;
   background: conic-gradient(from 21deg at 60.16% 50.15%, #892B85 0deg, #28005E 360deg);
@@ -935,21 +896,6 @@
   justify-content: center;
   padding: 0.5rem 2.5rem;
 }
-
-.Call_faq_style {
-  border-radius: 17.901px;
-  background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
-  color: #050427;
-  text-align: center;
-  font-family: Inter;
-  font-size: 23.408px;
-  font-style: normal;
-  font-weight: 700;
-  border: none;
-  line-height: 100%;
-  /* 23.408px */
-}
-
 .Digital_faq {
   text-align: start;
   color: #FFF;
@@ -960,7 +906,6 @@
   line-height: normal;
   letter-spacing: 0.461px;
 }
-
 .Digital_faq1 {
   color: #FFE359;
   font-family: Inter;
@@ -970,7 +915,6 @@
   line-height: normal;
   letter-spacing: 0.461px;
 }
-
 .home_Happy_font {
   color: #FDF9FF;
   text-align: center;
@@ -980,7 +924,6 @@
   font-weight: 400;
   line-height: normal;
 }
-
 .faont_47_home {
   color: #FDF9FF;
   font-family: 'Poppins';
@@ -989,7 +932,6 @@
   font-weight: 600;
   line-height: normal;
 }
-
 .Reviews_font_home {
   color: #F5F5F5;
   font-family: Helvetica;
@@ -999,7 +941,6 @@
   line-height: 14.337px;
   /* 126.891% */
 }
-
 .font_5P_home {
   color: #F5F5F5;
   font-family: Helvetica Neue;
@@ -1009,42 +950,33 @@
   line-height: 34.824px;
   /* 125% */
 }
-
 .ensuring_flex_home {
   display: flex;
   gap: 1rem;
   justify-content: start;
 }
-
 .border_happy_font {
   border-right: 2px solid #B1A3AC;
   height: 50px;
 }
-
 .Design_home_card12 {
   border-radius: 12px;
   border: 1px solid #E7E7E7;
   background: #FFF;
   box-shadow: 0px 4px 4px -2px rgba(24, 39, 75, 0.08), 0px 2px 4px -2px rgba(24, 39, 75, 0.12);
-
-
   padding: 1rem;
   width: 100%;
   height: 250px;
   cursor: pointer;
 }
-
 .Design_home_card12:hover {
   transition: 0.5s ease;
   transform: translate(0, -50px);
   box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
-
 }
-
 .margi_top_desine {
   margin-top: -6rem;
 }
-
 .Responsive_font_home {
   color: #27272E;
   font-family: Inter;
@@ -1054,7 +986,6 @@
   line-height: 31.202px;
   letter-spacing: -0.741px;
 }
-
 .Fintech_home_font {
   color: #425466;
   font-family: Inter;
@@ -1065,92 +996,3 @@
   /* 148.983% */
 }
 
-.home_bg_images {
-  background: #FFF;
-  background-blend-mode: overlay, normal;
-  width: 100%;
-  height: 100%;
-}
-
-.margi_top_desine {
-  margin-top: 0.2rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.heading {
-
-  color: #FFF;
-  font-family: 'Inter';
-  font-size: 65px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 79px;
-
-}
-
-
-
-
-.heading_card {
-  width: 75%;
-  background: transparent;
-  border-radius: 1.5em;
-  color: whitesmoke;
-
-  cursor: pointer;
-
-}
-
-
-
-.scroller {
-  height: 1.2em;
-  position: relative;
-  overflow: hidden;
-  width: 10em;
-}
-
-.scroller>span {
-  background: linear-gradient(91deg, #FCE26B 8.63%, #FE685F 24.3%, #FF40A6 44.29%, #C26FFD 68.83%, #01F2F6 86.35%, #01FEAD 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: relative;
-  position: absolute;
-  top: 0;
-  animation: slide 7s infinite;
-  font-weight: bold;
-
-}
-
-@keyframes slide {
-  0% {
-    top: 0;
-  }
-
-  25% {
-    top: -1.2em;
-  }
-
-  50% {
-    top: -2.4em;
-  }
-
-  75% {
-    top: -3.6em;
-  }
-
-  100% {
-    top: -5em;
-  }
-}

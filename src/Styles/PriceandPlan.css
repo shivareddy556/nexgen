@@ -5,17 +5,18 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-family: 'Inter';
-    font-size: 55px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.55px;
+    padding-top: 10%;
 }
 
 /* .convenient_style_price {
     border-radius: 30.699px;
     background: #FFD23D;
-    color: #FFF;
+    color: #372D8C;
 } */
 
 [type=radio] {
@@ -86,7 +87,7 @@
     .price_li {
         color: #FFF;
         font-family: Inter;
-        font-size: 19.26px;
+        font-size: 16.26px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -138,15 +139,18 @@
 
 .price_ul {
     list-style: none;
+    height: 50vh;
 }
 
 .price_li {
     color: #848199;
     font-family: Inter;
-    font-size: 19.26px;
+    font-size: 16.26px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    display: flex;
+    gap: 0.5rem;
 }
 
 .Starter_price {
@@ -239,9 +243,11 @@
 }
 
 .back_styleprice {
-    position: absolute;
-    width: 30%;
+    /* position: absolute; */
+    width: 100%;
+    height: 90%;
 }
+
 
 @media (max-width: 768px) {
     .price_font {
@@ -279,7 +285,7 @@
         border-radius: 28px;
         width: 100%;
         text-align: start;
-        height: 100%;
+        height: 95%;
         position: relative;
         /* margin: 0.5rem 0rem; */
         cursor: pointer;
@@ -375,12 +381,13 @@
 
     .price_ul {
         list-style: none;
+        height: 50vh;
     }
 
     .price_li {
         color: #848199;
         font-family: Inter;
-        font-size: 19.26px;
+        font-size: 16.26px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;

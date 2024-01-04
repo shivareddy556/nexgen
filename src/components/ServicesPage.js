@@ -4,7 +4,7 @@ import { BsChevronUp } from "react-icons/bs";
 import { BsChevronDown } from "react-icons/bs";
 import { hamePage, hamePageImage } from "../HomePage/HomePagejson"
 import { BsArrowRight } from "react-icons/bs";
-import NavbarPage from '../context/Navbar';
+import Navbarsecond from '../context/Navbarsecond';
 const ServicesPage = () => {
   const [toggle1, setToggle1] = useState(true)
   useEffect(() => {
@@ -20,14 +20,14 @@ const ServicesPage = () => {
     setToggle1({ ...toggle1, [item.id]: !toggle1[item.id] })
   }
   return (
-    <div className='pt-5'>
-    <NavbarPage />
+    <div className=''>
+    <Navbarsecond />
 
-      <div className='home_card3_bg'>
-        <div className='home_gride container py-4'>
+      <div className='home_card3_bg py-5'>
+        <div className='home_gride tdi9mq0 tdi9mq4 py-5'>
           <div>
-            <div className='home_yourfont1'>Your Expert Web Design & Development Partner</div>
-            <div className='home_arefont2 py-3'>Are you looking for top-notch Website Design Services that resonate with your brand's uniqueness? At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience.</div>
+            <div className='servise_page_font'>Your Expert <span className='servise_page_font_web'>Web Design & Development</span> Partner</div>
+            <div className='services_arefont2 py-3'>Are you looking for top-notch Website Design Services that resonate with your brand's uniqueness? At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience.</div>
             <div>
               {hamePage.map((item, index) => {
                 return (
@@ -47,7 +47,7 @@ const ServicesPage = () => {
             </div>
             <div className=''><button className='home_get_style py-2 px-4'>Get Free Consultation <BsArrowRight /></button></div>
           </div>
-          <div className='py-3'><img src={Homeimage5} alt='Homeimage5' className='Homeimage5_style' /> </div>
+          <div className='py-3'><img src={Homeimage5} alt='Homeimage5' className='serviceimage5_style' /> </div>
         </div>
       </div>
     </div>

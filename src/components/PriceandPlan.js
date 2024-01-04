@@ -3,8 +3,9 @@ import "../Styles/PriceandPlan.css"
 import { AiFillCheckCircle } from "react-icons/ai";
 import sectionprice1 from "../Images/AboutImages/sectionprice1.png"
 import price_profileimage from "../Images/AboutImages/price_profileimage.png"
-import back_styleimageprice from "../Images/AboutImages/back_styleimageprice.svg"
+import indamaplogo_home from "../Images/AboutImages/indamaplogo_home.png"
 import ScrollCarousel from 'scroll-carousel-react';
+import profile_homelogo12 from "../Images/HomeImages/profile_homelogo12.png"
 const PriceandPlan = () => {
     const helped = [
         {
@@ -45,7 +46,7 @@ const PriceandPlan = () => {
     return (
         <div className=''>
             <div className='tdi9mq0 tdi9mq4 py-5'>
-                <div className='price_font mt-5'>Choose a package that fits your needs <br></br>with our <span className='convenient_style_price'>convenient EMI</span></div>
+                <div className='price_font'>Choose a package that fits your needs <br></br>with our <span className='convenient_style_price'>convenient EMI</span></div>
                 <div className='price_bg_flex'>
                     <div className="price_bg py-4 my-5">
                         <div className="">
@@ -77,24 +78,24 @@ const PriceandPlan = () => {
                                     />
                                     <label htmlFor="s1" id="slide1">
                                         <div className='my-2 py-3 px-4'>
-                                            <div className='Starter_price'>Starter</div>
+                                            <div className='Starter_price pb-2'>Starter</div>
                                             <div className='Unleash_price'>Unleash the power of <br />automation.</div>
                                             <div className='price_ul'>
-                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> Upto 1 Page Designing</li>
-                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> Mobile responsive </li>
-                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> Up to 2 contact Forms</li>
-                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> Social Media Integration</li>
-                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> What’s app chat Integration</li>
-                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> Website Performance Report</li>
-                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' />12 Months Free Support</li>
+                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /><span>  Upto 1 Page Designing</span></li>
+                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /><span>   Mobile responsive </span></li>
+                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /><span>   Up to 2 contact Forms </span></li>
+                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /><span>   Social Media Integration </span></li>
+                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /><span>   What’s app chat Integration </span></li>
+                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /><span>   Website Performance Report </span></li>
+                                                <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /><span> 12 Months Free Support </span></li>
                                             </div>
                                             <div className='text-center my-2'><button className='Feed_price_button py-1 mb-2'><img src={sectionprice1} alt="sectionprice1" style={{ width: "20%" }} /> Feed 100 meals</button></div>
                                         </div>
                                     </label>
                                     <label htmlFor="s2" id="slide2">
                                         <div className='my-2 py-3 px-4'>
-                                            <div className='Starter_price'>Business Plan</div>
-                                            <div className='Unleash_price'>Most Popular  (654+ benefited)</div>
+                                            <div className='Starter_price pb-2'>Business Plan</div>
+                                            <div className='Unleash_price'><img src={profile_homelogo12} alt="profile_homelogo12" style={{width:"30%"}}/>  (654+ benefited)</div>
                                             <div className='price_ul'>
                                                 <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> Upto 3 Pages Designing</li>
                                                 <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> 100% Responsive for all Devices</li>
@@ -112,7 +113,7 @@ const PriceandPlan = () => {
                                     </label>
                                     <label htmlFor="s3" id="slide3">
                                         <div className='my-2 py-3 px-4'>
-                                            <div className='Starter_price'>Futuristic Web</div>
+                                            <div className='Starter_price pb-2'>Futuristic Web</div>
                                             <div className='Unleash_price'>Unleash the power of <br />automation.</div>
                                             <div className='price_ul'>
                                                 <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> All Pages Designing</li>
@@ -136,60 +137,64 @@ const PriceandPlan = () => {
             </div>
             <div>
                 <div className='Hear_price'>Hear from those we've helped</div>
-                <div><img src={back_styleimageprice} alt='back_styleimageprice' className='back_styleprice'/> </div>
-                <div className='pt-3'>
-                    <ScrollCarousel
-                        // smartSpeed={true}
-                        autoplay
-                        autoplaySpeed={80}
-                        speed={5}
-                    >
-                        <div className='price_fromflex'>
-                            {helped.map((uesr, index) => {
-                                return (
-                                    <div className=''>
-                                        <div className='Lacus_price_bg '>
-                                            <p className='vestibulum_font_price'>{uesr.Lacus}</p>
-                                            <div className='d-flex gap-2'>
-                                                <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
-                                                <div className='py-2'>
-                                                    <div className='Hellen_price'>{uesr.name}</div>
-                                                    <div className='py-1 Counselor_price'>{uesr.disignation}</div>
+                <div className='d-flex gap-2 w-100'>
+                    <div className='py-5 ms-3'><img src={indamaplogo_home} alt='back_styleimageprice' className='back_styleprice' /> </div>
+                    <div className='w-75'>
+                        <div className='pt-3 vestibulum_price'>
+                            <ScrollCarousel
+                                // smartSpeed={true}
+                                autoplay
+                                autoplaySpeed={80}
+                                speed={5}
+                            >
+                                <div className='price_fromflex'>
+                                    {helped.map((uesr, index) => {
+                                        return (
+                                            <div className=''>
+                                                <div className='Lacus_price_bg '>
+                                                    <p className='vestibulum_font_price'>{uesr.Lacus}</p>
+                                                    <div className='d-flex gap-2'>
+                                                        <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                        <div className='py-2'>
+                                                            <div className='Hellen_price'>{uesr.name}</div>
+                                                            <div className='py-1 Counselor_price'>{uesr.disignation}</div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                )
-                            })}
+                                        )
+                                    })}
+                                </div>
+                            </ScrollCarousel>
                         </div>
-                    </ScrollCarousel>
-                </div>
-                <div className='py-5'>
-                    <ScrollCarousel
-                        // smartSpeed={true}
-                        autoplay
-                        autoplaySpeed={80}
-                        speed={5}
-                    >
-                        <div className='price_fromflex'>
-                            {helped.map((uesr, index) => {
-                                return (
-                                    <div className=''>
-                                        <div className='Lacus_price_bg '>
-                                            <p className='vestibulum_font_price'>{uesr.Lacus}</p>
-                                            <div className='d-flex gap-2'>
-                                                <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
-                                                <div className='py-2'>
-                                                    <div className='Hellen_price'>{uesr.name}</div>
-                                                    <div className='py-1 Counselor_price'>{uesr.disignation}</div>
+                        <div className='py-5 vestibulum_price'>
+                            <ScrollCarousel
+                                // smartSpeed={true}
+                                autoplay
+                                autoplaySpeed={80}
+                                speed={5}
+                            >
+                                <div className='price_fromflex'>
+                                    {helped.map((uesr, index) => {
+                                        return (
+                                            <div className=''>
+                                                <div className='Lacus_price_bg '>
+                                                    <p className='vestibulum_font_price'>{uesr.Lacus}</p>
+                                                    <div className='d-flex gap-2'>
+                                                        <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                        <div className='py-2'>
+                                                            <div className='Hellen_price'>{uesr.name}</div>
+                                                            <div className='py-1 Counselor_price'>{uesr.disignation}</div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                )
-                            })}
+                                        )
+                                    })}
+                                </div>
+                            </ScrollCarousel>
                         </div>
-                    </ScrollCarousel>
+                    </div>
                 </div>
             </div>
         </div>

@@ -21,6 +21,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    border-bottom: 2px solid #FFD851;
 }
 
 /* .active {
@@ -35,28 +36,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
+}
+
+.nav13 {
     background: transparent;
     color: white;
     position: fixed;
     z-index: 1;
-    padding: 0.5rem 5rem;
+    padding: 1.5rem 0rem 0rem 0rem;
     top: 0;
     right: 0;
     left: 0;
 }
 
-.nav1.nav12 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav13.nav12 {
+    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
     color: white;
     position: fixed;
     z-index: 1;
-    padding: 0.5rem 5rem;
-    top: 0;
-    right: 0;
-    left: 0;
-    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+    padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 .nav1 .title {
@@ -70,7 +69,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 32px;
     margin-top: 0.5rem;
 }
 
@@ -82,7 +81,7 @@
     display: block;
     text-decoration: none;
     color: white;
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
 }
 
 /* nav ul li a:not(.active):hover {
@@ -125,7 +124,12 @@
 } */
 
 .nav_bgfont1 {
-    color: red;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 @media (max-width: 768px) {

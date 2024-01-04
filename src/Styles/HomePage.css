@@ -84,7 +84,7 @@
   max-width: var(--_1iiu2e01h);
   padding-left: var(--_1iiu2e0e);
   padding-right: var(--_1iiu2e0e);
-  margin-top: -5rem;
+  /* margin-top: -1rem; */
 }
 .tdi9mq4 {
   max-width: var(--_1iiu2e01i);
@@ -988,7 +988,7 @@
 }
 .Fintech_home_font {
   color: #425466;
-  font-family: Inter;
+  font-family: 'Inter';
   font-size: 14.806px;
   font-style: normal;
   font-weight: 400;

@@ -204,9 +204,6 @@ function HomePage() {
             />
             <div className="higher_home1">
               <div className="align-item-center">
-             
-                
-
                 <div>
                   <div className="home_dev_font">
                     Stunning website
@@ -505,7 +502,7 @@ function HomePage() {
                   </div>
                   <div className="border_happy_font"></div>
                   <div>
-                    <div className="Reviews_font_home"><FcGoogle className="fs-4"/> Reviews</div>
+                    <div className="Reviews_font_home"><FcGoogle className="fs-4" /> Reviews</div>
                     <div>
                       <div className="d-flex gap-1">
                         <div className="font_5P_home"> 5.0 </div>
@@ -663,9 +660,7 @@ function HomePage() {
               </div>
               <div></div>
             </div>
-
           </div>
-
         </div>
         <div className="Hpme_card5_bg_create ">
           <div className="dev_flex_home_constant tdi9mq0 tdi9mq4">

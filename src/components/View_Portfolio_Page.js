@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "../Styles/View_Portfolio_Page.css"
 import { Link } from "react-router-dom";
 import { Col, Row } from 'reactstrap';
 import { websit } from "../HomePage/HomePagejson"
-import { useNavigate } from "react-router-dom";
 import NavbarPage from '../context/Navbar';
 const View_Portfolio_Page = () => {
   return (

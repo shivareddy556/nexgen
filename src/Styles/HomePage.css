@@ -305,8 +305,8 @@
 }
 .home_Responsive {
   color: #010101;
-  font-family: 'inter';
-  font-size: 25px;
+  font-family: 'Inter';
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 25.107px;
@@ -698,7 +698,7 @@
   }
   .home_Responsive {
     color: #010101;
-    font-family: inter;
+    font-family: "Inter";
     font-size: 13.681px;
     font-style: normal;
     font-weight: 700;

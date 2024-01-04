@@ -7,7 +7,7 @@ const Contacts = () => {
     <NavbarPage/>
     <div className="home_card6_bg pb-5">
       <div className="" style={{paddingTop:"1rem"}}>
-        <div className="Together_handbook py-5">
+        <div className="Together_handbook py-5" style={{paddingTop:'9rem'}}>
           Let's Create Your <br />
           Digital Success Story Together 🤝
         </div>
@@ -26,18 +26,18 @@ const Contacts = () => {
                       <br />
                       <input
                         className="handbook_input"
-                        placeholder="mail@simmmple.com"
+                        placeholder="Enter Your Name"
                       />
                     </div>
                     <div className="py-2">
                       <label className="name_handbook">Phone Number*</label>
                       <br />
-                      <input className="handbook_input" placeholder="" />
+                      <input className="handbook_input" placeholder="Enter Your Mobile" />
                     </div>
                     <div className="py-2">
                       <label className="name_handbook">Mail ID*</label>
                       <br />
-                      <input className="handbook_input" placeholder="" />
+                      <input className="handbook_input" placeholder="Enter Your Email" />
                     </div>
                     <div className="py-2">
                       <label className="name_handbook">Interested in</label>

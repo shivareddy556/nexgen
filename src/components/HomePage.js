@@ -526,7 +526,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="pt-3 pb-5">
-                  <button className="home_get_style_Consultation py-2 px-4">
+                  <button className="home_get_style_Consultation py-2 mt-3 px-4">
                     Get Free Consultation <BsArrowRight />
                   </button>
                 </div>

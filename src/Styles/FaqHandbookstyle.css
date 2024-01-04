@@ -62,8 +62,8 @@
 .Together_handbook {
     color: #FFF;
     text-align: center;
-    font-family: Inter;
-    font-size: 55px;
+    font-family: 'Inter';
+    font-size: 45px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -322,11 +322,11 @@
     color: #050427;
     text-align: center;
     font-family: 'Inter';
-    font-size: 23.408px;
+    font-size: 16.408px;
     font-style: normal;
     font-weight: 700;
     border: none;
-    width: 100%;
+    width: 67%;
     line-height: 100%;
     /* 23.408px */
 }

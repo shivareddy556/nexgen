@@ -93,6 +93,10 @@
   height: 100%;
 }
 
+.dev_flex_home_rowfirs{
+  padding-top: 6%;
+}
+
 .dev_flex_home {
   display: flex;
   justify-content: center;
@@ -210,6 +214,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin: 1.5rem 0rem;
 }
 
 .home_dev5_card {
@@ -238,6 +243,14 @@
   position: relative;
   height: 100%;
   /* height: 100vh; */
+  padding-top: 2%;
+}
+
+.home_card3_bg_srvices {
+  background: #FDF9FF;
+  position: relative;
+  height: 100%;
+  padding-top: 6%;
 }
 
 .home_gride {
@@ -429,6 +442,7 @@
 
 .Hpme_card5_bg {
   background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+  padding: 3rem 0rem;
 }
 
 .Hpme_card5_bg_create {
@@ -553,6 +567,7 @@
 }
 
 .Nexgen_home_at {
+  width: 60%;
   color: #200229;
   text-align: center;
   font-family: Inter;
@@ -607,308 +622,6 @@
   background-size: cover;
   padding-top: 5%;
 }
-
-@media (max-width: 768px) {
-  .dev_flex_home {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .Homeimage2_button {
-    text-align: center;
-  }
-
-  .corosal_image {
-    text-align: center;
-    width: 100%;
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-
-  }
-
-  .higher_home1 {
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
-    text-align: start;
-    width: 100%;
-    margin-top: 1rem;
-  }
-
-  .videoTag {
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-  }
-
-  .dev_flex1_home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .home_dev_font {
-    color: #FFF;
-    font-family: 'Inter';
-    font-size: 37.369px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 52.173px
-  }
-
-  .home_dev1_Revenue {
-    background: linear-gradient(91deg, #FCE26B 8.63%, #FE685F 24.3%, #FF40A6 44.29%, #C26FFD 68.83%, #01F2F6 86.35%, #01FEAD 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .home_botton {
-    border-radius: 13px;
-    background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
-    border: none;
-    color: #0F1825;
-    font-family: 'Inter';
-    font-size: 10.5px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20.835px;
-    /* 126.273% */
-  }
-
-  .home_dev2_get {
-    color: #D6E9FF;
-    font-family: 'Inter';
-    font-size: 17.359px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.831px;
-    /* 120% */
-    letter-spacing: 0.434px;
-  }
-
-  .homestar_color {
-    color: #F3CD03;
-  }
-
-  .home_dev3_our {
-    color: #E6E6EA;
-    text-align: justify;
-    font-family: Inter;
-    font-size: 18.725px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26.528px;
-    /* 141.667% */
-  }
-
-  .home_font1_aswin {
-    color: #E6E6EA;
-    text-align: justify;
-    font-family: 'Montserrat';
-    font-size: 18.725px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26.528px;
-    /* 141.667% */
-  }
-
-  .home_font2_aswin {
-    color: #E6E6EA;
-    text-align: justify;
-    font-family: 'Montserrat';
-    font-size: 12.602px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 26.528px;
-    /* 210.498% */
-  }
-
-  .home_gride {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .FrameHome9_style {
-    width: 50vw;
-  }
-
-  /* .Hpme_card5_bg {
-    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
-    height: 152vh;
-  } */
-
-  .home_yourfont1 {
-    background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Inter;
-    font-size: 46.062px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 60.319px;
-    /* 130.952% */
-  }
-
-  .Homeimage5_style {
-    width: 100%;
-  }
-
-  .home_arefont2 {
-    color: #333;
-    font-family: Inter;
-    font-size: 9.471px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 14.631px;
-    /* 154.476% */
-  }
-
-  .BsChevronDown_style {
-    border: none;
-    background: #FDF9FF;
-    color: #A903C4;
-  }
-
-  .home_Responsive {
-    color: #010101;
-    font-family: inter;
-    font-size: 13.681px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 13.211px;
-    /* 96.564% */
-  }
-
-  .home_get_style {
-    border-radius: 16px;
-    border: 1px solid #010101;
-    background: #404040;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 8.32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 10.506px;
-    /* 126.273% */
-  }
-
-  .home_card4_bg {
-    background: linear-gradient(180deg, #F9DDE5 0%, rgba(241, 232, 235, 0) 100%);
-    /* height: 100vh; */
-  }
-
-  .home_mostly_font {
-    color: #010101;
-    text-align: center;
-    font-family: Inter;
-    font-size: 15.317px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 12.818px;
-    /* 83.688% */
-  }
-
-  .home_mostly_font1 {
-    color: #6864ED;
-    text-align: center;
-    font-family: Inter;
-    font-size: 13.275px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 12.818px;
-    /* 96.564% */
-    text-decoration-line: underline;
-    cursor: pointer;
-  }
-
-  .Homeimage6_width {
-    width: 20vw;
-  }
-
-
-  .Hpme_card5_bg {
-    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
-    height: 100%;
-  }
-
-  .bg_home_card_makes {
-    border-radius: 20.879px;
-    /* backdrop-filter: blur(34.79788589477539px); */
-    width: 90%;
-    /* height: 100vh; */
-  }
-
-  .what_home_bg {
-    background: none;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 23.327px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 50px;
-    letter-spacing: 0.233px;
-  }
-
-  .choice_homebg {
-    border-radius: 30.699px;
-    background: #C6148A;
-  }
-
-  .Generation_home {
-    color: #FFF;
-    font-family: inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-    /* 133.333% */
-  }
-
-  .home_Create_font {
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 23.327px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.233px;
-  }
-
-  .home_card6_bg {
-    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
-    /* height: 140vh; */
-  }
-
-  .system_homeimage13 {
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
-    width: 100%;
-    text-align: center;
-  }
-
-  .system_homeimage12 {
-    width: 100%;
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-  }
-
-  .margi_top_desine {
-    margin-top: 0.2rem;
-  }
-}
-
 
 .sideBar {
   height: 100%;
@@ -1001,40 +714,6 @@
 }
 
 
-.your_faq {
-  border-radius: 12px;
-  background: conic-gradient(from 21deg at 60.16% 50.15%, #892B85 0deg, #28005E 360deg);
-  height: 30vh;
-  display: grid;
-  flex: 1 1;
-  grid-template-columns: 50% 50%;
-  justify-content: center;
-  padding: 0.5rem 2.5rem;
-}
-
-
-
-.Digital_faq {
-  text-align: start;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 32.114px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.461px;
-}
-
-.Digital_faq1 {
-  color: #FFE359;
-  font-family: Inter;
-  font-size: 32.114px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.461px;
-}
-
 .home_Happy_font {
   color: #FDF9FF;
   text-align: center;
@@ -1118,9 +797,791 @@
   /* 148.983% */
 }
 
-/* .home_bg_images {
-  background: #FFF;
-  background-blend-mode: overlay, normal;
+.Leadgenaration_style {
+  width: 80%;
+}
+
+.Leadgenaration_style12 {
+  text-align: center;
   width: 100%;
-  height: 100%;
-} */
+  padding: 3rem 0rem;
+}
+
+@media (max-width: 40em) {
+  .home_card3_bg_srvices {
+    background: #FDF9FF;
+    position: relative;
+    height: 100%;
+    padding-top: 6%;
+  }
+
+  .dev_flex_home_rowfirs{
+    padding-top: 1%;
+  }
+
+  .dev_flex_home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .Homeimage2_button {
+    text-align: center;
+  }
+
+  .corosal_image {
+    text-align: center;
+    width: 100%;
+  }
+
+  .higher_home1 {
+    text-align: start;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .videoTag {
+    display: none;
+    width: 100%;
+  }
+
+  .dev_flex1_home {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0rem;
+  }
+
+  .home_dev_font {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 35.369px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52.173px
+  }
+
+  .home_dev1_Revenue {
+    background: linear-gradient(91deg, #FCE26B 8.63%, #FE685F 24.3%, #FF40A6 44.29%, #C26FFD 68.83%, #01F2F6 86.35%, #01FEAD 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .home_botton {
+    /* display: none; */
+    border-radius: 4px;
+    background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+    border: none;
+    color: #0F1825;
+    font-family: 'Inter';
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20.835px;
+    /* 126.273% */
+  }
+
+  .margin_our {
+    padding-top: 0%;
+  }
+
+  .servise_page_font {
+    background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 19.995px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .servise_page_font_web {
+    background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 19.995px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .services_arefont2 {
+    color: #333;
+    font-family: Inter;
+    font-size: 9.471px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14.631px;
+    /* 154.476% */
+  }
+
+  .Homeimage4_width {
+    width: 11vw;
+    position: relative;
+  }
+
+
+  .home_dev2_get {
+    color: #D6E9FF;
+    font-family: 'Inter';
+    font-size: 17.359px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.831px;
+    /* 120% */
+    letter-spacing: 0.434px;
+  }
+
+  .homestar_color {
+    color: #F3CD03;
+  }
+
+  .home_dev3_our {
+    color: #E6E6EA;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 18.725px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.528px;
+    /* 141.667% */
+  }
+
+  .home_font1_aswin {
+    color: #E6E6EA;
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 18.725px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.528px;
+    /* 141.667% */
+  }
+
+  .home_font2_aswin {
+    color: #E6E6EA;
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 12.602px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26.528px;
+    /* 210.498% */
+  }
+
+  .home_gride {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FrameHome9_style {
+    width: 50vw;
+  }
+
+  /* .Hpme_card5_bg {
+    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+    height: 152vh;
+  } */
+
+  .home_yourfont1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24.851px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32.542px;
+    /* 130.952% */
+  }
+
+  .home_yourfont1_Expert {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24.062px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.319px;
+  }
+
+  .Homeimage5_style {
+    width: 100%;
+    display: none;
+  }
+
+  .home_arefont2 {
+    color: #FDF9FF;
+    font-family: Inter;
+    font-size: 9.711px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.883px;
+    /* 194.444% */
+  }
+
+  .BsChevronDown_style {
+    border: none;
+    background: #FDF9FF;
+    color: #A903C4;
+  }
+
+  .home_Responsive {
+    color: #010101;
+    font-family: inter;
+    font-size: 13.681px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13.211px;
+    /* 96.564% */
+  }
+
+  .home_get_style {
+    border-radius: 16px;
+    border: 1px solid #010101;
+    background: #404040;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 8.32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10.506px;
+    /* 126.273% */
+  }
+
+  .home_card4_bg {
+    background: linear-gradient(180deg, #F9DDE5 0%, rgba(241, 232, 235, 0) 100%);
+    /* height: 100vh; */
+  }
+
+  .constant_home_Create_font {
+    color: #FFE359;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+  }
+
+  .home_mostly_font {
+    color: #010101;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15.317px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12.818px;
+    /* 83.688% */
+  }
+
+  .home_mostly_font1 {
+    color: #6864ED;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13.275px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12.818px;
+    /* 96.564% */
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+
+  .Homeimage6_width {
+    width: 20vw;
+  }
+
+  .dev_flex_home_constant {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+
+  .Hpme_card5_bg {
+    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+    height: 100%;
+    display: none;
+  }
+
+  .Hpme_card5_bg_create {
+    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+    height: 100%;
+  }
+
+  .bg_home_card_makes {
+    /* border-radius: 20.879px; */
+    /* backdrop-filter: blur(34.79788589477539px); */
+    width: 100%;
+    /* height: 100vh; */
+  }
+
+  .what_home_bg {
+    background: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 23.327px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0.233px;
+  }
+
+  .Leadgenaration_style12 {
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0rem;
+  }
+
+  .Leadgenaration_style {
+    width: 90%;
+  }
+
+  .choice_homebg {
+    border-radius: 30.699px;
+    background: #C6148A;
+  }
+
+  .Generation_home {
+    color: #FFF;
+    font-family: inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 133.333% */
+  }
+
+  .home_Create_font {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 23.327px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.233px;
+  }
+
+  .home_card6_bg {
+    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+    /* height: 140vh; */
+  }
+
+  .system_homeimage13 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .system_homeimage12 {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .margi_top_desine {
+    margin-top: -6rem;
+  }
+
+  .Design_home_card12 {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: 260px;
+  }
+
+  .home_bg_images {
+    background: #FFF;
+    background-blend-mode: overlay, normal;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+  }
+
+  .Proposal_home_button {
+    border-radius: 6px;
+    background: #4F2085;
+    color: #FDF9FF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    width: 50%;
+  }
+
+  .Proposal_home_button1 {
+    border-radius: 6px;
+    border: 1px solid #B2B2B2;
+    background: #FFF;
+    color: #0F1825;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    width: 50%;
+  }
+
+  .Covering_hme_font {
+    background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19.062px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.319px;
+    /* 130.952% */
+  }
+
+  .Design_home_font {
+    background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 19.062px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.319px;
+  }
+
+  .Nexgen_home_at {
+    width: 100%;
+    color: #200229;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 133.333% */
+  }
+
+  .button_flex_homeget {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+
+  .faont_47_home {
+    color: #FDF9FF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 11.33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .home_Happy_font {
+    color: #FDF9FF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 8.632px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .font_5P_home {
+    color: #F5F5F5;
+    font-family: Helvetica Neue;
+    font-size: 15.03px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.788px;
+    /* 125% */
+  }
+
+  .home_get_style_Consultation {
+    border-radius: 7px;
+    background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
+    color: #000;
+    font-family: Inter;
+    font-size: 8.53px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10.772px;
+    /* 126.273% */
+  }
+
+  .Responsive_font_home {
+    color: #27272E;
+    font-family: Inter;
+    font-size: 24.399px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.202px;
+    /* 109.869% */
+    letter-spacing: -0.741px;
+  }
+
+  .Fintech_home_font {
+    color: #425466;
+    font-family: Inter;
+    font-size: 14.806px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.059px;
+    /* 148.983% */
+  }
+
+}
+
+
+ @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .videoTag {
+    display: none;
+  }
+  .home_gride {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_dev_font {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    position: relative;
+  }
+
+  .margin_our {
+    padding-top: 2%;
+  }
+
+  .home_bg_images {
+    background: none;
+  }
+
+  .Covering_hme_font {
+    background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35.062px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50.319px;
+  }
+
+  .Design_home_font {
+    background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 35.062px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50.319px;
+
+  }
+
+  .Nexgen_home_at {
+    width: 90%;
+    color: #200229;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+  }
+
+  .button_flex_homeget {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+
+  .Proposal_home_button {
+    border-radius: 6px;
+    background: #4F2085;
+    color: #FDF9FF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    width: 50%;
+  }
+
+  .Proposal_home_button1 {
+    border-radius: 6px;
+    border: 1px solid #B2B2B2;
+    background: #FFF;
+    color: #0F1825;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    width: 50%;
+  }
+
+
+  .FrameHome9_style {
+    width: 40vw;
+  }
+
+  .home_yourfont1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30.062px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 45.319px;
+  }
+
+  .home_yourfont1_Expert {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30.062px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45.319px;
+  }
+
+  .home_arefont2 {
+    color: #FDF9FF;
+    font-family: Inter;
+    font-size: 10.711px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.883px;
+  }
+
+  .faont_47_home {
+    color: #FDF9FF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 11.33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .home_Happy_font {
+    color: #FDF9FF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 8.632px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .font_5P_home {
+    color: #F5F5F5;
+    font-family: Helvetica Neue;
+    font-size: 17.03px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.788px;
+  }
+
+  .homestar_color {
+    color: #F3CD03;
+    position: relative;
+  }
+
+  .margi_top_desine {
+    margin-top: -2.5rem;
+  }
+
+  .Design_home_card12 {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14), 0px 8px 28px -6px rgba(24, 39, 75, 0.12);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: 260px;
+  }
+
+  .Rowdelop_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .corosal_image {
+    text-align: center;
+    width: 50%;
+    padding-top: 10%;
+  }
+
+  .Hpme_card5_bg_create {
+    background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
+    height: 100%;
+  }
+
+  .home_Create_font {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30.327px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.233px;
+  }
+
+  .constant_home_Create_font {
+    color: #FFE359;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+  }
+
+  .dev_flex_home_constant {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  .Homeimage2_button{
+    text-align: center;
+  }
+  .Homeimage5_style{
+    display: none;
+  }
+}

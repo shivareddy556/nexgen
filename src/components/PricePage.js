@@ -12,9 +12,9 @@ const PricePage = () => {
     <div>
       <Navbarsecond />
 
-      <div className="home_card3_bg pt-5">
+      <div className="home_card3_bg">
         <div className="tdi9mq0 tdi9mq4 py-2">
-          <div className="price_font mt-5">
+          <div className="price_font">
             Choose a package that fits your needs <br></br>with our{" "}
             <span className="convenient_style_price">convenient EMI</span>
           </div>

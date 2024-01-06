@@ -23,7 +23,7 @@ const ServicesPage = () => {
     <div className=''>
     <Navbarsecond />
 
-      <div className='home_card3_bg py-5'>
+      <div className='home_card3_bg_srvices'>
         <div className='home_gride tdi9mq0 tdi9mq4 py-5'>
           <div>
             <div className='servise_page_font'>Your Expert <span className='servise_page_font_web'>Web Design & Development</span> Partner</div>

@@ -139,7 +139,7 @@
 
 .price_ul {
     list-style: none;
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 .price_li {
@@ -201,14 +201,14 @@
     background: var(--White, #FFF);
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
     width: 383.244px;
-    height: 35vh;
+    /* height: 35vh; */
 }
 
 .vestibulum_font_price {
     padding: 1rem;
     color: var(--Black, #000);
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
 
@@ -243,13 +243,33 @@
 }
 
 .back_styleprice {
-    /* position: absolute; */
-    width: 100%;
-    height: 90%;
+    background: url("../Images/AboutImages/indamaplogo_home.png");
+    background-blend-mode: overlay, normal;
+    width: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
 }
 
+/* 
+.bagsrountooltip{
+    background: #FFF;
+    max-width: 100% !important;
+} */
 
-@media (max-width: 768px) {
+.Nexgen_pricewe {
+    color: #200229;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+@media (max-width: 40em) {
     .price_font {
         color: #000;
         text-align: center;
@@ -260,10 +280,22 @@
         font-weight: 600;
         line-height: normal;
         letter-spacing: 0.182px;
+        padding-top: 25%;
     }
 
     [type=radio] {
         display: none;
+    }
+
+    .Nexgen_pricewe {
+        color: #200229;
+        text-align: center;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        /* 133.333% */
     }
 
     #slider {
@@ -381,7 +413,7 @@
 
     .price_ul {
         list-style: none;
-        height: 50vh;
+        /* height: 50vh; */
     }
 
     .price_li {
@@ -483,8 +515,9 @@
     }
 
     .back_styleprice {
-        position: absolute;
-        width: 30%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -522,4 +555,243 @@
     -webkit-box-shadow: 13px 2px 16px -16px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 13px 2px 16px -16px rgba(0, 0, 0, 0.75);
     box-shadow: 13px 2px 16px -16px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .price_font {
+        color: #000;
+        text-align: center;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18.199px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.182px;
+    }
+
+    [type=radio] {
+        display: none;
+    }
+
+    #slider {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* perspective: 1000px; */
+        transform-style: preserve-3d;
+    }
+
+    #slider label {
+        margin: auto;
+        /* background: #fff; */
+        border-radius: 28px;
+        width: 50%;
+        text-align: start;
+        height: 95%;
+        position: relative;
+        /* margin: 0.5rem 0rem; */
+        cursor: pointer;
+        transition: transform 0.60s ease;
+    }
+
+
+    #s1:checked~#slide3,
+    #s2:checked~#slide1,
+    #s3:checked~#slide2 {
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+        transform: translate3d(0%, 0, 0px);
+        z-index: 999;
+    }
+
+    #s1:checked~#slide1,
+    #s2:checked~#slide2,
+    #s3:checked~#slide3 {
+        box-shadow: 0 13px 25px 0 rgba(0, 0, 0, .3), 0 11px 7px 0 rgba(0, 0, 0, .19);
+        transform: translate3d(0, 0, 0);
+        background: linear-gradient(229deg, #172271 11.3%, rgba(7, 10, 33, 0.00) 89.52%), #040229;
+        z-index: 999;
+
+        .Starter_price {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 31.4px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .Unleash_price {
+            color: #E8AAFF;
+            font-family: Inter;
+            font-size: 16.26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .price_li {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16.26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .price_icon {
+            color: #E8AAFF;
+            font-family: Inter;
+            font-size: 16.26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .Feed_price_button {
+            border-radius: 20px;
+            background: #FF752A;
+            border: none;
+            color: #FFF;
+            font-family: 'Inter';
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+        }
+    }
+
+    #s1:checked~#slide2,
+    #s2:checked~#slide3,
+    #s3:checked~#slide1 {
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+        transform: translate3d(0%, 0, 0px);
+    }
+
+    .price_bg {
+        border-radius: 33.383px;
+        background: none;
+        /* backdrop-filter: blur(22.469593048095703px); */
+        /* width: 1312px; */
+
+    }
+
+    .price_bg_flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .price_ul {
+        list-style: none;
+        /* height: 50vh; */
+    }
+
+    .price_li {
+        color: #848199;
+        font-family: Inter;
+        font-size: 16.26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .Starter_price {
+        color: #231D4F;
+        font-family: Inter;
+        font-size: 35.951px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .Unleash_price {
+        color: #848199;
+        font-family: Inter;
+        font-size: 19.26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .Feed_price_button {
+        border-radius: 20px;
+        background: #87829A;
+        border: none;
+        color: #FFF;
+        font-family: 'Inter';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .Hear_price {
+        background: linear-gradient(108deg, #333 45.08%, #8B00F8 68.09%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-family: Inter;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.31px;
+    }
+
+    .Lacus_price_bg {
+        border-radius: 18.604px;
+        background: var(--White, #FFF);
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+        /* width: 383.244px;
+        height: 35vh; */
+    }
+
+    .vestibulum_font_price {
+        padding: 1rem;
+        color: var(--Black, #000);
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+
+    }
+
+    .Hellen_price {
+        color: var(--Black, #000);
+        font-family: inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 28.8px */
+    }
+
+    .Counselor_price {
+        color: var(--Blue-Gray-600, #475569);
+
+        /* Body/M */
+        font-family: inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+
+    .price_fromflex {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .back_styleprice {
+        width: 75%;
+        height: 100vh;
+    }
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../Styles/PriceandPlan.css"
 import { AiFillCheckCircle } from "react-icons/ai";
 import sectionprice1 from "../Images/AboutImages/sectionprice1.png"
@@ -6,6 +6,8 @@ import price_profileimage from "../Images/AboutImages/price_profileimage.png"
 import indamaplogo_home from "../Images/AboutImages/indamaplogo_home.png"
 import ScrollCarousel from 'scroll-carousel-react';
 import profile_homelogo12 from "../Images/HomeImages/profile_homelogo12.png"
+import { Button, UncontrolledTooltip } from 'reactstrap';
+import { RiAddBoxLine } from "react-icons/ri";
 const PriceandPlan = () => {
     const helped = [
         {
@@ -43,6 +45,9 @@ const PriceandPlan = () => {
         setSelectedIndex(nextIndex);
     }
     const check = index => setSelectedIndex(index);
+    const [tooltipOpen, setTooltipOpen] = useState(false);
+
+    const toggle = () => setTooltipOpen(!tooltipOpen);
     return (
         <div className=''>
             <div className='tdi9mq0 tdi9mq4 py-5'>
@@ -95,7 +100,7 @@ const PriceandPlan = () => {
                                     <label htmlFor="s2" id="slide2">
                                         <div className='my-2 py-3 px-4'>
                                             <div className='Starter_price pb-2'>Business Plan</div>
-                                            <div className='Unleash_price'><img src={profile_homelogo12} alt="profile_homelogo12" style={{width:"30%"}}/>  (654+ benefited)</div>
+                                            <div className='Unleash_price'><img src={profile_homelogo12} alt="profile_homelogo12" style={{ width: "30%" }} />  (654+ benefited)</div>
                                             <div className='price_ul'>
                                                 <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> Upto 3 Pages Designing</li>
                                                 <li className='price_li py-2'><AiFillCheckCircle className='fs-4 price_icon' /> 100% Responsive for all Devices</li>
@@ -137,67 +142,229 @@ const PriceandPlan = () => {
             </div>
             <div>
                 <div className='Hear_price'>Hear from those we've helped</div>
-                <div className='d-flex gap-2 w-100'>
-                    <div className='py-5 ms-3'><img src={indamaplogo_home} alt='back_styleimageprice' className='back_styleprice' /> </div>
-                    <div className='w-75'>
-                        <div className='pt-3 vestibulum_price'>
-                            <ScrollCarousel
-                                // smartSpeed={true}
-                                autoplay
-                                autoplaySpeed={80}
-                                speed={5}
-                            >
-                                <div className='price_fromflex'>
-                                    {helped.map((uesr, index) => {
-                                        return (
-                                            <div className=''>
-                                                <div className='Lacus_price_bg '>
-                                                    <p className='vestibulum_font_price'>{uesr.Lacus}</p>
-                                                    <div className='d-flex gap-2'>
-                                                        <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
-                                                        <div className='py-2'>
-                                                            <div className='Hellen_price'>{uesr.name}</div>
-                                                            <div className='py-1 Counselor_price'>{uesr.disignation}</div>
-                                                        </div>
-                                                    </div>
+                <div className='Nexgen_pricewe pt-3'>At Nexgen, we specialize in Custom Web Design solutions tailored to your specific<br /> needs. Our team crafts Responsive Web Designs that adapt seamlessly across </div>
+                <div className=''>
+                    <div className='my-5 d-flex justify-content-center'>{/*<img src={indamaplogo_home} alt='back_styleimageprice' className='back_styleprice' />*/}
+                        <div className='back_styleprice'>
+                            <div className="text-center" style={{ marginTop: "3rem", marginLeft: "60%" }}>
+                                <span
+                                    placement="top"
+                                    target="ScheduleUpdateTooltip"
+                                    trigger="hover focus"
+                                    autohide={true}
+                                    style={{ background: "#FFF", maxWidth: "100% !important" }}
+                                >
+                                    <div className='Lacus_price_bg '>
+                                        <p className='vestibulum_font_price'>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.</p>
+                                        <div className='d-flex gap-2'>
+                                            <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                            <div className='py-2'>
+                                                <div className='Hellen_price'>Hellena John</div>
+                                                <div className='py-1 Counselor_price'>Psychology Student</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </span>
+                                <Button id="ScheduleUpdateTooltip" style={{ background: "none", border: "none", color: "#000" }}>
+                                    <RiAddBoxLine className='fs-4' />
+                                </Button>
+                            </div>
+                            <div className="text-center" style={{ marginTop: "-8rem" }}>
+                                <Button id="ScheduleUpdateTooltip" style={{ background: "none", border: "none", color: "#000" }}>
+                                    <RiAddBoxLine className='fs-4' />
+                                </Button>
+                                <UncontrolledTooltip
+                                    placement="top"
+                                    target="ScheduleUpdateTooltip"
+                                    trigger="hover focus"
+                                    autohide={true}
+                                    style={{ background: "#FFF", maxWidth: "100% !important" }}
+                                >
+                                    <div className='Lacus_price_bg '>
+                                        <p className='vestibulum_font_price'>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.</p>
+                                        <div className='d-flex gap-2'>
+                                            <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                            <div className='py-2'>
+                                                <div className='Hellen_price'>Hellena John</div>
+                                                <div className='py-1 Counselor_price'>Psychology Student</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </UncontrolledTooltip>
+                            </div>
+                            <div className="text-center" style={{ marginTop: "4rem" }}>
+                                <Button id="ScheduleUpdateTooltip" style={{ background: "none", border: "none", color: "#000" }}>
+                                    <RiAddBoxLine className='fs-4' />
+                                </Button>
+                                <UncontrolledTooltip
+                                    placement="top"
+                                    target="ScheduleUpdateTooltip"
+                                    trigger="hover focus"
+                                    autohide={true}
+                                    style={{ background: "#FFF", maxWidth: "100% !important" }}
+                                >
+                                    <div className='Lacus_price_bg '>
+                                        <p className='vestibulum_font_price'>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.</p>
+                                        <div className='d-flex gap-2'>
+                                            <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                            <div className='py-2'>
+                                                <div className='Hellen_price'>Hellena John</div>
+                                                <div className='py-1 Counselor_price'>Psychology Student</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </UncontrolledTooltip>
+                            </div>
+                            <div className='d-flex gap-3'>
+                                <div className="text-center" style={{ marginTop: "-4rem" }}>
+                                    <Button id="ScheduleUpdateTooltip" style={{ background: "none", border: "none", color: "#000" }}>
+                                        <RiAddBoxLine className='fs-4' />
+                                    </Button>
+                                    <UncontrolledTooltip
+                                        placement="top"
+                                        target="ScheduleUpdateTooltip"
+                                        trigger="hover focus"
+                                        autohide={true}
+                                        style={{ background: "#FFF", maxWidth: "100% !important" }}
+                                    >
+                                        <div className='Lacus_price_bg '>
+                                            <p className='vestibulum_font_price'>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.</p>
+                                            <div className='d-flex gap-2'>
+                                                <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                <div className='py-2'>
+                                                    <div className='Hellen_price'>Hellena John</div>
+                                                    <div className='py-1 Counselor_price'>Psychology Student</div>
                                                 </div>
                                             </div>
-                                        )
-                                    })}
+                                        </div>
+                                    </UncontrolledTooltip>
                                 </div>
-                            </ScrollCarousel>
-                        </div>
-                        <div className='py-5 vestibulum_price'>
-                            <ScrollCarousel
-                                // smartSpeed={true}
-                                autoplay
-                                autoplaySpeed={80}
-                                speed={5}
-                            >
-                                <div className='price_fromflex'>
-                                    {helped.map((uesr, index) => {
-                                        return (
-                                            <div className=''>
-                                                <div className='Lacus_price_bg '>
-                                                    <p className='vestibulum_font_price'>{uesr.Lacus}</p>
-                                                    <div className='d-flex gap-2'>
-                                                        <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
-                                                        <div className='py-2'>
-                                                            <div className='Hellen_price'>{uesr.name}</div>
-                                                            <div className='py-1 Counselor_price'>{uesr.disignation}</div>
-                                                        </div>
-                                                    </div>
+                                <div className="text-center" style={{ marginTop: "13rem", marginLeft: "10%" }}>
+                                    <Button id="ScheduleUpdateTooltip" style={{ background: "none", border: "none", color: "#000" }}>
+                                        <RiAddBoxLine className='fs-4' />
+                                    </Button>
+                                    <UncontrolledTooltip
+                                        placement="top"
+                                        target="ScheduleUpdateTooltip"
+                                        trigger="hover focus"
+                                        autohide={true}
+                                        style={{ background: "#FFF", maxWidth: "100% !important" }}
+                                    >
+                                        <div className='Lacus_price_bg '>
+                                            <p className='vestibulum_font_price'>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.</p>
+                                            <div className='d-flex gap-2'>
+                                                <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                <div className='py-2'>
+                                                    <div className='Hellen_price'>Hellena John</div>
+                                                    <div className='py-1 Counselor_price'>Psychology Student</div>
                                                 </div>
                                             </div>
-                                        )
-                                    })}
+                                        </div>
+                                    </UncontrolledTooltip>
                                 </div>
-                            </ScrollCarousel>
+                            </div>
+                            <div className='d-flex gap-3'>
+                                <div className="text-center" style={{ marginTop: "-10rem", marginLeft: "30%" }}>
+                                    <Button id="ScheduleUpdateTooltip" style={{ background: "none", border: "none", color: "#000" }}>
+                                        <RiAddBoxLine className='fs-4' />
+                                    </Button>
+                                    <UncontrolledTooltip
+                                        placement="top"
+                                        target="ScheduleUpdateTooltip"
+                                        trigger="hover focus"
+                                        autohide={true}
+                                        style={{ background: "#FFF", maxWidth: "100% !important" }}
+                                    >
+                                        <div className='Lacus_price_bg '>
+                                            <p className='vestibulum_font_price'>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.</p>
+                                            <div className='d-flex gap-2'>
+                                                <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                <div className='py-2'>
+                                                    <div className='Hellen_price'>Hellena John</div>
+                                                    <div className='py-1 Counselor_price'>Psychology Student</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </UncontrolledTooltip>
+                                </div>
+                                <div className="text-center" style={{ marginTop: "-13rem", marginLeft: "10%" }}>
+                                    <Button id="ScheduleUpdateTooltip" style={{ background: "none", border: "none", color: "#000" }}>
+                                        <RiAddBoxLine className='fs-4' />
+                                    </Button>
+                                    <UncontrolledTooltip
+                                        placement="top"
+                                        target="ScheduleUpdateTooltip"
+                                        trigger="hover focus"
+                                        autohide={true}
+                                        style={{ background: "#FFF", maxWidth: "100% !important" }}
+                                    >
+                                        <div className='Lacus_price_bg '>
+                                            <p className='vestibulum_font_price'>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.</p>
+                                            <div className='d-flex gap-2'>
+                                                <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                <div className='py-2'>
+                                                    <div className='Hellen_price'>Hellena John</div>
+                                                    <div className='py-1 Counselor_price'>Psychology Student</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </UncontrolledTooltip>
+                                </div>
+                            </div>
+                            <div className='d-flex gap-3'>
+                                <div className="text-center" style={{ marginTop: "-30%", marginLeft: "10%" }}>
+                                    <Button id="ScheduleUpdateTooltip" style={{ background: "none", border: "none", color: "#000" }}>
+                                        <RiAddBoxLine className='fs-4' />
+                                    </Button>
+                                    <UncontrolledTooltip
+                                        placement="top"
+                                        target="ScheduleUpdateTooltip"
+                                        trigger="hover focus"
+                                        autohide={true}
+                                        style={{ background: "#FFF", maxWidth: "100% !important" }}
+                                    >
+                                        <div className='Lacus_price_bg '>
+                                            <p className='vestibulum_font_price'>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.</p>
+                                            <div className='d-flex gap-2'>
+                                                <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                <div className='py-2'>
+                                                    <div className='Hellen_price'>Hellena John</div>
+                                                    <div className='py-1 Counselor_price'>Psychology Student</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </UncontrolledTooltip>
+                                </div>
+                                <div className="text-center" style={{ marginTop: "-20rem", marginLeft: "10%" }}>
+                                    <Button id="ScheduleUpdateTooltip" style={{ background: "none", border: "none", color: "#000" }}>
+                                        <RiAddBoxLine className='fs-4' />
+                                    </Button>
+                                    <UncontrolledTooltip
+                                        placement="top"
+                                        target="ScheduleUpdateTooltip"
+                                        trigger="hover focus"
+                                        autohide={true}
+                                        style={{ background: "#FFF", maxWidth: "100% !important" }}
+                                    >
+                                        <div className='Lacus_price_bg '>
+                                            <p className='vestibulum_font_price'>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.</p>
+                                            <div className='d-flex gap-2'>
+                                                <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                <div className='py-2'>
+                                                    <div className='Hellen_price'>Hellena John</div>
+                                                    <div className='py-1 Counselor_price'>Psychology Student</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </UncontrolledTooltip>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

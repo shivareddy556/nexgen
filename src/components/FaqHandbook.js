@@ -46,7 +46,7 @@ const FaqHandbook = () => {
             </div>
             <div className='py-5' >
                 <div className='your_faq'>
-                    <div className='py-4'>
+                    <div className='pading_callfaq'>
                         <div className='Digital_faq'>Let's Create Your <span className='Digital_faq1'>Digital
                             Success</span> Story Together 🤝</div>
                         <div className="ensuring_flex_home pt-3">
@@ -87,8 +87,8 @@ const FaqHandbook = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='d-flex justify-content-between w-100'>
-                        <div className='top_call_back w-100'><button className='Call_faq_style py-2'>Get a Call back</button></div>
+                    <div className='callback_flexfaq'>
+                        <div className='top_call_back w-100 txet-center'><button className='Call_faq_style py-2'>Get a Call back</button></div>
                         <div className='text-end w-100'><img src={laptogaqimage} alt='laptogaqimage' className='laptogaqimage_style'/> </div>
                     </div>
                 </div>

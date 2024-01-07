@@ -35,6 +35,7 @@ import desine_homeimages3 from "../Images/HomeImages/desine_homeimages3.png";
 import desine_homeimages2 from "../Images/HomeImages/desine_homeimages2.png";
 import NavbarPage from "../context/Navbar";
 import { FcGoogle } from "react-icons/fc";
+import Fade from 'react-reveal/Fade';
 function HomePage() {
   const items_slide = [
     {
@@ -186,482 +187,482 @@ function HomePage() {
     <>
       <NavbarPage />
       <div className="" style={{ overflow: "hidden", overflowX: "hidden" }}>
-        <div className="home_dev_card ">
-          <div className="dev_flex_home tdi9mq0 tdi9mq4">
-            <video
-              src={video}
-              type="video/mp4"
-              // controls
-              autostart
-              autoPlay
-              style={{ position: "absolute", opacity: "0.2", width: "100%" }}
-              className="videoTag"
-              playsInline
-              loop
-              muted
-              alt="All the devices"
-              ref={videoEl}
-            />
-            <div className="higher_home1">
-              <div className="align-item-center">
-                <div>
-                  <div className="home_dev_font">
-                    Stunning website
-                    <br /> designed to boost
-                    <br /> your{" "}
-                    <span className="home_dev1_Revenue">Revenue</span>
-                  </div>
-                </div>
-                <div className="my-4 dev_flex1_home">
+        <Fade bottom>
+          <div className="home_dev_card ">
+            <div className="dev_flex_home tdi9mq0 tdi9mq4">
+              <video
+                src={video}
+                type="video/mp4"
+                // controls
+                autostart
+                autoPlay
+                className="videoTag"
+                playsInline
+                loop
+                muted
+                alt="All the devices"
+                ref={videoEl}
+              />
+              <div className="higher_home1">
+                <div className="align-item-center">
                   <div>
-                    <button className="home_botton py-2 px-3">
-                      <img
-                        src={Homeimage2}
-                        alt="Homeimage2"
-                        style={{ width: "22px" }}
-                      />{" "}
-                      Get a Proposal
-                    </button>
+                    <div className="home_dev_font">
+                      Stunning website
+                      <br /> designed to boost
+                      <br /> your{" "}
+                      <span className="home_dev1_Revenue">Revenue</span>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className="margin_our">
-                <div className="d-flex gap-2">
-                  <div>
-                    <IoIosStar className="homestar_color" />
-                  </div>
-                  <div>
-                    <IoIosStar className="homestar_color" />
-                  </div>
-                  <div>
-                    <IoIosStar className="homestar_color" />
-                  </div>
-                  <div>
-                    <IoIosStar className="homestar_color" />
-                  </div>
-                  <div>
-                    <IoIosStarHalf className="homestar_color" />
-                  </div>
-                </div>
-                <div className="home_dev3_our pt-2">
-                  “Our new site has a 60% higher
-                  <br />
-                  conversion rate than our old one”
-                </div>
-                <div className="d-flex gap-0 my-2">
-                  <div className="text-center">
-                    <img
-                      src={Homeimage3}
-                      alt="Homeimage3"
-                      style={{ position: "relative", width: "50%" }}
-                    />{" "}
-                  </div>
-                  <div className="">
-                    <div className="home_font1_aswin">Ashwin</div>
-                    <div className="home_font2_aswin">Zell Founder </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="corosal_image">
-              <Carousel
-                activeIndex={activeIndex}
-                next={next}
-                previous={previous}
-                className="carsusel_bg"
-              >
-                {slides}
-              </Carousel>
-            </div>
-          </div>
-        </div>
-        <div className="home_dev5_card py-1">
-          <ScrollCarousel autoplay autoplaySpeed={80} speed={5}>
-            <div className="d-flex w-100">
-              <div>
-                {" "}
-                <img
-                  src={Homeimage4}
-                  alt="Homeimage4"
-                  className="Homeimage4_width"
-                />
-              </div>
-              <div className="home_webfont w-100 text-nowrap py-2">
-                Web Development & Design
-              </div>
-            </div>
-            <div className="d-flex w-100">
-              <div>
-                <img
-                  src={Homeimage4}
-                  alt="Homeimage4"
-                  className="Homeimage4_width"
-                />
-              </div>
-              <div className="home_webfont w-100 text-nowrap py-2">
-                Mobile applications
-              </div>
-            </div>
-            <div className="d-flex w-100">
-              <div>
-                {" "}
-                <img
-                  src={Homeimage4}
-                  alt="Homeimage4"
-                  className="Homeimage4_width"
-                />
-              </div>
-              <div className="home_webfont w-100 text-nowrap py-2">
-                UX / UI Design
-              </div>
-            </div>
-            <div className="d-flex w-100">
-              <div>
-                {" "}
-                <img
-                  src={Homeimage4}
-                  alt="Homeimage4"
-                  className="Homeimage4_width"
-                />
-              </div>
-              <div className="home_webfont w-100 text-nowrap py-2">
-                E - Commerce website
-              </div>
-            </div>
-            <div className="d-flex w-100">
-              <div>
-                <img
-                  src={Homeimage4}
-                  alt="Homeimage4"
-                  className="Homeimage4_width"
-                />
-              </div>
-              <div className="home_webfont w-100 text-nowrap py-2">
-                Branding & Design
-              </div>
-            </div>
-            <div className="d-flex w-100">
-              <div>
-                <img
-                  src={Homeimage4}
-                  alt="Homeimage4"
-                  className="Homeimage4_width"
-                />
-              </div>
-              <div className="home_webfont w-100 text-nowrap py-2">
-                Dashboard UI
-              </div>
-            </div>
-          </ScrollCarousel>
-        </div>
-        <div className="home_card3_bg">
-          <div className="home_bg_images">
-            <div className="tdi9mq0 tdi9mq4d py-4">
-              <div className="Covering_hme_font py-3">
-                Top{" "}
-                <span className="Design_home_font">Design and Development</span>{" "}
-                Company <br />
-                Covering India and its Vicinity
-              </div>
-              <div className="Nexgen_home_at text-center">
-                At Nexgen, we specialize in Custom Web Design solutions tailored
-                to your specific <br />
-                needs. Our team crafts Responsive Web Designs that adapt
-                seamlessly across{" "}
-              </div>
-              <div className="button_flex_homeget">
-                <button className="Proposal_home_button py-1">
-                  Get Proposal
-                </button>
-                <button className="Proposal_home_button1 py-1">
-                  Get Website Audit
-                </button>
-              </div>
-            </div>
-            <div className="pb-5">
-              <ScrollCarousel
-                // smartSpeed={true}
-                autoplay
-                autoplaySpeed={80}
-                speed={5}
-              >
-                <div className="d-flex w-100 gap-5">
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome9}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome8}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome7}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome10}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome6}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome5}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome4}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome3}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome2}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                  <div>
-                    {" "}
-                    <img
-                      src={FrameHome1}
-                      alt="FrameHome9"
-                      className="FrameHome9_style"
-                    />
-                  </div>
-                </div>
-              </ScrollCarousel>
-            </div>
-          </div>
-          <div className="home_gride_bg_color">
-            <div className="home_gride tdi9mq0 py-4">
-              <div>
-                <div className="home_yourfont1">
-                  Your{" "}
-                  <span className="home_yourfont1_Expert">
-                    Expert Web Design & Development
-                  </span>{" "}
-                  Partner
-                </div>
-                <div className="home_arefont2 py-3">
-                  Are you looking for top-notch Website Design Services that
-                  resonate with your brand's uniqueness? At Nexgen, we
-                  specialize in Custom Web Design solutions tailored to your
-                  specific needs. Our team crafts Responsive Web Designs that
-                  adapt seamlessly across devices, ensuring an optimal user
-                  experience for your audience.
-                </div>
-                <div className="ensuring_flex_home">
-                  <div className="w-25">
-                    <img
-                      src={profile_homelogo12}
-                      alt="profile_homelogo12"
-                      style={{ width: "100%" }}
-                    />{" "}
-                  </div>
-                  <div className="">
-                    <div className="faont_47_home">473+</div>
-                    <div className="home_Happy_font">Happy customers</div>
-                  </div>
-                  <div className="border_happy_font"></div>
-                  <div>
-                    <div className="Reviews_font_home"><FcGoogle className="fs-4" /> Reviews</div>
+                  <div className=" dev_flex1_home">
                     <div>
-                      <div className="d-flex gap-1">
-                        <div className="font_5P_home"> 5.0 </div>
-                        <div>
-                          <IoIosStar className="homestar_color" />
-                        </div>
-                        <div>
-                          <IoIosStar className="homestar_color" />
-                        </div>
-                        <div>
-                          <IoIosStar className="homestar_color" />
-                        </div>
-                        <div>
-                          <IoIosStar className="homestar_color" />
-                        </div>
-                        <div>
-                          <IoIosStarHalf className="homestar_color" />
+                      <button className="home_botton py-2 px-3">
+                        <img
+                          src={Homeimage2}
+                          alt="Homeimage2"
+                          style={{ width: "22px" }}
+                        />{" "}
+                        Get a Proposal
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div className="margin_our">
+                  <div className="d-flex gap-2">
+                    <div>
+                      <IoIosStar className="homestar_color" />
+                    </div>
+                    <div>
+                      <IoIosStar className="homestar_color" />
+                    </div>
+                    <div>
+                      <IoIosStar className="homestar_color" />
+                    </div>
+                    <div>
+                      <IoIosStar className="homestar_color" />
+                    </div>
+                    <div>
+                      <IoIosStarHalf className="homestar_color" />
+                    </div>
+                  </div>
+                  <div className="home_dev3_our pt-2">
+                    “Our new site has a 60% higher
+                    <br />
+                    conversion rate than our old one”
+                  </div>
+                  <div className="d-flex gap-0 my-2">
+                    <div className="text-center">
+                      <img
+                        src={Homeimage3}
+                        alt="Homeimage3"
+                        style={{ position: "relative", width: "50%" }}
+                      />{" "}
+                    </div>
+                    <div className="">
+                      <div className="home_font1_aswin">Ashwin</div>
+                      <div className="home_font2_aswin">Zell Founder </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="corosal_image">
+                <Carousel
+                  activeIndex={activeIndex}
+                  next={next}
+                  previous={previous}
+                  className="carsusel_bg"
+                >
+                  {slides}
+                </Carousel>
+              </div>
+            </div>
+          </div>
+          <div className="home_dev5_card py-1">
+            <ScrollCarousel autoplay autoplaySpeed={80} speed={5}>
+              <div className="d-flex w-100">
+                <div>
+                  {" "}
+                  <img
+                    src={Homeimage4}
+                    alt="Homeimage4"
+                    className="Homeimage4_width"
+                  />
+                </div>
+                <div className="home_webfont w-100 text-nowrap py-2">
+                  Web Development & Design
+                </div>
+              </div>
+              <div className="d-flex w-100">
+                <div>
+                  <img
+                    src={Homeimage4}
+                    alt="Homeimage4"
+                    className="Homeimage4_width"
+                  />
+                </div>
+                <div className="home_webfont w-100 text-nowrap py-2">
+                  Mobile applications
+                </div>
+              </div>
+              <div className="d-flex w-100">
+                <div>
+                  {" "}
+                  <img
+                    src={Homeimage4}
+                    alt="Homeimage4"
+                    className="Homeimage4_width"
+                  />
+                </div>
+                <div className="home_webfont w-100 text-nowrap py-2">
+                  UX / UI Design
+                </div>
+              </div>
+              <div className="d-flex w-100">
+                <div>
+                  {" "}
+                  <img
+                    src={Homeimage4}
+                    alt="Homeimage4"
+                    className="Homeimage4_width"
+                  />
+                </div>
+                <div className="home_webfont w-100 text-nowrap py-2">
+                  E - Commerce website
+                </div>
+              </div>
+              <div className="d-flex w-100">
+                <div>
+                  <img
+                    src={Homeimage4}
+                    alt="Homeimage4"
+                    className="Homeimage4_width"
+                  />
+                </div>
+                <div className="home_webfont w-100 text-nowrap py-2">
+                  Branding & Design
+                </div>
+              </div>
+              <div className="d-flex w-100">
+                <div>
+                  <img
+                    src={Homeimage4}
+                    alt="Homeimage4"
+                    className="Homeimage4_width"
+                  />
+                </div>
+                <div className="home_webfont w-100 text-nowrap py-2">
+                  Dashboard UI
+                </div>
+              </div>
+            </ScrollCarousel>
+          </div>
+          <div className="home_card3_bg">
+            <div className="home_bg_images">
+              <div className="tdi9mq0 tdi9mq4d py-4">
+                <div className="Covering_hme_font py-3">
+                  Top{" "}
+                  <span className="Design_home_font">Design and Development</span>{" "}
+                  Company <br />
+                  Covering India and its Vicinity
+                </div>
+                <div className="d-flex justify-content-center">
+                  <div className="Nexgen_home_at text-center">
+                    At Nexgen, we specialize in Custom Web Design solutions tailored
+                    to your specific
+                    needs. Our team crafts Responsive Web Designs that adapt
+                    seamlessly across{" "}
+                  </div>
+                </div>
+                <div className="button_flex_homeget">
+                  <button className="Proposal_home_button py-1">
+                    Get Proposal
+                  </button>
+                  <button className="Proposal_home_button1 py-1">
+                    Get Website Audit
+                  </button>
+                </div>
+              </div>
+              <div className="pb-5">
+                <ScrollCarousel
+                  // smartSpeed={true}
+                  autoplay
+                  autoplaySpeed={80}
+                  speed={5}
+                >
+                  <div className="d-flex w-100 gap-5">
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome9}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome8}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome7}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome10}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome6}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome5}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome4}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome3}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome2}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                    <div>
+                      {" "}
+                      <img
+                        src={FrameHome1}
+                        alt="FrameHome9"
+                        className="FrameHome9_style"
+                      />
+                    </div>
+                  </div>
+                </ScrollCarousel>
+              </div>
+            </div>
+            <div className="home_gride_bg_color">
+              <div className="home_gride tdi9mq0 py-4">
+                <div>
+                  <div className="home_yourfont1">
+                    Your{" "}
+                    <span className="home_yourfont1_Expert">
+                      Expert Web Design & Development
+                    </span>{" "}
+                    Partner
+                  </div>
+                  <div className="home_arefont2 py-3">
+                    Are you looking for top-notch Website Design Services that
+                    resonate with your brand's uniqueness? At Nexgen, we
+                    specialize in Custom Web Design solutions tailored to your
+                    specific needs. Our team crafts Responsive Web Designs that
+                    adapt seamlessly across devices, ensuring an optimal user
+                    experience for your audience.
+                  </div>
+                  <div className="ensuring_flex_home">
+                    <div className="w-25">
+                      <img
+                        src={profile_homelogo12}
+                        alt="profile_homelogo12"
+                        style={{ width: "100%" }}
+                      />{" "}
+                    </div>
+                    <div className="">
+                      <div className="faont_47_home">473+</div>
+                      <div className="home_Happy_font">Happy customers</div>
+                    </div>
+                    <div className="border_happy_font"></div>
+                    <div>
+                      <div className="Reviews_font_home"><FcGoogle className="fs-4" /> Reviews</div>
+                      <div>
+                        <div className="d-flex gap-1">
+                          <div className="font_5P_home"> 5.0 </div>
+                          <div>
+                            <IoIosStar className="homestar_color" />
+                          </div>
+                          <div>
+                            <IoIosStar className="homestar_color" />
+                          </div>
+                          <div>
+                            <IoIosStar className="homestar_color" />
+                          </div>
+                          <div>
+                            <IoIosStar className="homestar_color" />
+                          </div>
+                          <div>
+                            <IoIosStarHalf className="homestar_color" />
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="pt-3 pb-5">
-                  <button className="home_get_style_Consultation py-2 mt-3 px-4">
-                    Get Free Consultation <BsArrowRight />
-                  </button>
-                </div>
-              </div>
-              <div className="py-3">
-                <img
-                  src={nexgen_log_seection}
-                  alt="nexgen_log_seection"
-                  className="Homeimage5_style"
-                />
-              </div>
-            </div>
-            <div className="h-100">.</div>
-          </div>
-          <div className="margi_top_desine d-flex justify-content-center">
-            <Row className="solution_card">
-              <Col md={3}>
-                <div className="Design_home_card12">
-                  <div>
-                    <img
-                      src={desine_homegold}
-                      alt="desine_homegold"
-                      style={{ width: "20%" }}
-                    />{" "}
-                  </div>
-                  <div className="Responsive_font_home">
-                    Responsive Design & Development Services
-                  </div>
-                  <div className="Fintech_home_font py-2">
-                    Fintech & healthcare software development with a human
-                    touch. We develop feature-packed solutions that are easy to
-                    use.
+                  <div className="pt-3 pb-5">
+                    <button className="home_get_style_Consultation py-2 px-4">
+                      Get Free Consultation <BsArrowRight />
+                    </button>
                   </div>
                 </div>
-              </Col>
-              <Col md={3}>
-                <div className="Design_home_card12">
-                  <div>
-                    <img
-                      src={desine_homeimages}
-                      alt="desine_homeimages"
-                      style={{ width: "20%" }}
-                    />{" "}
-                  </div>
-                  <div className="Responsive_font_home">
-                    E-commerce Solutions
-                  </div>
-                  <div className="Fintech_home_font py-2">
-                    Fintech & healthcare software development with a human
-                    touch. We develop feature-packed solutions that are easy to
-                    use.
-                  </div>
-                </div>
-              </Col>
-              <Col md={3}>
-                <div className="Design_home_card12">
-                  <div>
-                    <img
-                      src={desine_homeimages2}
-                      alt="desine_homeimages1"
-                      style={{ width: "20%" }}
-                    />{" "}
-                  </div>
-                  <div className="Responsive_font_home">
-                    UI/UX Design Excellence
-                  </div>
-                  <div className="Fintech_home_font py-2">
-                    Fintech & healthcare software development with a human
-                    touch. We develop feature-packed solutions that are easy to
-                    use.
-                  </div>
-                </div>
-              </Col>
-              <Col md={3}>
-                <div className="Design_home_card12">
-                  <div>
-                    <img
-                      src={desine_homeimages3}
-                      alt="desine_homeimages2"
-                      style={{ width: "20%" }}
-                    />{" "}
-                  </div>
-                  <div className="Responsive_font_home">
-                    Social media Design & branding
-                  </div>
-                  <div className="Fintech_home_font py-2">
-                    Fintech & healthcare software development with a human
-                    touch. We develop feature-packed solutions that are easy to
-                    use.
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          </div>
-          <div className="py-5">
-            <div className="home_mostly_font mt-5">
-              Experienced with top overseas firms
-            </div>
-            <div className="text-center  pt-4 pb-5">
-              <img
-                src={companes_logs_home123}
-                alt="companes_logs_home123"
-                className=""
-                style={{ width: "80%" }}
-              />
-            </div>
-          </div>
-        </div>
-        {/*  <div className='home_card4_bg py-5'>*/}
-        {/* <Typography style={{ fontWeight: "900", fontSize: "35px", color: "#000", marginTop: "5vh", marginBottom: "2vh" }} variant="h3" color="primary" class="txt-rotate text-center" data-period="2000" data-rotate='[ "Looking For Something?", "Anziam Bio!", "Here You Will Be FInding All The Stuffs You Need!"]'></Typography> */}
-        {/* <div className='home_mostly_font'>We’re mostly in all sectors <span className='home_mostly_font1'>View Portfolio</span> </div>*/}
-        {/* </div>*/}
-        <div className="Hpme_card5_bg py-5">
-          <div>
-            <div className="d-flex justify-content-center tdi9mq0 tdi9mq4">
-              <div className="bg_home_card_makes">
-                <div className="what_home_bg">
-                  What makes us <br /> the{" "}
-                  <span className="choice_homebg px-3 py-1">
-                    preferred choice
-                  </span>{" "}
-                  over other?
-                </div>
-                <div className="w-100 text-center py-5">
+                <div className="py-3">
                   <img
-                    src={Leadgenaration_abuot}
-                    alt="Leadgenaration_abuot"
-                    style={{ width: "80%" }}
+                    src={nexgen_log_seection}
+                    alt="nexgen_log_seection"
+                    className="Homeimage5_style"
                   />
                 </div>
               </div>
-              <div></div>
+            </div>
+            <div className="margi_top_desine d-flex justify-content-center">
+              <Row className="tdi9mq0">
+                <Col md={3} sm={6}>
+                  <div className="Design_home_card12">
+                    <div>
+                      <img
+                        src={desine_homegold}
+                        alt="desine_homegold"
+                        style={{ width: "20%" }}
+                      />{" "}
+                    </div>
+                    <div className="Responsive_font_home">
+                      Responsive Design & Development Services
+                    </div>
+                    <div className="Fintech_home_font py-2">
+                      Fintech & healthcare software development with a human
+                      touch. We develop feature-packed solutions that are easy to
+                      use.
+                    </div>
+                  </div>
+                </Col>
+                <Col md={3} sm={6}>
+                  <div className="Design_home_card12">
+                    <div>
+                      <img
+                        src={desine_homeimages}
+                        alt="desine_homeimages"
+                        style={{ width: "20%" }}
+                      />{" "}
+                    </div>
+                    <div className="Responsive_font_home">
+                      E-commerce Solutions
+                    </div>
+                    <div className="Fintech_home_font py-2">
+                      Fintech & healthcare software development with a human
+                      touch. We develop feature-packed solutions that are easy to
+                      use.
+                    </div>
+                  </div>
+                </Col>
+                <Col md={3} sm={6}>
+                  <div className="Design_home_card12">
+                    <div>
+                      <img
+                        src={desine_homeimages2}
+                        alt="desine_homeimages1"
+                        style={{ width: "20%" }}
+                      />{" "}
+                    </div>
+                    <div className="Responsive_font_home">
+                      UI/UX Design Excellence
+                    </div>
+                    <div className="Fintech_home_font py-2">
+                      Fintech & healthcare software development with a human
+                      touch. We develop feature-packed solutions that are easy to
+                      use.
+                    </div>
+                  </div>
+                </Col>
+                <Col md={3} sm={6}>
+                  <div className="Design_home_card12">
+                    <div>
+                      <img
+                        src={desine_homeimages3}
+                        alt="desine_homeimages2"
+                        style={{ width: "20%" }}
+                      />{" "}
+                    </div>
+                    <div className="Responsive_font_home">
+                      Social media Design & branding
+                    </div>
+                    <div className="Fintech_home_font py-2">
+                      Fintech & healthcare software development with a human
+                      touch. We develop feature-packed solutions that are easy to
+                      use.
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+            <div className="py-5">
+              <div className="home_mostly_font mt-5">
+                Experienced with top overseas firms
+              </div>
+              <div className="text-center  pt-4 pb-5">
+                <img
+                  src={companes_logs_home123}
+                  alt="companes_logs_home123"
+                  className=""
+                  style={{ width: "80%" }}
+                />
+              </div>
             </div>
           </div>
-        </div>
+          <div className="Hpme_card5_bg">
+            <div>
+              <div className="d-flex justify-content-center tdi9mq0 tdi9mq4">
+                <div className="bg_home_card_makes">
+                  <div className="what_home_bg">
+                    What makes us <br /> the{" "}
+                    <span className="choice_homebg px-3 py-1">
+                      preferred choice
+                    </span>{" "}
+                    over other?
+                  </div>
+                  <div className="Leadgenaration_style12">
+                    <img
+                      src={Leadgenaration_abuot}
+                      alt="Leadgenaration_abuot"
+                      className="Leadgenaration_style"
+                    />
+                  </div>
+                </div>
+                <div></div>
+              </div>
+
+            </div>
+          </div>
+
+        </Fade>
         <div className="Hpme_card5_bg_create ">
           <div className="dev_flex_home_constant tdi9mq0 tdi9mq4">
             <div className="system_homeimage13">
@@ -679,7 +680,7 @@ function HomePage() {
                 </button>
               </div>
             </div>
-            <div className="system_homeimage12 w-100">
+            <div className="system_homeimage12">
               <img
                 src={system_homeimage}
                 alt="system_homeimage"

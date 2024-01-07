@@ -6,8 +6,8 @@ const Contacts = () => {
     <div>
     <NavbarPage/>
     <div className="home_card6_bg pb-5">
-      <div className="" style={{paddingTop:"1rem"}}>
-        <div className="Together_handbook py-5" style={{paddingTop:'9rem'}}>
+      <div className="letspaddingcrete">
+        <div className="Together_handbook pb-5">
           Let's Create Your <br />
           Digital Success Story Together 🤝
         </div>

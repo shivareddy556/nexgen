@@ -1,17 +1,57 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "../Styles/View_Portfolio_Page.css"
 import { Link } from "react-router-dom";
 import { Col, Row } from 'reactstrap';
 import { websit } from "../HomePage/HomePagejson"
 import NavbarPage from '../context/Navbar';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
+
+
 const View_Portfolio_Page = () => {
+  useEffect(() => {
+    AOS.init({duration:1200});
+  }, [])
+  const [navbar, setNavbar] = useState(false);
+  const changeNavbar = () => {
+    if (window.scrollY >= 120) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+};
+window.addEventListener("scroll", changeNavbar);
+
+
+
   return (
     <div>
-    <NavbarPage />
+      {navbar ? 
+      
+      
+       <div className='ul_portfilo mt-4  shadow position-sticky top-0' data-aos="flip-up" style={{zIndex:999}}>
+          <div className='websit_font'>
+            <Link to="/viewportfolio" className='link_web1'> Website</Link>
+          </div>
+          <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>Mobile App</Link></div>
+          <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>Dashboard</Link></div>
+          <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>UX Research</Link></div>
+          <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>Social Media</Link></div>
+          <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>Advertisement</Link></div>
+        </div> 
+
+     
+        
+        : <NavbarPage />
+      }
+   
     <div className='protfilo_bg '>
       <div className='py-5 d-flex justify-content-center ' style={{zIndex:'999'}} 
       >
-        <div className='ul_portfilo py-4 w-75 mt-4  shadow'>
+        <div className='ul_portfilo_vie_navbar  mt-5  shadow position-sticky top-0' style={{zIndex:999}}>
           <div className='websit_font'>
             <Link to="/viewportfolio" className='link_web1'> Website</Link>
           </div>
@@ -26,10 +66,10 @@ const View_Portfolio_Page = () => {
         <Row className='Row_margin_view d-flex justify-content-center mx-5' >
           {websit.map((item) => {
             return (
-              <Col md={4}  className='text-center px-4' style={{width:'30%'}}>
-                <Link to={`/viewportfolio/${item.id}`} className='design_link_style'>
+              <Col md={4} data-aos="fade-up"   className='text-center px-4' style={{width:'30%'}}>
+                <Link to={`/viewportfolio/${item.id}?${item.pathimage}=modus-create`} className='design_link_style'>
                 <img src={require(`../Images/Website/${item.pathimage}`)} className='w-100 image_hover_effect' alt='webpage' style={{ width: "100%" }} />
-                <Link to={`/viewportfolio/${item.id}`} className='design_link_style'>
+                <Link to={`/viewportfolio/${item.id}?${item.pathimage}=modus-create`}  className='design_link_style'>
                 <div className='titel_web text-decoration-none'>{item.title}</div>
                 </Link>     
                 <div className='year_web mb-5'>{item.year}</div>

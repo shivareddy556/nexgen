@@ -807,6 +807,10 @@
   padding: 3rem 0rem;
 }
 
+.companes_logs_homestyle{
+  width: 80%;
+}
+
 @media (max-width: 40em) {
   .home_card3_bg_srvices {
     background: #FDF9FF;
@@ -1241,6 +1245,10 @@
     width: 50%;
   }
 
+  .companes_logs_homestyle{
+    width: 100%;
+  }
+
   .Covering_hme_font {
     background: linear-gradient(91deg, #3634A0 8.63%, #DE0E86 91.72%);
     background-clip: text;
@@ -1248,11 +1256,11 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-family: Inter;
-    font-size: 19.062px;
+    font-size: 31px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 30.319px;
-    /* 130.952% */
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.31px;
   }
 
   .Design_home_font {
@@ -1260,11 +1268,13 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
     font-family: Inter;
-    font-size: 19.062px;
+    font-size: 31px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 30.319px;
+    line-height: normal;
+    letter-spacing: 0.31px;
+    font-weight: 600;
   }
 
   .Nexgen_home_at {

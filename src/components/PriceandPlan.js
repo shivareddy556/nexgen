@@ -8,6 +8,7 @@ import ScrollCarousel from 'scroll-carousel-react';
 import profile_homelogo12 from "../Images/HomeImages/profile_homelogo12.png"
 import { Button, Card, CardBody, CardFooter, CardHeader, CardText, CardTitle,UncontrolledTooltip } from 'reactstrap';
 import { RiAddBoxLine } from "react-icons/ri";
+// import { Card, CardHeader, CardBody, CardFooter, Text, Heading } from '@chakra-ui/react'
 const PriceandPlan = () => {
     const helped = [
         {
@@ -34,11 +35,9 @@ const PriceandPlan = () => {
             Lacus: 'Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.',
             name: 'Hellena Siva',
             disignation: 'Psychology Student'
-
         },
     ];
     const [selectedIndex, setSelectedIndex] = React.useState(0);
-
     const checkNext = () => {
         const labels = document.querySelectorAll('#slider label');
         const nextIndex = selectedIndex === (labels.length - 1) ? 0 : selectedIndex + 1;
@@ -46,7 +45,6 @@ const PriceandPlan = () => {
     }
     const check = index => setSelectedIndex(index);
     const [tooltipOpen, setTooltipOpen] = useState(false);
-
     const toggle = () => setTooltipOpen(!tooltipOpen);
     return (
         <div className=''>
@@ -176,7 +174,6 @@ const PriceandPlan = () => {
                                     </label>
                                 </section>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -401,12 +398,67 @@ const PriceandPlan = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
+                    <div className=' displayvastclocr'>
+                        <div className='pt-3 vestibulum_price'>
+                            <ScrollCarousel
+                                // smartSpeed={true}
+                                autoplay
+                                autoplaySpeed={80}
+                                speed={5}
+                            >
+                                <div className='price_fromflex'>
+                                    {helped.map((uesr, index) => {
+                                        return (
+                                            <div className=''>
+                                                <div className='Lacus_price_bg '>
+                                                    <p className='vestibulum_font_price'>{uesr.Lacus}</p>
+                                                    <div className='d-flex gap-2'>
+                                                        <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                        <div className='py-2'>
+                                                            <div className='Hellen_price'>{uesr.name}</div>
+                                                            <div className='py-1 Counselor_price'>{uesr.disignation}</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            </ScrollCarousel>
+                        </div>
+                        <div className='py-5 vestibulum_price'>
+                            <ScrollCarousel
+                                // smartSpeed={true}
+                                autoplay
+                                autoplaySpeed={80}
+                                speed={5}
+                            >
+                                <div className='price_fromflex'>
+                                    {helped.map((uesr, index) => {
+                                        return (
+                                            <div className=''>
+                                                <div className='Lacus_price_bg '>
+                                                    <p className='vestibulum_font_price'>{uesr.Lacus}</p>
+                                                    <div className='d-flex gap-2'>
+                                                        <div className='text-center'><img src={price_profileimage} alt='price_profileimage' style={{ width: "60%" }} /> </div>
+                                                        <div className='py-2'>
+                                                            <div className='Hellen_price'>{uesr.name}</div>
+                                                            <div className='py-1 Counselor_price'>{uesr.disignation}</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            </ScrollCarousel>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div >
     )
 }
-
 export default PriceandPlan

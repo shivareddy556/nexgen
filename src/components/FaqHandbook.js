@@ -89,9 +89,10 @@ const FaqHandbook = () => {
                     </div>
                     <div className='callback_flexfaq'>
                         <div className='top_call_back w-100 txet-center'><button className='Call_faq_style py-2'>Get a Call back</button></div>
-                        <div className='text-end w-100'><img src={laptogaqimage} alt='laptogaqimage' className='laptogaqimage_style'/> </div>
+                        <div className='text-end w-100'><img src={laptogaqimage} alt='laptogaqimage' className='laptogaqimage_style' /> </div>
                     </div>
                 </div>
+               
             </div>
         </div>
     )

@@ -41,12 +41,25 @@
     background: #FFE8ED;
     backdrop-filter: blur(22.469593048095703px);
     width: 340px;
-    height: 100%;
+    height: 90vh;
     /* position: absolute; */
     left: 0;
     right: 0;
     cursor: pointer;
     transition: transform 0.60s ease;
+}
+
+.Pricing_hring {
+    color: #FEF6F7;
+    font-family: Inter;
+    font-size: 9.261px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.displayvastclocr {
+    display: none;
 }
 
 
@@ -245,11 +258,11 @@
 .back_styleprice {
     background: url("../Images/AboutImages/indamaplogo_home.png");
     background-blend-mode: overlay, normal;
-    width: 45%;
+    width: 65vh;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
-    height: 110vh;
+    height: 100%;
 }
 
 /* 
@@ -269,17 +282,28 @@
     /* 133.333% */
 }
 
+.width_top {
+    width: 80%;
+}
+
 @media (max-width: 40em) {
+    .displayvastclocr {
+        display: block;
+    }
+
+    .width_top {
+        width: 100%;
+    }
+
     .price_font {
         color: #000;
         text-align: center;
-        text-align: center;
         font-family: Inter;
-        font-size: 18.199px;
+        font-size: 31px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        letter-spacing: 0.182px;
+        letter-spacing: 0.31px;
         padding-top: 25%;
     }
 
@@ -515,6 +539,7 @@
     }
 
     .back_styleprice {
+        display: none;
         width: 100%;
         align-items: center;
         text-align: center;

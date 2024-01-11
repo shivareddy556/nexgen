@@ -358,11 +358,13 @@ function HomePage() {
           <div className="home_card3_bg">
             <div className="home_bg_images">
               <div className="tdi9mq0 tdi9mq4d py-4">
-                <div className="Covering_hme_font py-3">
-                  Top{" "}
-                  <span className="Design_home_font">Design and Development</span>{" "}
-                  Company <br />
-                  Covering India and its Vicinity
+                <div className="d-flex justify-content-center">
+                  <div className="Covering_hme_font width_top py-3">
+                    Top{" "}
+                    <span className="Design_home_font">Design and Development</span>{" "}
+                    Company
+                    Covering India and its Vicinity
+                  </div>
                 </div>
                 <div className="d-flex justify-content-center">
                   <div className="Nexgen_home_at text-center">
@@ -631,8 +633,7 @@ function HomePage() {
                 <img
                   src={companes_logs_home123}
                   alt="companes_logs_home123"
-                  className=""
-                  style={{ width: "80%" }}
+                  className="companes_logs_homestyle"
                 />
               </div>
             </div>

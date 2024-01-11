@@ -93,7 +93,7 @@
   height: 100%;
 }
 
-.dev_flex_home_rowfirs{
+.dev_flex_home_rowfirs {
   padding-top: 6%;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .home_botton {
-  border-radius: 13px;
+  border-radius: 8px;
   background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
   border: none;
   color: #0F1825;
@@ -258,7 +258,7 @@
   grid-template-columns: 50% 50%;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
 
 }
 
@@ -347,7 +347,7 @@
 .home_Responsive {
   color: #010101;
   font-family: 'inter';
-  font-size: 25px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 700;
   line-height: 25.107px;
@@ -355,7 +355,7 @@
 }
 
 .home_get_style_Consultation {
-  border-radius: 13px;
+  border-radius: 8px;
   background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
   color: #000;
   border: none;
@@ -401,11 +401,11 @@
 .constant_home_Create_font {
   color: #FFE359;
   font-family: Inter;
-  font-size: 50px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: 0.5px;
+  letter-spacing: -1px;
 }
 
 .home_mostly_font {
@@ -452,7 +452,6 @@
 
 .bg_home_card_makes {
   border-radius: 20.879px;
-  border: 1px solid rgba(3, 177, 255, 0.52);
   background: url('../Images/HomeImages/home_makebg.svg'), lightgray 0% 0% / 134.16786193847656px 134.16786193847656px repeat, radial-gradient(151.92% 127.02% at 15.32% 21.04%, rgba(165, 239, 255, 0.20) 0%, rgba(110, 191, 244, 0.04) 77.08%, rgba(70, 144, 212, 0.00) 100%);
   background-blend-mode: overlay, normal;
   /* backdrop-filter: blur(34.79788589477539px); */
@@ -491,12 +490,12 @@
 .home_Create_font {
   color: #FFF;
   font-family: Inter;
-  font-size: 50px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 0.5px;
   text-align: start;
+  letter-spacing: -1px;
 }
 
 .home_card6_bg {
@@ -615,7 +614,7 @@
 }
 
 .home_bg_images {
-  background: url('../Images/AboutImages/bg_home_designe.svg');
+  background: url('../Images/AboutImages/bghomenew.svg');
   background-blend-mode: overlay, normal;
   width: 100%;
   background-repeat: no-repeat;
@@ -807,11 +806,55 @@
   padding: 3rem 0rem;
 }
 
-.companes_logs_homestyle{
+.companes_logs_homestyle {
   width: 80%;
 }
 
+.slideimg {
+  background-image: url("../Images/AboutImages/splashleft.png");
+  background-blend-mode: overlay, normal;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0%;
+  width: 20vh;
+  height: 45vh;
+  position: absolute;
+  bottom: 2%;
+}
+
+.slideimgRight {
+  background-image: url("../Images/AboutImages/splashright.png");
+  background-blend-mode: overlay, normal;
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 0%;
+  width: 20vh;
+  height: 45vh;
+  position: absolute;
+}
+
+.framasieflex{
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+}
+
+.margin_our12{
+  padding-top: 0%;
+  display: none;
+}
+
 @media (max-width: 40em) {
+  .home_gride_bg_color {
+    background: #532B89;
+  }
+
+  .framasieflex{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+  }
+
   .home_card3_bg_srvices {
     background: #FDF9FF;
     position: relative;
@@ -819,7 +862,7 @@
     padding-top: 6%;
   }
 
-  .dev_flex_home_rowfirs{
+  .dev_flex_home_rowfirs {
     padding-top: 1%;
   }
 
@@ -877,7 +920,7 @@
 
   .home_botton {
     /* display: none; */
-    border-radius: 4px;
+    border-radius: 2px;
     background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
     border: none;
     color: #0F1825;
@@ -891,6 +934,12 @@
 
   .margin_our {
     padding-top: 0%;
+    display: none;
+  }
+
+  .margin_our12{
+    padding-top: 0%;
+    display: block;
   }
 
   .servise_page_font {
@@ -1245,7 +1294,7 @@
     width: 50%;
   }
 
-  .companes_logs_homestyle{
+  .companes_logs_homestyle {
     width: 100%;
   }
 
@@ -1363,16 +1412,18 @@
 }
 
 
- @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .videoTag {
     display: none;
   }
+
   .home_gride {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .home_dev_font {
     color: #FFF;
     font-family: 'Inter';
@@ -1588,10 +1639,12 @@
     align-items: center;
     gap: 1rem;
   }
-  .Homeimage2_button{
+
+  .Homeimage2_button {
     text-align: center;
   }
-  .Homeimage5_style{
+
+  .Homeimage5_style {
     display: none;
   }
 }

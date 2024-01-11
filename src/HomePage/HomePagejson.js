@@ -25,7 +25,6 @@ export const hamePage = [
         discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
     },
 ]
-
 export const hamePageImage = [
     {
         id: 1,
@@ -52,7 +51,6 @@ export const hamePageImage = [
         devimage: "../Images/HomeImages/Homeimage6.png"
     },
 ]
-
 export const Queries_Decoded = [
     {
         id: 0,
@@ -115,7 +113,6 @@ export const Queries_Decoded = [
         discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
     },
 ]
-
 export const initialStepsArr = [
     {
         label: "Shipping address",
@@ -133,7 +130,6 @@ export const initialStepsArr = [
         isCompleted: false
     }
 ];
-
 export const websit = [
     {
         id: 1,
@@ -183,7 +179,6 @@ export const websit = [
         year: "2023",
         path_svg:"Nutrum.png"
     },
-
     {
         id: 7,
         url: "Firebolt",
@@ -256,8 +251,464 @@ export const websit = [
         year: "2023",
         path_svg:"Product_page.png"
     },
-
 ]
-
-
-
+export const Ui_ux_banners = [
+    {
+        id: 1,
+        url: "Visit_Health",
+        pathimage: "Visit health app_banner.png",
+        title: 'Visit Health',
+        year: "2023",
+        path_svg:"Visit_Health_App_fullfledge.png"
+    },
+    {
+        id: 2,
+        url: "App_MArket",
+        pathimage: "app market place_banner.png",
+        title: 'Jobify.com',
+        year: "2023",
+        path_svg:"App_Market_Place_fullfledge.png"
+    },
+    {
+        id: 3,
+        url: "Intellect_Inc",
+        pathimage: "Intellect_banner.png",
+        title: 'Intellect Inc',
+        year: "2023",
+        path_svg:"Intellect_Inc_fullfledge.png"
+    },
+    {
+        id: 4,
+        url: "Jobify_Dashboard",
+        pathimage: "jobify_banner.png",
+        title: 'Jobify Dashboard',
+        year: "2023",
+        path_svg:"Jobify_Dashboard_fullfledge.png"
+    },
+    {
+        id: 5,
+        url: "Bizzlab_dashboard",
+        pathimage: "bizzlab dashboard_banner.png",
+        title: 'Bizzlab Dashboard',
+        year: "2023",
+        path_svg:"Bizzlab_dashboard_fullfledge.png"
+    },
+    {
+        id: 6,
+        url: "Fresh_Square",
+        pathimage: "fresh square_banner.png",
+        title: 'Fresh Square',
+        year: "2023",
+        path_svg:"Fresh_Square_fullfledge.png"
+    },
+    {
+        id: 7,
+        url: "Fresh_ux",
+        pathimage: "fresh square UX_banner.png",
+        title: 'Fresh UX',
+        year: "2023",
+        path_svg:"Fresh_Square_UX_fullfledge.png"
+    },
+]
+export const corporate_banners = [
+    {
+        id: 1,
+        url: "Visit_Health",
+        pathimage: "1.png",
+        title: 'Visit Health',
+        year: "2023",
+        path_svg:"1.png"
+    },
+    {
+        id: 2,
+        url: "App_MArket",
+        pathimage: "2.png",
+        title: 'Jobify.com',
+        year: "2023",
+        path_svg:"2.png"
+    },
+    {
+        id: 3,
+        url: "Intellect_Inc",
+        pathimage: "3.png",
+        title: 'Intellect Inc',
+        year: "2023",
+        path_svg:"3.png"
+    },
+    {
+        id: 4,
+        url: "Jobify_Dashboard",
+        pathimage: "4.png",
+        title: 'Jobify Dashboard',
+        year: "2023",
+        path_svg:"4.png"
+    },
+    {
+        id: 5,
+        url: "Bizzlab_dashboard",
+        pathimage: "5.png",
+        title: 'Bizzlab Dashboard',
+        year: "2023",
+        path_svg:"5.png"
+    },
+    {
+        id: 6,
+        url: "Fresh_Square",
+        pathimage: "6.png",
+        title: 'Fresh Square',
+        year: "2023",
+        path_svg:"6.png"
+    },
+    {
+        id: 7,
+        url: "Fresh_ux",
+        pathimage: "7.png",
+        title: 'Fresh UX',
+        year: "2023",
+        path_svg:"7.png"
+    },
+    {
+        id: 8,
+        url: "Visit_Health",
+        pathimage: "8.png",
+        title: 'Visit Health',
+        year: "2023",
+        path_svg:"8.png"
+    },
+    {
+        id: 9,
+        url: "App_MArket",
+        pathimage: "9.png",
+        title: 'Jobify.com',
+        year: "2023",
+        path_svg:"9.png"
+    },
+    {
+        id: 10,
+        url: "Intellect_Inc",
+        pathimage: "10.png",
+        title: 'Intellect Inc',
+        year: "2023",
+        path_svg:"10.png"
+    },
+    {
+        id: 11,
+        url: "Jobify_Dashboard",
+        pathimage: "11.png",
+        title: 'Jobify Dashboard',
+        year: "2023",
+        path_svg:"11.png"
+    },
+    {
+        id: 12,
+        url: "Bizzlab_dashboard",
+        pathimage: "12.png",
+        title: 'Bizzlab Dashboard',
+        year: "2023",
+        path_svg:"12.png"
+    },
+    {
+        id: 14,
+        url: "Fresh_ux",
+        pathimage: "14.png",
+        title: 'Fresh UX',
+        year: "2023",
+        path_svg:"14.png"
+    },
+    {
+        id: 15,
+        url: "Visit_Health",
+        pathimage: "15.png",
+        title: 'Visit Health',
+        year: "2023",
+        path_svg:"15.png"
+    },
+    {
+        id: 16,
+        url: "App_MArket",
+        pathimage: "16.png",
+        title: 'Jobify.com',
+        year: "2023",
+        path_svg:"16.png"
+    },
+    {
+        id: 17,
+        url: "Intellect_Inc",
+        pathimage: "17.png",
+        title: 'Intellect Inc',
+        year: "2023",
+        path_svg:"17.png"
+    },
+    {
+        id: 18,
+        url: "Jobify_Dashboard",
+        pathimage: "18.png",
+        title: 'Jobify Dashboard',
+        year: "2023",
+        path_svg:"18.png"
+    },
+    {
+        id: 19,
+        url: "Bizzlab_dashboard",
+        pathimage: "19.png",
+        title: 'Bizzlab Dashboard',
+        year: "2023",
+        path_svg:"19.png"
+    },
+    {
+        id: 20,
+        url: "Fresh_Square",
+        pathimage: "20.png",
+        title: 'Fresh Square',
+        year: "2023",
+        path_svg:"20.png"
+    },
+    {
+        id: 21,
+        url: "Fresh_ux",
+        pathimage: "21.png",
+        title: 'Fresh UX',
+        year: "2023",
+        path_svg:"21.png"
+    },
+    {
+        id: 22,
+        url: "Visit_Health",
+        pathimage: "22.png",
+        title: 'Visit Health',
+        year: "2023",
+        path_svg:"22.png"
+    },
+    {
+        id: 23,
+        url: "App_MArket",
+        pathimage: "23.png",
+        title: 'Jobify.com',
+        year: "2023",
+        path_svg:"23.png"
+    },
+    {
+        id: 24,
+        url: "Intellect_Inc",
+        pathimage: "24.png",
+        title: 'Intellect Inc',
+        year: "2023",
+        path_svg:"24.png"
+    },
+    {
+        id: 25,
+        url: "Jobify_Dashboard",
+        pathimage: "25.png",
+        title: 'Jobify Dashboard',
+        year: "2023",
+        path_svg:"25.png"
+    },
+    {
+        id: 26,
+        url: "Bizzlab_dashboard",
+        pathimage: "26.png",
+        title: 'Bizzlab Dashboard',
+        year: "2023",
+        path_svg:"26.png"
+    },
+    {
+        id: 27,
+        url: "Fresh_Square",
+        pathimage: "27.png",
+        title: 'Fresh Square',
+        year: "2023",
+        path_svg:"27.png"
+    },
+    {
+        id: 28,
+        url: "Fresh_ux",
+        pathimage: "28.png",
+        title: 'Fresh UX',
+        year: "2023",
+        path_svg:"28.png"
+    },
+    {
+        id: 29,
+        url: "Visit_Health",
+        pathimage: "29.png",
+        title: 'Visit Health',
+        year: "2023",
+        path_svg:"29.png"
+    },
+    {
+        id: 30,
+        url: "App_MArket",
+        pathimage: "30.png",
+        title: 'Jobify.com',
+        year: "2023",
+        path_svg:"30.png"
+    },
+    {
+        id: 31,
+        url: "Intellect_Inc",
+        pathimage: "31.png",
+        title: 'Intellect Inc',
+        year: "2023",
+        path_svg:"31.png"
+    },
+    {
+        id: 32,
+        url: "Jobify_Dashboard",
+        pathimage: "32.png",
+        title: 'Jobify Dashboard',
+        year: "2023",
+        path_svg:"32.png"
+    },
+    {
+        id: 33,
+        url: "Bizzlab_dashboard",
+        pathimage: "33.png",
+        title: 'Bizzlab Dashboard',
+        year: "2023",
+        path_svg:"33.png"
+    },
+    {
+        id: 34,
+        url: "Fresh_Square",
+        pathimage: "34.png",
+        title: 'Fresh Square',
+        year: "2023",
+        path_svg:"34.png"
+    },
+    {
+        id: 35,
+        url: "Fresh_ux",
+        pathimage: "35.png",
+        title: 'Fresh UX',
+        year: "2023",
+        path_svg:"35.png"
+    },
+    {
+        id: 36,
+        url: "Visit_Health",
+        pathimage: "36.png",
+        title: 'Visit Health',
+        year: "2023",
+        path_svg:"36.png"
+    },
+    {
+        id: 37,
+        url: "App_MArket",
+        pathimage: "37.png",
+        title: 'Jobify.com',
+        year: "2023",
+        path_svg:"37.png"
+    },
+    {
+        id: 38,
+        url: "Intellect_Inc",
+        pathimage: "38.png",
+        title: 'Intellect Inc',
+        year: "2023",
+        path_svg:"38.png"
+    },
+    {
+        id: 39,
+        url: "Jobify_Dashboard",
+        pathimage: "39.png",
+        title: 'Jobify Dashboard',
+        year: "2023",
+        path_svg:"39.png"
+    },
+    {
+        id: 40,
+        url: "Bizzlab_dashboard",
+        pathimage: "40.png",
+        title: 'Bizzlab Dashboard',
+        year: "2023",
+        path_svg:"40.png"
+    },
+    {
+        id: 41,
+        url: "Fresh_Square",
+        pathimage: "41.png",
+        title: 'Fresh Square',
+        year: "2023",
+        path_svg:"41.png"
+    },
+    {
+        id: 42,
+        url: "Fresh_ux",
+        pathimage: "42.png",
+        title: 'Fresh UX',
+        year: "2023",
+        path_svg:"42.png"
+    },
+    {
+        id: 43,
+        url: "Visit_Health",
+        pathimage: "43.png",
+        title: 'Visit Health',
+        year: "2023",
+        path_svg:"43.png"
+    },
+    {
+        id: 44,
+        url: "App_MArket",
+        pathimage: "44.png",
+        title: 'Jobify.com',
+        year: "2023",
+        path_svg:"44.png"
+    },
+    {
+        id: 45,
+        url: "Intellect_Inc",
+        pathimage: "45.png",
+        title: 'Intellect Inc',
+        year: "2023",
+        path_svg:"45.png"
+    },
+    {
+        id: 46,
+        url: "Jobify_Dashboard",
+        pathimage: "46.png",
+        title: 'Jobify Dashboard',
+        year: "2023",
+        path_svg:"46.png"
+    },
+    {
+        id: 47,
+        url: "Bizzlab_dashboard",
+        pathimage: "47.png",
+        title: 'Bizzlab Dashboard',
+        year: "2023",
+        path_svg:"47.png"
+    },
+    {
+        id: 48,
+        url: "Fresh_Square",
+        pathimage: "48.png",
+        title: 'Fresh Square',
+        year: "2023",
+        path_svg:"48.png"
+    },
+    {
+        id: 49,
+        url: "Fresh_ux",
+        pathimage: "49.png",
+        title: 'Fresh UX',
+        year: "2023",
+        path_svg:"49.png"
+    },
+    {
+        id: 50,
+        url: "Visit_Health",
+        pathimage: "50.png",
+        title: 'Visit Health',
+        year: "2023",
+        path_svg:"50.png"
+    },
+    {
+        id: 51,
+        url: "App_MArket",
+        pathimage: "51.png",
+        title: 'Jobify.com',
+        year: "2023",
+        path_svg:"51.png"
+    },
+]

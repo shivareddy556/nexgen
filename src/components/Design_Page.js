@@ -6,31 +6,30 @@ import { RxHome } from "react-icons/rx";
 import { CiMenuBurger } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
 const NavItems = [
+
+
+
   {
-    title: "Mobile App",
+    title: "Website",
     url: "/viewportfolio",
     cName: "nav-links"
-  },
-  {
-    title: "Dashboard",
+},
+{
+    title: "Ux UI Designs",
     url: "/viewportfolio",
     cName: "nav-links"
-  },
-  {
-    title: "UX Research",
+},
+{
+    title: "Corporate Campaigns",
     url: "/viewportfolio",
     cName: "nav-links"
-  },
-  {
-    title: "Social Media",
+},
+{
+    title: "Social Media & Branding",
     url: "/viewportfolio",
     cName: "nav-links"
-  },
-  {
-    title: "Advertisement",
-    url: "/viewportfolio",
-    cName: "nav-links"
-  },
+},
+  
 ];
 const Design_Page = () => {
   const { id } = useParams()

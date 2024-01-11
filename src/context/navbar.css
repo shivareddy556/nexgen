@@ -185,9 +185,13 @@
         border-bottom: none;
         /* width: 50%; */
     }
+   
 }
-
-
+@media (max-width: 300px) {
+.image_padding{
+    padding: 0;
+}
+}
 .Contact_button_nav {
     background: #3DBF42;
     border: none;

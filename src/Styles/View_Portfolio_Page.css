@@ -207,7 +207,7 @@
 
 .NavbarItems {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: white;
     align-items: center;
     font-size: 1.2rem;
@@ -311,6 +311,9 @@
       display: block;
     }
   
+    .ul_portfilo_vie_navbar{
+      display: none;
+    }
   }
   
 

@@ -13,6 +13,9 @@ import Design_Page from "./components/Design_Page";
 import Contacts from "./components/Contacts";
 import ScrollToTop from "./context/ScrollToTop";
 import ErrorBoundary from "./ErrorBoundary";
+import Corporate_campaigns from "./components/Corporate_campaigns";
+import Ui_ux_Design from "./components/Ui_ux_Design";
+import Socialmedia_Branding from "./Socialmedia_Branding";
 
 const App = () => {
   return (
@@ -30,6 +33,9 @@ const App = () => {
               element={<View_Portfolio_Page />}
             />
             <Route exact path="/viewportfolio/:id" element={<Design_Page />} />
+            <Route exact path="/viewportfolio/:corporate" element={<Corporate_campaigns />} />
+            {/* <Route exact path="/viewportfolio/:ux_ui_design" element={<Ui_ux_Design />} />
+            <Route exact path="/viewportfolio/:social_media" element={<Socialmedia_Branding />} /> */}
             <Route exact path="/price" element={<PricePage />} />
             <Route exact path="/contacts" element={<Contacts />} />
             <Route

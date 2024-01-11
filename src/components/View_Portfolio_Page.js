@@ -6,45 +6,30 @@ import { websit } from "../HomePage/HomePagejson"
 import NavbarPage from '../context/Navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 import { RxHome } from "react-icons/rx";
 import { CiMenuBurger } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
 const NavItems = [
-  {
-    title: "Website",
-    url: "/viewportfolio",
-    cName: "nav-links"
-  },
-  {
-    title: "Mobile App",
-    url: "/viewportfolio",
-    cName: "nav-links"
-  },
-  {
-    title: "Dashboard",
-    url: "/viewportfolio",
-    cName: "nav-links"
-  },
-  {
-    title: "UX Research",
-    url: "/viewportfolio",
-    cName: "nav-links"
-  },
-  {
-    title: "Social Media",
-    url: "/viewportfolio",
-    cName: "nav-links"
-  },
-  {
-    title: "Advertisement",
-    url: "/viewportfolio",
-    cName: "nav-links"
-  },
+  {title: "Website",
+  url: "/viewportfolio",
+  cName: "nav-links"
+},
+{
+  title: "UX UI Design",
+  url: "/viewportfolio",
+  cName: "nav-links"
+},
+{
+  title: "Corporate Campaigns",
+  url: "/viewportfolio",
+  cName: "nav-links"
+},
+{
+  title: "Social Media & Branding",
+  url: "/viewportfolio",
+  cName: "nav-links"
+},
 ];
-
-
-
 const View_Portfolio_Page = () => {
   useEffect(() => {
     AOS.init({duration:1200});
@@ -58,8 +43,6 @@ const View_Portfolio_Page = () => {
     }
 };
 window.addEventListener("scroll", changeNavbar);
-
-
 const [open, setOpen] = useState(false);
 const handleClick = () => {
   setOpen(!open);
@@ -67,22 +50,8 @@ const handleClick = () => {
   return (
     <div>
       {navbar ? 
-      
-      
-      //  <div className='ul_portfilo mt-4  shadow position-sticky top-0' data-aos="flip-up" style={{zIndex:999}}>
-      //     <div className='websit_font'>
-      //       <Link to="/viewportfolio" className='link_web1'> Website</Link>
-      //     </div>
-      //     <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>Mobile App</Link></div>
-      //     <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>Dashboard</Link></div>
-      //     <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>UX Research</Link></div>
-      //     <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>Social Media</Link></div>
-      //     <div className='websit_font1'><Link to="/viewportfolio" className='link_web1'>Advertisement</Link></div>
-      //   </div> 
       <>
-      
       <nav className="NavbarItems  bg-dark py-4">
-       
         <div className="Hamburger-Cross-Icons" onClick={handleClick}>
           <div className='text-white fw-bold fs-3'>{open ? <VscClose className='text-white fw-bold'/>
             : <CiMenuBurger className='text-white fw-bold'/>
@@ -102,14 +71,9 @@ const handleClick = () => {
         </div>
         </div>
       </nav>
-      
       </>
-
-     
-        
         : <NavbarPage />
       }
-   
     <div className='protfilo_bg '>
       <div className='py-5 d-flex justify-content-center ' style={{zIndex:'999'}} 
       >
@@ -117,15 +81,10 @@ const handleClick = () => {
           <div className='websit_font'>
             <Link to="/viewportfolio" className='link_web1'> Website</Link>
           </div>
-          <div className='websit_font1'><Link to="/viewportfolio/Mobile" className='link_web1'>Mobile App</Link></div>
-          <div className='websit_font1'><Link to="/viewportfolio/Dashboard" className='link_web1'>Dashboard</Link></div>
-          <div className='websit_font1'><Link to="/viewportfolio/UXResearch" className='link_web1'>UX Research</Link></div>
-          <div className='websit_font1'><Link to="/viewportfolio/SocialMedia" className='link_web1'>Social Media</Link></div>
-          <div className='websit_font1'><Link to="/viewportfolio/Advertisement" className='link_web1'>Advertisement</Link></div>
+          <div className='websit_font1'><Link to="/viewportfolio/ux_ui_design" className='link_web1'>UX UI Design</Link></div>
+          <div className='websit_font1'><Link to="/viewportfolio/corporate" className='link_web1'>Corporate Campaigns</Link></div>
+          <div className='websit_font1'><Link to="/viewportfolio/social_media" className='link_web1'>Social Media & Branding</Link></div>
         </div>
-
-
-
       </div>
       <div className=''>
         <Row className='Row_margin_view d-flex justify-content-center mx-3' >

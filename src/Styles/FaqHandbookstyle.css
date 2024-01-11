@@ -102,7 +102,7 @@
 .name_handbook {
     color: #2B3674;
     font-family: 'Inter';
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -111,7 +111,7 @@
 }
 
 .handbook_input {
-    border-radius: 18.178px;
+    border-radius: 8.178px;
     border: 1.136px solid #C4C7CE;
     width: 100%;
     padding: 1rem;
@@ -123,13 +123,14 @@
     line-height: 100%;
     /* 15.906px */
     letter-spacing: -0.318px;
+    height: 2.5rem;
 }
 
 .handbook_submit {
-    border-radius: 18.178px;
+    border-radius: 8.178px;
     background: var(--primary-purple-blue-500-primary-color, #4318FF);
     color: #FFF;
-    width: 50%;
+    width: 100%;
     border: none;
     text-align: center;
     font-family: 'Inter';
@@ -224,7 +225,70 @@
     padding: 2rem 0rem;
 }
 
+.laptogaqimage_bg {
+    background: url("../Images/AboutImages/contact_bg.png");
+    background-blend-mode: overlay, normal;
+    width: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.Information_font {
+    color: #FFF;
+    text-align: start;
+    font-variant-numeric: slashed-zero;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.241px;
+    padding-top: 10%;
+}
+
+.withinfont {
+    color: rgba(231, 236, 251, 0.80);
+    font-variant-numeric: slashed-zero;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: start;
+    padding-top: 3%;
+}
+
+.BsFillTelefont {
+    color: #FFF;
+    /* padding: 0.5rem; */
+    text-align: start;
+    font-family: 'Inter';
+    font-size: 15.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 19.2px */
+}
+
+.width_freedback{
+    width: 50%;
+}
+
 @media (max-width: 768px) {
+    .width_freedback{
+        width: 100%;
+    }
+    .laptogaqimage_bg {
+        background: #2c2762;
+        background-blend-mode: overlay, normal;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* height: 100vh; */
+    }
     .Queries_handbook {
         color: #03B1FF;
         text-align: center;
@@ -301,7 +365,7 @@
         background: #FFF;
         /* width: 1234px; */
         /* height: 845px; */
-        padding: 2rem 3rem;
+        padding: 2rem 0.5rem;
     }
 
     .Free_handbook {

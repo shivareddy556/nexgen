@@ -41,7 +41,7 @@
     background: #FFE8ED;
     backdrop-filter: blur(22.469593048095703px);
     width: 340px;
-    height: 90vh;
+    /* height: 77vh; */
     /* position: absolute; */
     left: 0;
     right: 0;
@@ -66,7 +66,7 @@
 #s1:checked~#slide3,
 #s2:checked~#slide1,
 #s3:checked~#slide2 {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2); */
     /* transform: translate3d(-110%, 0, -110px); */
     z-index: 999;
 }
@@ -116,7 +116,7 @@
     }
 
     .Feed_price_button {
-        border-radius: 20px;
+        border-radius: 8px;
         background: #FF752A;
         border: none;
         color: #FFF;
@@ -124,14 +124,16 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
+        width: 100%;
     }
 }
 
 #s1:checked~#slide2,
 #s2:checked~#slide3,
 #s3:checked~#slide1 {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2); */
     /* transform: translate3d(110%, 0, -110px); */
+    z-index: 999;
 }
 
 .price_bg {
@@ -185,18 +187,19 @@
 }
 
 .Feed_price_button {
-    border-radius: 20px;
-    background: #87829A;
+    border-radius: 8px;
+    background: #F3C8D1;
     border: none;
     color: #FFF;
     font-family: 'Inter';
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
+    width: 100%;
 }
 
 .Hear_price {
-    background: linear-gradient(108deg, #333 45.08%, #8B00F8 68.09%);
+    background: linear-gradient(108deg, #372D8C 45.08%, #D6078B 68.09%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -258,11 +261,11 @@
 .back_styleprice {
     background: url("../Images/AboutImages/indamaplogo_home.png");
     background-blend-mode: overlay, normal;
-    width: 65vh;
+    width: 100vh;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
-    height: 100%;
+    height: 113vh;
 }
 
 /* 
@@ -402,7 +405,7 @@
         }
 
         .Feed_price_button {
-            border-radius: 20px;
+            border-radius: 8px;
             background: #FF752A;
             border: none;
             color: #FFF;
@@ -410,6 +413,7 @@
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
+            width: 100%;
         }
     }
 
@@ -468,18 +472,19 @@
     }
 
     .Feed_price_button {
-        border-radius: 20px;
-        background: #87829A;
+        border-radius: 8px;
+        background: #F3C8D1;
         border: none;
         color: #FFF;
         font-family: 'Inter';
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
+        width: 100%;
     }
 
     .Hear_price {
-        background: linear-gradient(108deg, #333 45.08%, #8B00F8 68.09%);
+        background: linear-gradient(108deg, #372D8C 45.08%, #D6078B 68.09%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -679,7 +684,7 @@
         }
 
         .Feed_price_button {
-            border-radius: 20px;
+            border-radius: 8px;
             background: #FF752A;
             border: none;
             color: #FFF;
@@ -687,6 +692,7 @@
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
+            width: 100%;
         }
     }
 
@@ -745,18 +751,19 @@
     }
 
     .Feed_price_button {
-        border-radius: 20px;
-        background: #87829A;
+        border-radius: 8px;
+        background: #F3C8D1;
         border: none;
         color: #FFF;
         font-family: 'Inter';
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
+        width: 100%;
     }
 
     .Hear_price {
-        background: linear-gradient(108deg, #333 45.08%, #8B00F8 68.09%);
+        background: linear-gradient(108deg, #372D8C 45.08%, #D6078B 68.09%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

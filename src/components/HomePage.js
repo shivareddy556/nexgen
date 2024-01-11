@@ -25,8 +25,6 @@ import { hamePage } from "../HomePage/HomePagejson";
 import system_homeimage from "../Images/HomeImages/system_homeimage.png";
 import PriceandPlan from "./PriceandPlan";
 import FaqHandbook from "./FaqHandbook";
-// import { Stepper, Step, StepLabel, StepButton, StepContent } from "@material-ui/core";
-// import { Typography } from "@material-ui/core";
 import video from "../Images/HomeImages/nexgen_mp4.mp4";
 import profile_homelogo12 from "../Images/HomeImages/profile_homelogo12.png";
 import desine_homegold from "../Images/HomeImages/desine_homegold.png";
@@ -35,7 +33,9 @@ import desine_homeimages3 from "../Images/HomeImages/desine_homeimages3.png";
 import desine_homeimages2 from "../Images/HomeImages/desine_homeimages2.png";
 import NavbarPage from "../context/Navbar";
 import { FcGoogle } from "react-icons/fc";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
+import homepagelogo2 from "../Images/AboutImages/homepagelogo2.png";
+import whateabutbg from "../Images/AboutImages/whateabutbg.png";
 function HomePage() {
   const items_slide = [
     {
@@ -104,7 +104,6 @@ function HomePage() {
       </CarouselItem>
     );
   });
-  // <img src={item?.side_images} alt={"text"} />
   const [, setItems] = useState(10);
   useEffect(() => {
     if (window.innerWidth < 576) setItems(1);
@@ -158,7 +157,6 @@ function HomePage() {
         new TxtRotate(elements[i], JSON.parse(toRotate), period);
       }
     }
-    // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
@@ -193,7 +191,6 @@ function HomePage() {
               <video
                 src={video}
                 type="video/mp4"
-                // controls
                 autostart
                 autoPlay
                 className="videoTag"
@@ -265,14 +262,56 @@ function HomePage() {
                 </div>
               </div>
               <div className="corosal_image">
-                <Carousel
+                {/* <Carousel
                   activeIndex={activeIndex}
                   next={next}
                   previous={previous}
                   className="carsusel_bg"
                 >
                   {slides}
-                </Carousel>
+                </Carousel> */}
+                <img
+                  src={homepagelogo2}
+                  alt="homepagelogo2"
+                  style={{ width: "100%", position: "relative" }}
+                />
+                <div className="margin_our12">
+                  <div className="d-flex gap-2">
+                    <div>
+                      <IoIosStar className="homestar_color" />
+                    </div>
+                    <div>
+                      <IoIosStar className="homestar_color" />
+                    </div>
+                    <div>
+                      <IoIosStar className="homestar_color" />
+                    </div>
+                    <div>
+                      <IoIosStar className="homestar_color" />
+                    </div>
+                    <div>
+                      <IoIosStarHalf className="homestar_color" />
+                    </div>
+                  </div>
+                  <div className="home_dev3_our pt-2">
+                    “Our new site has a 60% higher
+                    <br />
+                    conversion rate than our old one”
+                  </div>
+                  <div className="d-flex gap-0 my-2">
+                    <div className="text-center">
+                      <img
+                        src={Homeimage3}
+                        alt="Homeimage3"
+                        style={{ position: "relative", width: "50%" }}
+                      />{" "}
+                    </div>
+                    <div className="">
+                      <div className="home_font1_aswin">Ashwin</div>
+                      <div className="home_font2_aswin">Zell Founder </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -361,17 +400,17 @@ function HomePage() {
                 <div className="d-flex justify-content-center">
                   <div className="Covering_hme_font width_top py-3">
                     Top{" "}
-                    <span className="Design_home_font">Design and Development</span>{" "}
-                    Company
-                    Covering India and its Vicinity
+                    <span className="Design_home_font">
+                      Design and Development
+                    </span>{" "}
+                    Company Covering India and its Vicinity
                   </div>
                 </div>
                 <div className="d-flex justify-content-center">
                   <div className="Nexgen_home_at text-center">
-                    At Nexgen, we specialize in Custom Web Design solutions tailored
-                    to your specific
-                    needs. Our team crafts Responsive Web Designs that adapt
-                    seamlessly across{" "}
+                    At Nexgen, we specialize in Custom Web Design solutions
+                    tailored to your specific needs. Our team crafts Responsive
+                    Web Designs that adapt seamlessly across{" "}
                   </div>
                 </div>
                 <div className="button_flex_homeget">
@@ -390,7 +429,7 @@ function HomePage() {
                   autoplaySpeed={80}
                   speed={5}
                 >
-                  <div className="d-flex w-100 gap-5">
+                  <div className="framasieflex">
                     <div>
                       {" "}
                       <img
@@ -507,7 +546,9 @@ function HomePage() {
                     </div>
                     <div className="border_happy_font"></div>
                     <div>
-                      <div className="Reviews_font_home"><FcGoogle className="fs-4" /> Reviews</div>
+                      <div className="Reviews_font_home">
+                        <FcGoogle className="fs-4" /> Reviews
+                      </div>
                       <div>
                         <div className="d-flex gap-1">
                           <div className="font_5P_home"> 5.0 </div>
@@ -532,7 +573,7 @@ function HomePage() {
                   </div>
                   <div className="pt-3 pb-5">
                     <button className="home_get_style_Consultation py-2 px-4">
-                      Get Free Consultation <BsArrowRight />
+                      Free Consultation <BsArrowRight />
                     </button>
                   </div>
                 </div>
@@ -561,8 +602,8 @@ function HomePage() {
                     </div>
                     <div className="Fintech_home_font py-2">
                       Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy to
-                      use.
+                      touch. We develop feature-packed solutions that are easy
+                      to use.
                     </div>
                   </div>
                 </Col>
@@ -580,8 +621,8 @@ function HomePage() {
                     </div>
                     <div className="Fintech_home_font py-2">
                       Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy to
-                      use.
+                      touch. We develop feature-packed solutions that are easy
+                      to use.
                     </div>
                   </div>
                 </Col>
@@ -599,8 +640,8 @@ function HomePage() {
                     </div>
                     <div className="Fintech_home_font py-2">
                       Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy to
-                      use.
+                      touch. We develop feature-packed solutions that are easy
+                      to use.
                     </div>
                   </div>
                 </Col>
@@ -618,8 +659,8 @@ function HomePage() {
                     </div>
                     <div className="Fintech_home_font py-2">
                       Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy to
-                      use.
+                      touch. We develop feature-packed solutions that are easy
+                      to use.
                     </div>
                   </div>
                 </Col>
@@ -642,33 +683,27 @@ function HomePage() {
             <div>
               <div className="d-flex justify-content-center tdi9mq0 tdi9mq4">
                 <div className="bg_home_card_makes">
-                  <div className="what_home_bg">
-                    What makes us <br /> the{" "}
-                    <span className="choice_homebg px-3 py-1">
-                      preferred choice
-                    </span>{" "}
-                    over other?
-                  </div>
-                  <div className="Leadgenaration_style12">
+                  <div>
                     <img
-                      src={Leadgenaration_abuot}
-                      alt="Leadgenaration_abuot"
-                      className="Leadgenaration_style"
+                      src={whateabutbg}
+                      alt="whateabutbg"
+                      style={{ width: "100%" }}
                     />
                   </div>
                 </div>
-                <div></div>
               </div>
-
             </div>
           </div>
-
         </Fade>
         <div className="Hpme_card5_bg_create ">
           <div className="dev_flex_home_constant tdi9mq0 tdi9mq4">
             <div className="system_homeimage13">
               <div className="home_Create_font">
-                Create a <span className="constant_home_Create_font">constant Lead supply</span> using your website.
+                Achieve{" "}
+                <span className="constant_home_Create_font">
+                  High Returns (ROI)
+                </span>{" "}
+                using your website.
               </div>
               <div className="Homeimage2_button pb-5 pt-4">
                 <button className="home_botton py-2 px-3">

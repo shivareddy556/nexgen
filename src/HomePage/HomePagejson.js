@@ -137,7 +137,7 @@ export const websit = [
         pathimage: "website.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"Visit_healthi.png"
+        path_svg: "Visit_healthi.png"
     },
     {
         id: 2,
@@ -145,7 +145,7 @@ export const websit = [
         pathimage: "website1.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"Jobify.png"
+        path_svg: "Jobify.png"
     },
     {
         id: 3,
@@ -153,7 +153,7 @@ export const websit = [
         pathimage: "website2.png",
         title: 'Bizzlab',
         year: "2023",
-        path_svg:"Bizzlab.png"
+        path_svg: "Bizzlab.png"
     },
     {
         id: 4,
@@ -161,7 +161,7 @@ export const websit = [
         pathimage: "website4.png",
         title: 'Optimex',
         year: "2023",
-        path_svg:"Optimex.png"
+        path_svg: "Optimex.png"
     },
     {
         id: 5,
@@ -169,7 +169,7 @@ export const websit = [
         pathimage: "website5.png",
         title: 'Salsalito',
         year: "2023",
-        path_svg:"Salsalito.png"
+        path_svg: "Salsalito.png"
     },
     {
         id: 6,
@@ -177,7 +177,7 @@ export const websit = [
         pathimage: "website6.png",
         title: 'Nurtem',
         year: "2023",
-        path_svg:"Nutrum.png"
+        path_svg: "Nutrum.png"
     },
     {
         id: 7,
@@ -185,7 +185,7 @@ export const websit = [
         pathimage: "website7.png",
         title: 'Firebolt',
         year: "2023",
-        path_svg:"Firebolt_1.png"
+        path_svg: "Firebolt_1.png"
     },
     {
         id: 8,
@@ -193,7 +193,7 @@ export const websit = [
         pathimage: "website8.png",
         title: 'Firebolt',
         year: "2023",
-        path_svg:"Firebolt_2.png"
+        path_svg: "Firebolt_2.png"
     },
     {
         id: 9,
@@ -201,7 +201,7 @@ export const websit = [
         pathimage: "website9.png",
         title: 'Maxwell Gaming',
         year: "2023",
-        path_svg:"Maxwell.png"
+        path_svg: "Maxwell.png"
     },
     {
         id: 10,
@@ -209,7 +209,7 @@ export const websit = [
         pathimage: "website10.png",
         title: 'Alpha College',
         year: "2023",
-        path_svg:"Alpha_college.png"
+        path_svg: "Alpha_college.png"
     },
     {
         id: 11,
@@ -217,7 +217,7 @@ export const websit = [
         pathimage: "website11.png",
         title: 'ERA Realestate',
         year: "2023",
-        path_svg:"ERA_real_estate.png"
+        path_svg: "ERA_real_estate.png"
     },
     {
         id: 12,
@@ -225,7 +225,7 @@ export const websit = [
         pathimage: "website12.png",
         title: 'Vito Hospitals',
         year: "2023",
-        path_svg:"Vito_Hopsitals.png"
+        path_svg: "Vito_Hopsitals.png"
     },
     {
         id: 13,
@@ -233,7 +233,7 @@ export const websit = [
         pathimage: "website13.png",
         title: 'Intellect',
         year: "2023",
-        path_svg:"Intellect.png"
+        path_svg: "Intellect.png"
     },
     {
         id: 14,
@@ -241,15 +241,108 @@ export const websit = [
         pathimage: "website14.png",
         title: 'Covid Awareness',
         year: "2023",
-        path_svg:"Covid_Awarness.png"
-    }, 
+        path_svg: "Covid_Awarness.png"
+    },
     {
         id: 15,
         url: "product",
         pathimage: "website15.png",
         title: 'Product',
         year: "2023",
-        path_svg:"Product_page.png"
+        path_svg: "Product_page.png"
+    },
+]
+export const social_media = [
+    {
+        id: 1,
+        url: "nuterm",
+        pathimage: "1.png",
+        title: 'Nuterm',
+        year: "2023",
+        path_svg: [
+            "nutrient1.png",
+            "nutrient2.png",
+            "nutrient3.png",
+            "nutrient4.png",
+            "nutrient5.png",
+            "nutrient6.png",
+            "nutrient7.png",
+            "nutrient8.png",
+            "nutrient9.png",
+            "nutrient10.png",
+            "nutrient11.png",
+            "nutrient12.png",
+            "nutrient13.png",
+        ]
+    },
+    {
+        id: 2,
+        url: "Rajan_dental",
+        pathimage: "2.png",
+        title: 'Rajan Dental',
+        year: "2023",
+        path_svg: [
+            "Rajan_Dental1.png",
+            "Rajan_Dental2.png",
+            "Rajan_Dental3.png",
+            "Rajan_Dental4.png",
+            "Rajan_Dental5.png",
+            "Rajan_Dental6.png",
+            "Rajan_Dental7.png",
+            "Rajan_Dental8.png",
+            "Rajan_Dental9.png",
+            "Rajan_Dental10.png",
+            "Rajan_Dental11.png",
+            "Rajan_Dental12.png",
+        ]
+    },
+    {
+        id: 3,
+        url: "tech_university",
+        pathimage: "3.png",
+        title: 'Tech/University',
+        year: "2023",
+        path_svg: [
+            "tech_university1.png",
+            "tech_university2.png",
+            "tech_university3.png",
+            "tech_university4.png",
+            "tech_university5.png",
+            "tech_university6.png",
+            "tech_university7.png",
+            "tech_university8.png",
+        ]
+    },
+    {
+        id: 4,
+        url: "fashion_jewellery",
+        pathimage: "4.png",
+        title: 'Fashion Jewellary',
+        year: "2023",
+        path_svg: [
+            "jwellery1.png",
+            "jwellery2.png",
+            "jwellery3.png",
+            "jwellery4.png",
+            "jwellery5.png",
+        ]
+    },
+    {
+        id: 5,
+        url: "Wild_warrior",
+        pathimage: "5.png",
+        title: 'Wild Warrior',
+        year: "2023",
+        path_svg: [
+            "wildwarror1.png",
+            "wildwarror2.png",
+            "wildwarror3.png",
+            "wildwarror4.png",
+            "wildwarror5.png",
+            "wildwarror6.png",
+            "wildwarror7.png",
+            "wildwarror8.png",
+        ]
     },
 ]
 export const Ui_ux_banners = [
@@ -259,7 +352,7 @@ export const Ui_ux_banners = [
         pathimage: "Visit health app_banner.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"Visit_Health_App_fullfledge.png"
+        path_svg: "Visit_Health_App_fullfledge.png"
     },
     {
         id: 2,
@@ -267,7 +360,7 @@ export const Ui_ux_banners = [
         pathimage: "app market place_banner.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"App_Market_Place_fullfledge.png"
+        path_svg: "App_Market_Place_fullfledge.png"
     },
     {
         id: 3,
@@ -275,7 +368,7 @@ export const Ui_ux_banners = [
         pathimage: "Intellect_banner.png",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg:"Intellect_Inc_fullfledge.png"
+        path_svg: "Intellect_Inc_fullfledge.png"
     },
     {
         id: 4,
@@ -283,7 +376,7 @@ export const Ui_ux_banners = [
         pathimage: "jobify_banner.png",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg:"Jobify_Dashboard_fullfledge.png"
+        path_svg: "Jobify_Dashboard_fullfledge.png"
     },
     {
         id: 5,
@@ -291,7 +384,7 @@ export const Ui_ux_banners = [
         pathimage: "bizzlab dashboard_banner.png",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg:"Bizzlab_dashboard_fullfledge.png"
+        path_svg: "Bizzlab_dashboard_fullfledge.png"
     },
     {
         id: 6,
@@ -299,7 +392,7 @@ export const Ui_ux_banners = [
         pathimage: "fresh square_banner.png",
         title: 'Fresh Square',
         year: "2023",
-        path_svg:"Fresh_Square_fullfledge.png"
+        path_svg: "Fresh_Square_fullfledge.png"
     },
     {
         id: 7,
@@ -307,7 +400,7 @@ export const Ui_ux_banners = [
         pathimage: "fresh square UX_banner.png",
         title: 'Fresh UX',
         year: "2023",
-        path_svg:"Fresh_Square_UX_fullfledge.png"
+        path_svg: "Fresh_Square_UX_fullfledge.png"
     },
 ]
 export const corporate_banners = [
@@ -317,7 +410,7 @@ export const corporate_banners = [
         pathimage: "1.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"1.png"
+        path_svg: "1.png"
     },
     {
         id: 2,
@@ -325,7 +418,7 @@ export const corporate_banners = [
         pathimage: "2.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"2.png"
+        path_svg: "2.png"
     },
     {
         id: 3,
@@ -333,7 +426,7 @@ export const corporate_banners = [
         pathimage: "3.png",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg:"3.png"
+        path_svg: "3.png"
     },
     {
         id: 4,
@@ -341,7 +434,7 @@ export const corporate_banners = [
         pathimage: "4.png",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg:"4.png"
+        path_svg: "4.png"
     },
     {
         id: 5,
@@ -349,7 +442,7 @@ export const corporate_banners = [
         pathimage: "5.png",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg:"5.png"
+        path_svg: "5.png"
     },
     {
         id: 6,
@@ -357,7 +450,7 @@ export const corporate_banners = [
         pathimage: "6.png",
         title: 'Fresh Square',
         year: "2023",
-        path_svg:"6.png"
+        path_svg: "6.png"
     },
     {
         id: 7,
@@ -365,7 +458,7 @@ export const corporate_banners = [
         pathimage: "7.png",
         title: 'Fresh UX',
         year: "2023",
-        path_svg:"7.png"
+        path_svg: "7.png"
     },
     {
         id: 8,
@@ -373,7 +466,7 @@ export const corporate_banners = [
         pathimage: "8.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"8.png"
+        path_svg: "8.png"
     },
     {
         id: 9,
@@ -381,7 +474,7 @@ export const corporate_banners = [
         pathimage: "9.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"9.png"
+        path_svg: "9.png"
     },
     {
         id: 10,
@@ -389,7 +482,7 @@ export const corporate_banners = [
         pathimage: "10.png",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg:"10.png"
+        path_svg: "10.png"
     },
     {
         id: 11,
@@ -397,7 +490,7 @@ export const corporate_banners = [
         pathimage: "11.png",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg:"11.png"
+        path_svg: "11.png"
     },
     {
         id: 12,
@@ -405,7 +498,7 @@ export const corporate_banners = [
         pathimage: "12.png",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg:"12.png"
+        path_svg: "12.png"
     },
     {
         id: 14,
@@ -413,7 +506,7 @@ export const corporate_banners = [
         pathimage: "14.png",
         title: 'Fresh UX',
         year: "2023",
-        path_svg:"14.png"
+        path_svg: "14.png"
     },
     {
         id: 15,
@@ -421,7 +514,7 @@ export const corporate_banners = [
         pathimage: "15.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"15.png"
+        path_svg: "15.png"
     },
     {
         id: 16,
@@ -429,7 +522,7 @@ export const corporate_banners = [
         pathimage: "16.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"16.png"
+        path_svg: "16.png"
     },
     {
         id: 17,
@@ -437,7 +530,7 @@ export const corporate_banners = [
         pathimage: "17.png",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg:"17.png"
+        path_svg: "17.png"
     },
     {
         id: 18,
@@ -445,7 +538,7 @@ export const corporate_banners = [
         pathimage: "18.png",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg:"18.png"
+        path_svg: "18.png"
     },
     {
         id: 19,
@@ -453,7 +546,7 @@ export const corporate_banners = [
         pathimage: "19.png",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg:"19.png"
+        path_svg: "19.png"
     },
     {
         id: 20,
@@ -461,7 +554,7 @@ export const corporate_banners = [
         pathimage: "20.png",
         title: 'Fresh Square',
         year: "2023",
-        path_svg:"20.png"
+        path_svg: "20.png"
     },
     {
         id: 21,
@@ -469,7 +562,7 @@ export const corporate_banners = [
         pathimage: "21.png",
         title: 'Fresh UX',
         year: "2023",
-        path_svg:"21.png"
+        path_svg: "21.png"
     },
     {
         id: 22,
@@ -477,7 +570,7 @@ export const corporate_banners = [
         pathimage: "22.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"22.png"
+        path_svg: "22.png"
     },
     {
         id: 23,
@@ -485,7 +578,7 @@ export const corporate_banners = [
         pathimage: "23.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"23.png"
+        path_svg: "23.png"
     },
     {
         id: 24,
@@ -493,7 +586,7 @@ export const corporate_banners = [
         pathimage: "24.png",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg:"24.png"
+        path_svg: "24.png"
     },
     {
         id: 25,
@@ -501,7 +594,7 @@ export const corporate_banners = [
         pathimage: "25.png",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg:"25.png"
+        path_svg: "25.png"
     },
     {
         id: 26,
@@ -509,7 +602,7 @@ export const corporate_banners = [
         pathimage: "26.png",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg:"26.png"
+        path_svg: "26.png"
     },
     {
         id: 27,
@@ -517,7 +610,7 @@ export const corporate_banners = [
         pathimage: "27.png",
         title: 'Fresh Square',
         year: "2023",
-        path_svg:"27.png"
+        path_svg: "27.png"
     },
     {
         id: 28,
@@ -525,7 +618,7 @@ export const corporate_banners = [
         pathimage: "28.png",
         title: 'Fresh UX',
         year: "2023",
-        path_svg:"28.png"
+        path_svg: "28.png"
     },
     {
         id: 29,
@@ -533,7 +626,7 @@ export const corporate_banners = [
         pathimage: "29.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"29.png"
+        path_svg: "29.png"
     },
     {
         id: 30,
@@ -541,7 +634,7 @@ export const corporate_banners = [
         pathimage: "30.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"30.png"
+        path_svg: "30.png"
     },
     {
         id: 31,
@@ -549,7 +642,7 @@ export const corporate_banners = [
         pathimage: "31.png",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg:"31.png"
+        path_svg: "31.png"
     },
     {
         id: 32,
@@ -557,7 +650,7 @@ export const corporate_banners = [
         pathimage: "32.png",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg:"32.png"
+        path_svg: "32.png"
     },
     {
         id: 33,
@@ -565,7 +658,7 @@ export const corporate_banners = [
         pathimage: "33.png",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg:"33.png"
+        path_svg: "33.png"
     },
     {
         id: 34,
@@ -573,7 +666,7 @@ export const corporate_banners = [
         pathimage: "34.png",
         title: 'Fresh Square',
         year: "2023",
-        path_svg:"34.png"
+        path_svg: "34.png"
     },
     {
         id: 35,
@@ -581,7 +674,7 @@ export const corporate_banners = [
         pathimage: "35.png",
         title: 'Fresh UX',
         year: "2023",
-        path_svg:"35.png"
+        path_svg: "35.png"
     },
     {
         id: 36,
@@ -589,7 +682,7 @@ export const corporate_banners = [
         pathimage: "36.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"36.png"
+        path_svg: "36.png"
     },
     {
         id: 37,
@@ -597,7 +690,7 @@ export const corporate_banners = [
         pathimage: "37.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"37.png"
+        path_svg: "37.png"
     },
     {
         id: 38,
@@ -605,7 +698,7 @@ export const corporate_banners = [
         pathimage: "38.png",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg:"38.png"
+        path_svg: "38.png"
     },
     {
         id: 39,
@@ -613,7 +706,7 @@ export const corporate_banners = [
         pathimage: "39.png",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg:"39.png"
+        path_svg: "39.png"
     },
     {
         id: 40,
@@ -621,7 +714,7 @@ export const corporate_banners = [
         pathimage: "40.png",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg:"40.png"
+        path_svg: "40.png"
     },
     {
         id: 41,
@@ -629,7 +722,7 @@ export const corporate_banners = [
         pathimage: "41.png",
         title: 'Fresh Square',
         year: "2023",
-        path_svg:"41.png"
+        path_svg: "41.png"
     },
     {
         id: 42,
@@ -637,7 +730,7 @@ export const corporate_banners = [
         pathimage: "42.png",
         title: 'Fresh UX',
         year: "2023",
-        path_svg:"42.png"
+        path_svg: "42.png"
     },
     {
         id: 43,
@@ -645,7 +738,7 @@ export const corporate_banners = [
         pathimage: "43.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"43.png"
+        path_svg: "43.png"
     },
     {
         id: 44,
@@ -653,7 +746,7 @@ export const corporate_banners = [
         pathimage: "44.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"44.png"
+        path_svg: "44.png"
     },
     {
         id: 45,
@@ -661,7 +754,7 @@ export const corporate_banners = [
         pathimage: "45.png",
         title: 'Intellect Inc',
         year: "2023",
-        path_svg:"45.png"
+        path_svg: "45.png"
     },
     {
         id: 46,
@@ -669,7 +762,7 @@ export const corporate_banners = [
         pathimage: "46.png",
         title: 'Jobify Dashboard',
         year: "2023",
-        path_svg:"46.png"
+        path_svg: "46.png"
     },
     {
         id: 47,
@@ -677,7 +770,7 @@ export const corporate_banners = [
         pathimage: "47.png",
         title: 'Bizzlab Dashboard',
         year: "2023",
-        path_svg:"47.png"
+        path_svg: "47.png"
     },
     {
         id: 48,
@@ -685,7 +778,7 @@ export const corporate_banners = [
         pathimage: "48.png",
         title: 'Fresh Square',
         year: "2023",
-        path_svg:"48.png"
+        path_svg: "48.png"
     },
     {
         id: 49,
@@ -693,7 +786,7 @@ export const corporate_banners = [
         pathimage: "49.png",
         title: 'Fresh UX',
         year: "2023",
-        path_svg:"49.png"
+        path_svg: "49.png"
     },
     {
         id: 50,
@@ -701,7 +794,7 @@ export const corporate_banners = [
         pathimage: "50.png",
         title: 'Visit Health',
         year: "2023",
-        path_svg:"50.png"
+        path_svg: "50.png"
     },
     {
         id: 51,
@@ -709,6 +802,6 @@ export const corporate_banners = [
         pathimage: "51.png",
         title: 'Jobify.com',
         year: "2023",
-        path_svg:"51.png"
+        path_svg: "51.png"
     },
 ]

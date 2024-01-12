@@ -39,17 +39,18 @@ const Corporate_campaigns = () => {
           </div>
         </div>
         <div>
+          <div className='text-center fs-4 text-white fw-400 mb-4' >Explore our collection of newsletters and <br/> posters for leading corporates</div>
           <div class="gallery">
             {corporate_banners.map((item, i) => {
               return (
                 <div className='gallery-item mb-3' data-aos="fade-up" key={i}>
                   <img src={require(`../Corporate-Designs/${item.pathimage}`)} className='grid_img w-100' alt='webpage' style={{ objectFit: 'contain' }} />
-                  <div class="overlay">
+                  {/* <div class="overlay">
                     <Button variant="contained">
                       Call us <PiPhoneCallBold
                         className='ms-2 fs-6 fw-bold' />
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
               )
             })}

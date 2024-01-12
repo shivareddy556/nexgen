@@ -6,30 +6,26 @@ import { RxHome } from "react-icons/rx";
 import { CiMenuBurger } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
 const NavItems = [
-
-
-
   {
     title: "Website",
     url: "/viewportfolio",
     cName: "nav-links"
-},
-{
+  },
+  {
     title: "Ux UI Designs",
-    url: "/viewportfolio",
+    url: "/designs/ui_ux_designs",
     cName: "nav-links"
-},
-{
+  },
+  {
     title: "Corporate Campaigns",
-    url: "/viewportfolio",
+    url: "/designs/corporate_campaigns",
     cName: "nav-links"
-},
-{
+  },
+  {
     title: "Social Media & Branding",
-    url: "/viewportfolio",
+    url: "/social_media_designs",
     cName: "nav-links"
-},
-  
+  },
 ];
 const Design_Page = () => {
   const { id } = useParams()
@@ -40,14 +36,14 @@ const Design_Page = () => {
   };
   return (
     <div>
-      <nav className="NavbarItems bg-dark py-4">
+      <nav className="NavbarItems  py-4" style={{ background: 'linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229' }}>
         <div className='ms-5' style={{ width: '20%' }}>
           <Link to="/viewportfolio" className='link_web1'> <RxHome className='fs-2' />
           </Link>
         </div>
         <div className="Hamburger-Cross-Icons" onClick={handleClick}>
-          <div className='text-white fw-bold fs-3'>{open ? <VscClose className='text-white fw-bold'/>
-            : <CiMenuBurger className='text-white fw-bold'/>
+          <div className='text-white fw-bold fs-3'>{open ? <VscClose className='text-white fw-bold' />
+            : <CiMenuBurger className='text-white fw-bold' />
           }</div>
         </div>
         <div className={open ? "MenuItems active" : "MenuItems"}>

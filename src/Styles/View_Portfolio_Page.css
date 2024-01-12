@@ -1,199 +1,194 @@
 .protfilo_bg {
-    background: #222;
-    bottom: 0;
-    /* height: 100vh; */
+  background: #222;
+  bottom: 0;
+  /* height: 100vh; */
 }
 
 .ul_portfilo {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    padding: 1rem 1rem;
-    text-decoration: none;
-    /* border-radius: 17px; */
-    background: #3A3A3A;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  /* border-radius: 17px; */
+  background: #3A3A3A;
 }
 
 .ul_portfilo_vie_navbar {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    padding: 1rem 1rem;
-    text-decoration: none;
-    border-radius: 17px;
-    background: #3A3A3A;
-    transition: 0.5s all ease;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  border-radius: 17px;
+  background: #3A3A3A;
+  transition: 0.5s all ease;
 }
 
 .ul_portfilo11 {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    padding: 1rem 1rem;
-    text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem 1rem;
+  text-decoration: none;
 }
 
 .websit_font {
-    text-decoration: none;
-    color: #FFF;
-    font-family: 'Inter';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 34.758px;
-    /* 144.823% */
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.758px;
+  /* 144.823% */
 }
 
 .websit_font_link {
-    text-decoration: none;
-    color: #FFF;
-    font-family: 'Inter';
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 34.758px;
-    /* 144.823% */
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34.758px;
+  /* 144.823% */
 }
 
 .websit_font1 {
-    color: #D2D1D1;
-    font-family: 'Inter';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34.758px;
-    /* 144.823% */
+  color: #D2D1D1;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.758px;
+  /* 144.823% */
 }
 
 .design_nav_font1 {
-    color: #D2D1D1;
-    font-family: 'Inter';
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34.758px;
-    /* 144.823% */
+  color: #D2D1D1;
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.758px;
+  /* 144.823% */
 }
 
 .link_web {
-    text-decoration: none;
-    color: #FFF;
+  text-decoration: none;
+  color: #FFF;
 }
 
 .link_web1 {
-    text-decoration: none;
-    color: #D2D1D1;
+  text-decoration: none;
+  color: #D2D1D1;
 }
 
+
 .link_web1:hover {
-    transition: all 0.2s ease;
-    border-bottom: 5px solid #F2D95B;
-
-    color: #F2D95B;
-
-
+  transition: all 0.2s ease;
+  border-bottom: 5px solid #F2D95B;
+  color: #F2D95B;
 }
 
 .Row_margin_view {
-    margin: 0rem 3rem;
-    padding: 2rem;
-    position: relative;
+  margin: 0rem 3rem;
+  padding: 2rem;
+  position: relative;
 }
 
 @media (max-width: 500px) {
   .Row_margin_view {
     margin: 0;
-    padding: 2rem;
+    padding: 0;
     position: relative;
-}
   }
+}
 
 .titel_web {
-    text-align: center;
-    padding: 1rem;
-    color: #FFF;
-    font-family: 'Inter';
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25.776px;
-    text-decoration: none;
-    /* 96.564% */
-    letter-spacing: 0.801px;
+  text-align: center;
+  padding: 1rem;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.776px;
+  text-decoration: none;
+  /* 96.564% */
+  letter-spacing: 0.801px;
 }
 
 .year_web {
-    color: #9A9A9A;
-    font-family: Inter;
-    font-size: 13.54px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 13.075px;
-    /* 96.564% */
-    letter-spacing: 0.406px;
-    text-align: center;
+  color: #9A9A9A;
+  font-family: Inter;
+  font-size: 13.54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.075px;
+  /* 96.564% */
+  letter-spacing: 0.406px;
+  text-align: center;
 }
 
 .protfilo_bg_hight {
-    height: 100vh;
+  height: 100vh;
 }
 
 @media (max-width: 768px) {
-    .ul_portfilo {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 3rem;
-        padding: 2rem 1rem;
-        text-decoration: none;
-        flex-direction: column;
-        border-radius: 17px;
-        background: #3A3A3A;
-    }
+  .ul_portfilo {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 1rem;
+    text-decoration: none;
+    flex-direction: column;
+    border-radius: 17px;
+    background: #3A3A3A;
+  }
 
-    .websit_font {
-        text-decoration: none;
-        color: #FFF;
-        font-family: Inter;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 34.758px;
-        /* 144.823% */
-    }
+  .websit_font {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.758px;
+    /* 144.823% */
+  }
 
-    .websit_font1 {
-        color: #D2D1D1;
-        font-family: 'Inter';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 34.758px;
-        /* 144.823% */
-    }
+  .websit_font1 {
+    color: #D2D1D1;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.758px;
+    /* 144.823% */
+  }
 
-    .link_web {
-        text-decoration: none;
-        color: #FFF;
-    }
-
-
+  .link_web {
+    text-decoration: none;
+    color: #FFF;
+  }
 }
 
 .image_hover_effect {
-    transition: transform .5s;
+  transition: transform .5s;
 }
-
 
 .image_hover_effect_corporate {
   transition: transform .5s;
@@ -201,139 +196,139 @@
   border-width: 5px;
   border-image: radial-gradient(rgb(0, 143, 104), rgb(250, 224, 66)) 1;
 }
+
 .image_hover_effect:hover {
-    -ms-transform: scale(1.09);
-    /* IE 9 */
-    -webkit-transform: scale(1.09);
-    /* Safari 3-8 */
-    transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  /* IE 9 */
+  -webkit-transform: scale(1.09);
+  /* Safari 3-8 */
+  transform: scale(1.09);
 }
 
 .design_link_style {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .design_link_style:hover {
-    border-bottom: 5px solid red;
+  border-bottom: 5px solid red;
 }
 
-
-
-
 .NavbarItems {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: white;
-    align-items: center;
-    font-size: 1.2rem;
-    /* border-radius: 9px; */
-    padding: 0px 20px;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
-    z-index: 999;
-  }
-  .logo {
-    color: green;
-    cursor: pointer;
-    justify-self: start;
-  }
-  .fa-react {
-    padding-right: 2px;
-  }
-  .logo:hover {
-    padding-left: 10px;
-  }
-  .MenuItems {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-  }
-  .nav-links {
-    position: relative;
-    /* margin-right: 10px; */
-    text-decoration: none;
-    color: #FFF;
-    font-family: 'Inter';
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 34.758px;
-    
-  }
-  
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+  font-size: 1.2rem;
+  /* border-radius: 9px; */
+  padding: 0px 20px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+}
 
+.logo {
+  color: green;
+  cursor: pointer;
+  justify-self: start;
+}
+
+.fa-react {
+  padding-right: 2px;
+}
+
+.logo:hover {
+  padding-left: 10px;
+}
+
+.MenuItems {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-links {
+  position: relative;
+  /* margin-right: 10px; */
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34.758px;
+}
+
+.Hamburger-Cross-Icons {
+  display: none;
+}
+
+.nav-links:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -10px;
+  background-color: #F2D95B;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-links:hover {
+  color: white;
+}
+
+.nav-links:hover:after {
+  width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+  .NavbarItems {
+    z-index: 99;
+  }
+
+  .MenuItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #202020;
+    width: 100%;
+    height: auto;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    align-items: stretch;
+    top: 0;
+    left: -110%;
+    padding: 3rem 0 0 0;
+    margin: 0;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .MenuItems.active {
+    left: 0%;
+  }
+
+  .nav-links {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0;
+  }
 
   .Hamburger-Cross-Icons {
+    display: block;
+  }
+
+  .ul_portfilo_vie_navbar {
     display: none;
   }
- 
+}
 
-  .nav-links:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    left: 0;
-    bottom: -10px;
-    background-color: #F2D95B;
-    transition: 0.2s ease-in-out;
-  }
-
-
-  .nav-links:hover {
-    color: white;
-  }
-  
-  .nav-links:hover:after {
-    width: 100%;
-  }
-  
-  @media screen and (max-width: 850px) {
-    .NavbarItems {
-      z-index: 99;
-    }
-    .MenuItems {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      background-color: #202020;
-      width: 100%;
-      height: auto;
-      backdrop-filter: blur(5px);
-      position: absolute;
-      align-items: stretch;
-      top: 0;
-      left: -110%;
-      padding: 3rem 0 0 0;
-      margin: 0;
-      z-index: -1;
-      transition: all 0.4s ease-in-out;
-    }
-    .MenuItems.active {
-      left: 0%;
-    }
-    .nav-links {
-      display: block;
-      width: 100%;
-      padding: 0.5rem 0;
-    }
-    .Hamburger-Cross-Icons {
-      display: block;
-    }
-  
-    .ul_portfilo_vie_navbar{
-      display: none;
-    }
-  }
-  
-
-
-.gallery{
+.gallery {
   -webkit-column-count: 4;
   -moz-column-count: 4;
   column-count: 4;
@@ -342,16 +337,17 @@
   column-width: 33%;
   padding: 0 5rem;
 }
-.gallery .grid-wrapper{
+
+.gallery .grid-wrapper {
   margin-bottom: 10px;
 }
 
 @media (max-width:767px) {
-  .gallery{
+  .gallery {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    
+    padding: 0 1rem;
   }
 }
 
@@ -391,12 +387,3 @@
 .overlay h3 {
   margin: 0;
 }
-
-
-
-  
-
-
-
-
-  

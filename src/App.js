@@ -16,6 +16,8 @@ import ErrorBoundary from "./ErrorBoundary";
 import Ui_ux_Design from "./components/Ui_ux_Design";
 import Menu_Navigations from "./components/Menu_Navigations";
 import Ui_ux_Menu_Page from "./components/Ui_ux_Menu_Page";
+import Social_media_design_Page from "./components/Social_media_design_Page";
+import Socialmedia_Branding from "./Socialmedia_Branding";
 
 const App = () => {
   return (
@@ -37,6 +39,8 @@ const App = () => {
             <Route exact path="/designs" element={<Menu_Navigations />} />
             <Route exact path="/designs/:id" element={<Menu_Navigations />} />
             <Route exact path="/designs/:id/:designs" element={<Ui_ux_Menu_Page />} />
+            <Route exact path="/social_media_designs" element={<Socialmedia_Branding />} />
+            <Route exact path="/social_media_designs/:id" element={<Social_media_design_Page />} />
           
             <Route exact path="/price" element={<PricePage />} />
             <Route exact path="/contacts" element={<Contacts />} />

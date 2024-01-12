@@ -8,7 +8,7 @@ import { VscClose } from "react-icons/vsc";
 const NavItems = [
     {
         title: "Website",
-        url: "/designs/ui_ux_designs",
+        url: "/viewportfolio",
         cName: "nav-links"
     },
     {
@@ -18,12 +18,12 @@ const NavItems = [
     },
     {
         title: "Corporate Campaigns",
-        url: "/designs/ui_ux_designs",
+        url: "/designs/corporate_campaigns",
         cName: "nav-links"
     },
     {
         title: "Social Media & Branding",
-        url: "/designs/ui_ux_designs",
+        url: "/social_media_designs",
         cName: "nav-links"
     },
 ];
@@ -37,7 +37,8 @@ const Ui_ux_Menu_Page = () => {
     };
     return (
         <div>
-            <nav className="NavbarItems bg-dark py-4">
+            
+            <nav className="NavbarItems py-4" style={{ background: 'linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229' }}>
                 <div className='ms-5' style={{ width: '20%' }}>
                     <Link to="/designs/ui_ux_designs" className='link_web1'> <RxHome className='fs-2' />
                     </Link>

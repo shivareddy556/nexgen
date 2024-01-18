@@ -1,6 +1,6 @@
 {
-  "name": "nexgen",
   "homepage": "https://shivareddy556.github.io/nexgen",
+  "name": "nexgen",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

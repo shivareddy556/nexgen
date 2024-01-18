@@ -93,7 +93,14 @@
     text-align: center;
 }
 
+.margitopfooter{
+    margin: 5.4rem 0rem;
+}
+
 @media (max-width: 40em) {
+    .margitopfooter{
+        margin: 0rem 0rem;
+    }
     .centerion{
         text-align: start;
     }

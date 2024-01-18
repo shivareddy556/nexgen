@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { social_media, websit } from '../HomePage/HomePagejson'
+import { social_media } from '../HomePage/HomePagejson'
 import { Card, Col, Row } from 'reactstrap'
 import { RxHome } from "react-icons/rx";
 import { CiMenuBurger } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
+import Footer from './Footer';
 const NavItems = [
     {
         title: "Website",
@@ -61,7 +62,7 @@ const Social_media_design_Page = () => {
                 </div>
             </nav>
             <div className='' style={{ background: '#424245' }}>
-                <Card className='m-5 border-0  bg-transparent'>
+                <Card className='imagemarge border-0  bg-transparent'>
                     <div >
                         <Row className='Row_margin_view d-flex justify-content-center mx-3' >
                             {filter_svg && filter_svg.map((p, i) => {
@@ -69,7 +70,7 @@ const Social_media_design_Page = () => {
                                     <Col key={i} md={4} sm={6} xs={12} data-aos="fade-up" className='text-center p-3'>
                                         <div className='design_link_style'>
                                             {/* <img src={require(`./Socialmedia_Banners/${p.pathimage}`)} className='w-100 image-responsive image_hover_effect' alt='webpage' style={{ width: "100%" }} /> */}
-                                            <img key={i} src={require(`../Social-Media-Images/${p}`)} className='w-100 image-responsive image_hover_effect' />
+                                            <img key={i} src={require(`../Social-Media-Images/${p}`)} className='w-100 image-responsive image_hover_effect' alt='logo'/>
                                         </div>
                                     </Col>
                                 )
@@ -78,6 +79,7 @@ const Social_media_design_Page = () => {
                     </div>
                 </Card>
             </div>
+            <Footer />
         </div>
     )
 }

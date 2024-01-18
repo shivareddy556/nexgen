@@ -452,7 +452,7 @@
   padding: 3rem 0rem;
 }
 
-.Hpme_card5_bg1{
+.Hpme_card5_bg1 {
   background: linear-gradient(224deg, #172271 9.84%, rgba(0, 0, 0, 0.00) 66.2%), #040229;
   padding: 1rem 0rem;
   display: none;
@@ -782,7 +782,7 @@
   box-shadow: 0px 4px 4px -2px rgba(24, 39, 75, 0.08), 0px 2px 4px -2px rgba(24, 39, 75, 0.12);
   padding: 1rem;
   width: 100%;
-  height: 270px;
+  height: 290px;
   cursor: pointer;
 }
 
@@ -873,12 +873,85 @@
   cursor: pointer;
 }
 
+.centermargi {
+  display: flex;
+  justify-content: start;
+}
+
+.centermargi1 {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.flexgapas {
+  display: flex;
+  justify-content: start;
+}
+
+.Homeimagestyle {
+  position: relative;
+  width: 50%;
+}
+
+.homelogpage1 {
+
+  display: none;
+}
+
+.homepagelogo2 {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
 @media (max-width: 40em) {
+  .tdi9mq0 {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    padding-left: var(--_1iiu2e0c);
+    padding-right: var(--_1iiu2e0c);
+    /* margin-top: -5rem; */
+  }
+  .homepagelogo2 {
+    display: none;
+  }
+
+  .homelogpage1 {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .Homeimagestyle {
+    position: relative;
+    width: 40%;
+  }
+
+  .centermargi {
+    padding: 1.5rem 0rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexgapas {
+    display: flex;
+    justify-content: center;
+  }
+
+  .centermargi1 {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
   .ensuring_flex_home {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: start;
   }
+
   .home_gride_bg_color {
     background: #532B89;
   }
@@ -1044,24 +1117,26 @@
   }
 
   .home_font1_aswin {
+    margin-left: -15px;
     color: #E6E6EA;
     text-align: justify;
     font-family: 'Montserrat';
-    font-size: 18.725px;
+    font-size: 14.725px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26.528px;
+    line-height: 20.528px;
     /* 141.667% */
   }
 
   .home_font2_aswin {
+    margin-left: -15px;
     color: #E6E6EA;
     text-align: justify;
     font-family: 'Montserrat';
-    font-size: 12.602px;
+    font-size: 11.602px;
     font-style: normal;
     font-weight: 300;
-    line-height: 26.528px;
+    line-height: 20.528px;
     /* 210.498% */
   }
 
@@ -1108,11 +1183,10 @@
   .home_arefont2 {
     color: #FDF9FF;
     font-family: Inter;
-    font-size: 12.711px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18.883px;
-    /* 194.444% */
+    line-height: 20px;
   }
 
   .BsChevronDown_style {
@@ -1202,7 +1276,7 @@
     display: none;
   }
 
-  .Hpme_card5_bg1{
+  .Hpme_card5_bg1 {
     display: block;
   }
 
@@ -1297,7 +1371,7 @@
     padding: 1rem;
     margin-bottom: 0.5rem;
     width: 100%;
-    height: 270px;
+    height: 290px;
   }
 
   .home_bg_images {
@@ -1376,10 +1450,10 @@
     color: #200229;
     text-align: center;
     font-family: Inter;
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 20px;
     /* 133.333% */
   }
 
@@ -1634,7 +1708,7 @@
     padding: 1rem;
     margin-bottom: 0.5rem;
     width: 100%;
-    height: 270px;
+    height: 290px;
   }
 
   .Rowdelop_grid {

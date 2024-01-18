@@ -9,22 +9,19 @@ import Nexgen_icon from "../context/Images/Nexgen_icon.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
   const handleClick =()=>{
-    window.open("https://www.linkedin.com/feed/")
+    window.open("https://www.linkedin.com/in/aravind-kumar-5778a1ba/")
   }
   const handleClickyou =()=>{
     window.open("https://www.youtube.com/")
   }
   const handleClickyins =()=>{
-    window.open("https://www.instagram.com/")
-  }
-  const handleClickgmail =()=>{
-    window.open("aravind.k@skill-elevator.com")
+    window.open("https://www.instagram.com/desigr_frd/?hl=en")
   }
   return (
     <div className="footer_bg">
       <div className="footer_flex">
         <div className="Home_center_footer">
-          <div className="" style={{ marginTop: "-6rem" }}>
+          <div className="">
             <div className="service_footer mb-2">
               Your digital Partner
             </div>
@@ -36,6 +33,7 @@ const Footer = () => {
               />
             </div>
           </div>
+          <div className="margitopfooter"></div>
           {/* <div className='text-center'><img src={skillimagefooter} alt="skillimagefooter" style={{ width: "50%" }} /> </div>
                     <div className='footer_line'></div>
                     <div className='service_footer text-center'>PARTNERED WITH</div>
@@ -54,9 +52,8 @@ const Footer = () => {
         <div className="Home_center_footer">
           <div className="sQuick_footer">Contacts</div>
           <div className="py-4">
-            <div className="aravind_footer">aravind.k@skill-elevator.com</div>
+            <div className="aravind_footer">aravind.nexgen@gmail.com</div>
             <div className="aravind_footer pt-3">+91 93443 38444</div>
-            <div className="aravind_footer">+91 93443 38444</div>
             <div className="pt-4"></div>
           </div>
         </div>

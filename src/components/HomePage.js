@@ -201,14 +201,6 @@ function HomePage() {
                 </div>
               </div>
               <div className="corosal_image">
-                {/* <Carousel
-                  activeIndex={activeIndex}
-                  next={next}
-                  previous={previous}
-                  className="carsusel_bg"
-                >
-                  {slides}
-                </Carousel> */}
                 <img
                   src={homepagelogo2}
                   alt="homepagelogo2"

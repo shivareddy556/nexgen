@@ -327,6 +327,7 @@
 }
 
 .services_arefont2 {
+  text-align: start;
   color: #200229;
   font-family: Inter;
   font-size: 17px;
@@ -910,8 +911,8 @@
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
-    padding-left: var(--_1iiu2e0c);
-    padding-right: var(--_1iiu2e0c);
+    padding-left: var(--_1iiu2e0d);
+    padding-right: var(--_1iiu2e0d);
     /* margin-top: -5rem; */
   }
   .homepagelogo2 {
@@ -1075,6 +1076,7 @@
   }
 
   .services_arefont2 {
+    text-align: center;
     color: #333;
     font-family: Inter;
     font-size: 12px;

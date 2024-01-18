@@ -59,8 +59,8 @@ const Design_Page = () => {
         </div>
       </nav>
       <div className='' style={{ background: '#424245' }}>
-        <Card className='m-5 border-0 shadow'>
-          <img src={require(`../Images/WebsiteImage/${filter_web[0].path_svg}`)} />
+        <Card className='imagemarge border-0 shadow'>
+          <img src={require(`../Images/WebsiteImage/${filter_web[0].path_svg}`)} alt="logos"/>
         </Card>
       </div>
     </div>

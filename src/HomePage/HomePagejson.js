@@ -2,27 +2,22 @@ export const hamePage = [
     {
         id: 1,
         title: "Responsive Design & Development Services",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
+        discription: "Boost online presence with sleek designs. Google favors mobile-friendly sites; our responsive design ensures consistency, user-friendliness, and engagement."
     },
     {
         id: 2,
         title: "UI/UX Design Excellence",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
+        discription: "Nexgen crafts E-commerce Solutions, tailoring platforms to your brand, prioritizing user experience, ensuring secure payments, and data protection."
     },
     {
         id: 3,
         title: "E-commerce Solutions",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
+        discription: "Prioritize user-centric design, marrying aesthetics with functionality. Designs ensure beauty, usability, and cross-device performance."
     },
     {
         id: 4,
         title: "Social media Design & branding",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
-    },
-    {
-        id: 5,
-        title: "SEO Strategies",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
+        discription: "Create compelling stories with visuals for lasting impact. Ensure consistent brand image on social channels, reinforcing trust."
     },
 ]
 export const hamePageImage = [
@@ -55,62 +50,62 @@ export const Queries_Decoded = [
     {
         id: 0,
         Professional: "Advantages of Investing in Professional Website Design",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "Elevate your online presence with our professional and polished designs. Prove your excellence of Industry with showcasing your acchievements. Build trust withing the visitors and have an opportunity to increase your conversion "
     },
     {
         id: 1,
         Professional: "Why We are Affordable Web Design agency?",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "Our affordability stems from efficient processes, skilled teams, and a commitment to delivering value. By optimizing workflows and avoiding unnecessary costs, we provide quality web design services at competitive rates, ensuring accessibility for a broad range of clients."
     },
     {
         id: 2,
         Professional: "Why UX UI Design services a vital role in website",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "UI/UX design is crucial for websites as it directly impacts user satisfaction. A well-crafted user interface (UI) ensures a visually appealing and intuitive design, while user experience (UX) focuses on overall usability. Together, they enhance navigation, engagement, and accessibility, leading to higher user retention and conversion rates."
     },
     {
         id: 3,
         Professional: "Checklist for Evaluating E-commerce Website Designs",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "User-Friendly Navigation: Intuitive menus for easy browsing. Mobile Responsiveness: Adaptable design for various devices.Clear Product Display: High-quality images and detailed descriptions.Effortless Checkout Process: Simple, secure, and quick transactions. Search Functionality: Easy product search for users.Secure Payment Options: Trustworthy payment gateways. Loading Speed: Fast loading times for better user experience.   Responsive Customer Support: Quick assistance for inquiries.  Trust Signals: SSL certificates and customer reviews. Social Integration: Easy sharing and integration with social platforms. "
     },
     {
         id: 4,
         Professional: "Reasons to Prioritize Mobile-Friendly Website Design",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "Cater to the growing mobile user base, ensuring a seamless and enjoyable experience. Google prioritizes mobile-friendly sites, influencing search rankings. Mobile-friendly design decreases the likelihood of users leaving due to poor mobile experiences. Optimize for mobile to improve site speed, crucial for user satisfaction. Enhance mobile shopping experiences, capitalizing on the growth of mobile commerce"
     },
     {
         id: 5,
         Professional: "Why to prefer SEO-Friendly Web Design?",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "SEO-friendly web design boosts visibility on search engines, improving organic traffic. It involves clean code, mobile responsiveness, and fast loading times. Optimized URLs, meta tags, and structured data enhance search engine crawlability. Prioritizing SEO ensures higher rankings, increased online presence, and better chances of reaching the target audience."
     },
     {
         id: 6,
         Professional: "Why User-Centric Web Design is Important ?",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "User-centric web design is crucial for a positive online experience. It enhances usability, satisfaction, and engagement by focusing on users' needs and preferences. Prioritizing user experience boosts website effectiveness, encourages repeat visits, and improves overall success."
     },
     {
         id: 7,
         Professional: "Small Business & Corporate Web Design",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "For small businesses: Simple, user-friendly design, clear value proposition, and easy contact options. Focus on local SEO. For corporate: Professional, sophisticated layout, detailed company information, and seamless navigation. Emphasize branding, corporate identity, and global accessibility."
     },
     {
         id: 8,
         Professional: "WordPress Web Design Services",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "Yes we provide wordpress design services. WordPress web design services create custom websites using the versatile WordPress platform. They offer themes, plugins, and customization, ensuring responsive, user-friendly sites. These services cater to diverse business needs, providing scalable, SEO-friendly solutions."
     },
     {
         id: 9,
         Professional: "Do we do Website Redesign Services?",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "Yes we do website redesign services. Website redesign services breathe new life into outdated sites. Enhance visual appeal, improve user experience, and ensure mobile responsiveness. Prioritize clear navigation and SEO optimization to boost overall site performance."
     },
     {
         id: 10,
         Professional: "Why CMS Website Development",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "CMS website development streamlines content management, enabling easy updates without coding knowledge. It facilitates collaborative editing, enhancing efficiency. Popular CMS platforms like WordPress and Drupal offer scalability, SEO benefits, and a user-friendly interface, making them ideal for dynamic, regularly updated websites."
     },
     {
         id: 11,
         Professional: "Landing Page Design Services",
-        discription: "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi."
+        discription: "Yes we do landing page design & development. Enhance visual appeal, improve user experience, and ensure mobile responsiveness. Prioritize clear navigation and SEO optimization to boost overall site performance."
     },
 ]
 export const initialStepsArr = [

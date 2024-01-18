@@ -2,23 +2,17 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import ServicesPage from "./components/ServicesPage";
-import View_Portfolio_Page from "./components/View_Portfolio_Page";
-import PricePage from "./components/PricePage";
+import ViewPortfolioPage from "./components/View_Portfolio_Page";
 import "@fontsource/inter";
 import "@fontsource/inter/400.css";
-import Footer from "./components/Footer";
-import Mobile_App from "./components/Mobile_App";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Design_Page from "./components/Design_Page";
+import DesignPage from "./components/Design_Page";
 import Contacts from "./components/Contacts";
 import ScrollToTop from "./context/ScrollToTop";
 import ErrorBoundary from "./ErrorBoundary";
-import Ui_ux_Design from "./components/Ui_ux_Design";
-import Menu_Navigations from "./components/Menu_Navigations";
-import Ui_ux_Menu_Page from "./components/Ui_ux_Menu_Page";
-import Social_media_design_Page from "./components/Social_media_design_Page";
-import Socialmedia_Branding from "./Socialmedia_Branding";
-
+import MenuNavigations from "./components/Menu_Navigations";
+import UiuxMenuPage from "./components/Ui_ux_Menu_Page";
+import SociamediadesignPage from "./components/Social_media_design_Page";
+import SocialmediaBranding from "./Socialmedia_Branding";
 const App = () => {
   return (
     <div className="app_bg">
@@ -32,29 +26,32 @@ const App = () => {
             <Route
               exact
               path="/viewportfolio"
-              element={<View_Portfolio_Page />}
+              element={<ViewPortfolioPage />}
             />
-            <Route exact path="/viewportfolio/:id" element={<Design_Page />} />
-
-            <Route exact path="/designs" element={<Menu_Navigations />} />
-            <Route exact path="/designs/:id" element={<Menu_Navigations />} />
-            <Route exact path="/designs/:id/:designs" element={<Ui_ux_Menu_Page />} />
-            <Route exact path="/social_media_designs" element={<Socialmedia_Branding />} />
-            <Route exact path="/social_media_designs/:id" element={<Social_media_design_Page />} />
-          
-            <Route exact path="/price" element={<PricePage />} />
-            <Route exact path="/contacts" element={<Contacts />} />
+            <Route exact path="/viewportfolio/:id" element={<DesignPage />} />
+            <Route exact path="/designs" element={<MenuNavigations />} />
+            <Route exact path="/designs/:id" element={<MenuNavigations />} />
             <Route
               exact
-              path="/viewportfolio/Mobile"
-              element={<Mobile_App />}
+              path="/designs/:id/:designs"
+              element={<UiuxMenuPage />}
             />
+            <Route
+              exact
+              path="/social_media_designs"
+              element={<SocialmediaBranding />}
+            />
+            <Route
+              exact
+              path="/social_media_designs/:id"
+              element={<SociamediadesignPage />}
+            />
+            <Route exact path="/contacts" element={<Contacts />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </Router>
       </ErrorBoundary>
     </div>
   );
 };
-
 export default App;

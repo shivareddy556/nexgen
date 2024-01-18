@@ -8,7 +8,7 @@ import Homeimage3 from "../Images/HomeImages/Homeimage3.png";
 import Homeimage4 from "../Images/HomeImages/Homeimage4.png";
 import nexgen_log_seection from "../Images/HomeImages/nexgen_log_seection.png";
 import companes_logs_home123 from "../Images/AboutImages/companes_logs_home123.png";
-import Leadgenaration_abuot from "../Images/AboutImages/Leadgenaration_abuot.png";
+import companelogomobile from "../Images/AboutImages/companelogomobile.png";
 import FrameHome9 from "../Images/HomeImages/FrameHome9.png";
 import FrameHome8 from "../Images/HomeImages/FrameHome8.png";
 import FrameHome7 from "../Images/HomeImages/FrameHome7.png";
@@ -20,7 +20,7 @@ import FrameHome3 from "../Images/HomeImages/FrameHome3.png";
 import FrameHome2 from "../Images/HomeImages/FrameHome2.png";
 import FrameHome1 from "../Images/HomeImages/FrameHome1.png";
 import ScrollCarousel from "scroll-carousel-react";
-import { Carousel, CarouselItem, Col, Row } from "reactstrap";
+import { Col, Row } from "reactstrap";
 import { hamePage } from "../HomePage/HomePagejson";
 import system_homeimage from "../Images/HomeImages/system_homeimage.png";
 import PriceandPlan from "./PriceandPlan";
@@ -35,75 +35,12 @@ import NavbarPage from "../context/Navbar";
 import { FcGoogle } from "react-icons/fc";
 import Fade from "react-reveal/Fade";
 import homepagelogo2 from "../Images/AboutImages/homepagelogo2.png";
+import homelogpage1 from "../Images/AboutImages/homelogpage1.png";
 import whateabutbg from "../Images/AboutImages/whateabutbg.png";
+import bgbackimghome from "../Images/AboutImages/bgbackimghome.png";
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
 function HomePage() {
-  const items_slide = [
-    {
-      side_images: "Home_images_slide1.svg",
-      altText: "Slide 1",
-      caption: "Slide 1",
-      key: 1,
-    },
-    {
-      side_images: "Home_images_slide1.svg",
-      altText: "Slide 2",
-      caption: "Slide 2",
-      key: 2,
-    },
-    {
-      side_images: "nexgen_home_home1.svg",
-      altText: "Slide 3",
-      caption: "Slide 3",
-      key: 3,
-    },
-    {
-      side_images: "nexgen_home_home2.svg",
-      altText: "Slide 3",
-      caption: "Slide 3",
-      key: 3,
-    },
-  ];
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
-  const next = () => {
-    if (animating) return;
-    const nextIndex =
-      activeIndex === items_slide.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  };
-  const previous = () => {
-    if (animating) return;
-    const nextIndex =
-      activeIndex === 0 ? items_slide.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  };
-  const slides = items_slide.map((item) => {
-    return (
-      <CarouselItem
-        className="carsusel_bg"
-        in={false}
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-        key={item.side_images}
-        style={{
-          width: "100%",
-          boxShadow: "none",
-          background: "transparent",
-          backgroundColor: "transparent",
-        }}
-      >
-        <img
-          src={require(`../Images/HomeImages/${item.side_images}`)}
-          alt={"text"}
-          style={{
-            width: "100%",
-            background: "transparent",
-            backgroundColor: "transparent",
-          }}
-        />
-      </CarouselItem>
-    );
-  });
   const [, setItems] = useState(10);
   useEffect(() => {
     if (window.innerWidth < 576) setItems(1);
@@ -212,14 +149,16 @@ function HomePage() {
                   </div>
                   <div className=" dev_flex1_home">
                     <div>
-                      <button className="home_botton py-2 px-3">
-                        <img
-                          src={Homeimage2}
-                          alt="Homeimage2"
-                          style={{ width: "22px" }}
-                        />{" "}
-                        Get a Proposal
-                      </button>
+                      <Link to="contacts">
+                        <button className="home_botton py-2 px-3">
+                          <img
+                            src={Homeimage2}
+                            alt="Homeimage2"
+                            style={{ width: "22px" }}
+                          />{" "}
+                          Get a Proposal
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -262,53 +201,52 @@ function HomePage() {
                 </div>
               </div>
               <div className="corosal_image">
-                {/* <Carousel
-                  activeIndex={activeIndex}
-                  next={next}
-                  previous={previous}
-                  className="carsusel_bg"
-                >
-                  {slides}
-                </Carousel> */}
                 <img
                   src={homepagelogo2}
                   alt="homepagelogo2"
-                  style={{ width: "100%", position: "relative" }}
+                  className="homepagelogo2"
                 />
-                <div className="margin_our12">
-                  <div className="d-flex gap-2">
-                    <div>
-                      <IoIosStar className="homestar_color" />
+                <img
+                  src={homelogpage1}
+                  alt="homelogpage1"
+                  className="homelogpage1"
+                />
+                <div className="centermargi">
+                  <div className="margin_our12">
+                    <div className="centermargi1">
+                      <div>
+                        <IoIosStar className="homestar_color" />
+                      </div>
+                      <div>
+                        <IoIosStar className="homestar_color" />
+                      </div>
+                      <div>
+                        <IoIosStar className="homestar_color" />
+                      </div>
+                      <div>
+                        <IoIosStar className="homestar_color" />
+                      </div>
+                      <div>
+                        <IoIosStarHalf className="homestar_color" />
+                      </div>
                     </div>
-                    <div>
-                      <IoIosStar className="homestar_color" />
+                    <div className="home_dev3_our pt-2">
+                      “Our new site has a 60% higher
+                      <br />
+                      conversion rate than our old one”
                     </div>
-                    <div>
-                      <IoIosStar className="homestar_color" />
-                    </div>
-                    <div>
-                      <IoIosStar className="homestar_color" />
-                    </div>
-                    <div>
-                      <IoIosStarHalf className="homestar_color" />
-                    </div>
-                  </div>
-                  <div className="home_dev3_our pt-2">
-                    “Our new site has a 60% higher
-                    <br />
-                    conversion rate than our old one”
-                  </div>
-                  <div className="d-flex gap-0 my-2">
-                    <div className="text-center">
-                      <img
-                        src={Homeimage3}
-                        alt="Homeimage3"
-                        style={{ position: "relative", width: "50%" }}
-                      />{" "}
-                    </div>
-                    <div className="">
-                      <div className="home_font1_aswin">Ashwin</div>
-                      <div className="home_font2_aswin">Zell Founder </div>
+                    <div className="flexgapas my-2">
+                      <div className="text-center">
+                        <img
+                          src={Homeimage3}
+                          alt="Homeimage3"
+                          className="Homeimagestyle"
+                        />{" "}
+                      </div>
+                      <div className="">
+                        <div className="home_font1_aswin">Ashwin</div>
+                        <div className="home_font2_aswin">Zell Founder </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -415,10 +353,20 @@ function HomePage() {
                 </div>
                 <div className="button_flex_homeget">
                   <button className="Proposal_home_button py-1">
-                    Get Proposal
+                    <Link
+                      to="contacts"
+                      style={{ textDecoration: "none", color: "#FDF9FF" }}
+                    >
+                      Get Proposal
+                    </Link>
                   </button>
                   <button className="Proposal_home_button1 py-1">
-                    Get Website Audit
+                    <Link
+                      to="contacts"
+                      style={{ textDecoration: "none", color: "#0F1825" }}
+                    >
+                      Get Website Audit
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -572,9 +520,11 @@ function HomePage() {
                     </div>
                   </div>
                   <div className="pt-3 pb-5">
-                    <button className="home_get_style_Consultation py-2 px-4">
-                      Free Consultation <BsArrowRight />
-                    </button>
+                    <Link to="contacts">
+                      <button className="home_get_style_Consultation py-2 px-4">
+                        Free Consultation <BsArrowRight />
+                      </button>
+                    </Link>
                   </div>
                 </div>
                 <div className="py-3">
@@ -601,10 +551,11 @@ function HomePage() {
                       Responsive Design & Development Services
                     </div>
                     <div className="Fintech_home_font py-2">
-                      Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy
-                      to use.
+                      Boost online presence with sleek designs. Google favors
+                      mobile-friendly sites; our responsive design ensures
+                      consistency, user-friendliness, and engagement.
                     </div>
+                    <div className="nowhomeenq">Enquire Now</div>
                   </div>
                 </Col>
                 <Col md={3} sm={6}>
@@ -618,12 +569,15 @@ function HomePage() {
                     </div>
                     <div className="Responsive_font_home">
                       E-commerce Solutions
+                      <br />
+                      <span style={{ visibility: "hidden" }}>1</span>
                     </div>
                     <div className="Fintech_home_font py-2">
-                      Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy
-                      to use.
+                      Nexgen crafts E-commerce Solutions, tailoring platforms to
+                      your brand, prioritizing user experience, ensuring secure
+                      payments, and data protection.
                     </div>
+                    <div className="nowhomeenq">Enquire Now</div>
                   </div>
                 </Col>
                 <Col md={3} sm={6}>
@@ -639,10 +593,11 @@ function HomePage() {
                       UI/UX Design Excellence
                     </div>
                     <div className="Fintech_home_font py-2">
-                      Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy
-                      to use.
+                      Prioritize user-centric design, marrying aesthetics with
+                      functionality. Designs ensure beauty, usability, and
+                      cross-device performance.
                     </div>
+                    <div className="nowhomeenq">Enquire Now</div>
                   </div>
                 </Col>
                 <Col md={3} sm={6}>
@@ -658,10 +613,11 @@ function HomePage() {
                       Social media Design & branding
                     </div>
                     <div className="Fintech_home_font py-2">
-                      Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy
-                      to use.
+                      Create compelling stories with visuals for lasting impact.
+                      Ensure consistent brand image on social channels,
+                      reinforcing trust.
                     </div>
+                    <div className="nowhomeenq">Enquire Now</div>
                   </div>
                 </Col>
               </Row>
@@ -675,6 +631,11 @@ function HomePage() {
                   src={companes_logs_home123}
                   alt="companes_logs_home123"
                   className="companes_logs_homestyle"
+                />
+                <img
+                  src={companelogomobile}
+                  alt="companelogomobile"
+                  className="companelogomobilestyle"
                 />
               </div>
             </div>
@@ -694,6 +655,21 @@ function HomePage() {
               </div>
             </div>
           </div>
+          <div className="Hpme_card5_bg1">
+            <div>
+              <div className="d-flex justify-content-center">
+                <div className="bg_home_card_makes">
+                  <div>
+                    <img
+                      src={bgbackimghome}
+                      alt="bgbackimghome"
+                      style={{ width: "100%" }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </Fade>
         <div className="Hpme_card5_bg_create ">
           <div className="dev_flex_home_constant tdi9mq0 tdi9mq4">
@@ -706,14 +682,16 @@ function HomePage() {
                 using your website.
               </div>
               <div className="Homeimage2_button pb-5 pt-4">
-                <button className="home_botton py-2 px-3">
-                  <img
-                    src={Homeimage2}
-                    alt="Homeimage2"
-                    style={{ width: "22px" }}
-                  />{" "}
-                  Get Started
-                </button>
+                <Link to="contacts">
+                  <button className="home_botton py-2 px-3">
+                    <img
+                      src={Homeimage2}
+                      alt="Homeimage2"
+                      style={{ width: "22px" }}
+                    />{" "}
+                    Get Started
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="system_homeimage12">
@@ -731,6 +709,7 @@ function HomePage() {
         <div className="home_card6_bg pb-5">
           <FaqHandbook />
         </div>
+        <Footer />
       </div>
     </>
   );

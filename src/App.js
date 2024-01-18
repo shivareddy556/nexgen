@@ -5,7 +5,6 @@ import ServicesPage from "./components/ServicesPage";
 import ViewPortfolioPage from "./components/View_Portfolio_Page";
 import "@fontsource/inter";
 import "@fontsource/inter/400.css";
-import Footer from "./components/Footer";
 import DesignPage from "./components/Design_Page";
 import Contacts from "./components/Contacts";
 import ScrollToTop from "./context/ScrollToTop";

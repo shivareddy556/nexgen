@@ -7,6 +7,7 @@ import laptogaqimage from "../Images/AboutImages/laptogaqimage.png"
 import profile_homelogo12 from "../Images/HomeImages/profile_homelogo12.png";
 import { IoIosStar } from "react-icons/io";
 import { IoIosStarHalf } from "react-icons/io";
+import { FcGoogle } from "react-icons/fc";
 const FaqHandbook = () => {
     const [toggle, setToggle] = useState(true)
     useEffect(() => {
@@ -63,7 +64,7 @@ const FaqHandbook = () => {
                             </div>
                             <div className="border_happy_font"></div>
                             <div>
-                                <div className="Reviews_font_home">Reviews</div>
+                                <div className="Reviews_font_home"><FcGoogle className="fs-4" /> Reviews</div>
                                 <div>
                                     <div className="d-flex gap-1">
                                         <div className="font_5P_home"> 5.0 </div>

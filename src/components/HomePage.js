@@ -8,6 +8,7 @@ import Homeimage3 from "../Images/HomeImages/Homeimage3.png";
 import Homeimage4 from "../Images/HomeImages/Homeimage4.png";
 import nexgen_log_seection from "../Images/HomeImages/nexgen_log_seection.png";
 import companes_logs_home123 from "../Images/AboutImages/companes_logs_home123.png";
+import companelogomobile from "../Images/AboutImages/companelogomobile.png";
 import Leadgenaration_abuot from "../Images/AboutImages/Leadgenaration_abuot.png";
 import FrameHome9 from "../Images/HomeImages/FrameHome9.png";
 import FrameHome8 from "../Images/HomeImages/FrameHome8.png";
@@ -36,6 +37,7 @@ import { FcGoogle } from "react-icons/fc";
 import Fade from "react-reveal/Fade";
 import homepagelogo2 from "../Images/AboutImages/homepagelogo2.png";
 import whateabutbg from "../Images/AboutImages/whateabutbg.png";
+import bgbackimghome from "../Images/AboutImages/bgbackimghome.png";
 function HomePage() {
   const items_slide = [
     {
@@ -181,6 +183,15 @@ function HomePage() {
   useEffect(() => {
     attemptPlay();
   }, []);
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen1, setIsOpen1] = useState(false);
+  const [isOpen2, setIsOpen2] = useState(false);
+  const [isOpen3, setIsOpen3] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+  const toggle12 = () => setIsOpen1(!isOpen1);
+  const toggle13 = () => setIsOpen2(!isOpen2);
+  const toggle14 = () => setIsOpen3(!isOpen3);
   return (
     <>
       <NavbarPage />
@@ -597,14 +608,14 @@ function HomePage() {
                         style={{ width: "20%" }}
                       />{" "}
                     </div>
-                    <div className="Responsive_font_home">
+                    <div className="Responsive_font_home" >
                       Responsive Design & Development Services
                     </div>
+                    {isOpen && 
                     <div className="Fintech_home_font py-2">
-                      Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy
-                      to use.
-                    </div>
+                      Elevate your online presence with our professional and polished designs. Search engines like Google prioritize mobile-friendly websites, making responsive design a key factor in search rankings. We ensure A responsive website ensures a consistent and user-friendly experience across devices, reducing bounce rates and keeping visitors engaged.
+                    </div>}
+                    <div className="nowhomeenq" onClick={toggle}>Enquire Now</div>
                   </div>
                 </Col>
                 <Col md={3} sm={6}>
@@ -617,13 +628,14 @@ function HomePage() {
                       />{" "}
                     </div>
                     <div className="Responsive_font_home">
-                      E-commerce Solutions
+                      E-commerce Solutions<br />
+                      <span style={{ visibility: "hidden" }}>1</span>
                     </div>
+                    {isOpen1 && 
                     <div className="Fintech_home_font py-2">
-                      Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy
-                      to use.
-                    </div>
+                      Our E-commerce Solutions are customized to meet the unique needs of your business, ensuring a platform that aligns perfectly with your brand and goals. At Nexgen we prioritize user experience, creating intuitive and visually appealing interfaces that guide customers effortlessly through the buying journey. Trust is paramount in e-commerce. Our solutions prioritize the implementation of secure payment gateways and data protection measures to instill confidence in your customers.
+                    </div>}
+                    <div className="nowhomeenq" onClick={toggle12}>Enquire Now</div>
                   </div>
                 </Col>
                 <Col md={3} sm={6}>
@@ -638,11 +650,11 @@ function HomePage() {
                     <div className="Responsive_font_home">
                       UI/UX Design Excellence
                     </div>
+                    {isOpen2 && 
                     <div className="Fintech_home_font py-2">
-                      Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy
-                      to use.
-                    </div>
+                      Our UI/UX design revolves around understanding your users - their needs, behaviors, and preferences. By putting your users at the center, we create interfaces that resonate and engage. We marry aesthetics with functionality, ensuring that every visual element serves a purpose. Striking the right balance between beauty and usability is our hallmark. Whether on a desktop, tablet, or smartphone, our designs maintain consistency, providing users with a cohesive experience that reinforces your brand identity. Beyond visual appeal, our designs focus on performance optimization, ensuring swift load times and smooth interactions, contributing to a positive user experience.
+                    </div>}
+                    <div className="nowhomeenq" onClick={toggle13}>Enquire Now</div>
                   </div>
                 </Col>
                 <Col md={3} sm={6}>
@@ -657,11 +669,11 @@ function HomePage() {
                     <div className="Responsive_font_home">
                       Social media Design & branding
                     </div>
+                    {isOpen3 && 
                     <div className="Fintech_home_font py-2">
-                      Fintech & healthcare software development with a human
-                      touch. We develop feature-packed solutions that are easy
-                      to use.
-                    </div>
+                      Our designs go beyond aesthetics; they tell a story. From compelling graphics to engaging visuals, we weave a narrative that resonates with your audience and leaves a lasting impression. Maintain a unified brand image across all social media channels. Consistent visuals and messaging strengthen brand recall and build a cohesive identity that stands out. We go beyond logos, extending your brand identity to every social media post. Colors, fonts, and visual elements are carefully chosen to reinforce brand recognition and build trust.
+                    </div>}
+                    <div className="nowhomeenq" onClick={toggle14}>Enquire Now</div>
                   </div>
                 </Col>
               </Row>
@@ -676,6 +688,11 @@ function HomePage() {
                   alt="companes_logs_home123"
                   className="companes_logs_homestyle"
                 />
+                <img
+                  src={companelogomobile}
+                  alt="companelogomobile"
+                  className="companelogomobilestyle"
+                />
               </div>
             </div>
           </div>
@@ -687,6 +704,21 @@ function HomePage() {
                     <img
                       src={whateabutbg}
                       alt="whateabutbg"
+                      style={{ width: "100%" }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="Hpme_card5_bg1">
+            <div>
+              <div className="d-flex justify-content-center">
+                <div className="bg_home_card_makes">
+                  <div>
+                    <img
+                      src={bgbackimghome}
+                      alt="bgbackimghome"
                       style={{ width: "100%" }}
                     />
                   </div>

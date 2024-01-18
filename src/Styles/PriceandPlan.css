@@ -275,6 +275,7 @@
 } */
 
 .Nexgen_pricewe {
+    width: 55%;
     color: #200229;
     text-align: center;
     font-family: Inter;
@@ -289,7 +290,14 @@
     width: 80%;
 }
 
+.padingchose{
+    padding: 3rem 0rem;
+}
+
 @media (max-width: 40em) {
+    .padingchose{
+        padding: 0rem 0rem;
+    }
     .displayvastclocr {
         display: block;
     }
@@ -307,7 +315,7 @@
         font-weight: 600;
         line-height: normal;
         letter-spacing: 0.31px;
-        padding-top: 25%;
+        padding-top: 5%;
     }
 
     [type=radio] {
@@ -315,10 +323,11 @@
     }
 
     .Nexgen_pricewe {
+        width: 100%;
         color: #200229;
         text-align: center;
         font-family: Inter;
-        font-size: 10px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 14px;

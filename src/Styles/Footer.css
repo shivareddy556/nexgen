@@ -12,6 +12,7 @@
 }
 
 .service_footer {
+    text-align: center;
     color: #FFF;
     font-family: Inter;
     font-size: 15.66px;
@@ -40,6 +41,9 @@
 
 .footer_ul {
     list-style: none;
+}
+.homedecratoin{
+    text-decoration: none;
 }
 
 .Home_footer {
@@ -85,13 +89,30 @@
 .Home_center_footer{
     text-align: start;
 }
+.centerion{
+    text-align: center;
+}
 
 @media (max-width: 40em) {
+    .centerion{
+        text-align: start;
+    }
+    .service_footer {
+        text-align: start;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 15.66px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
     .footer_flex {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
+        align-items: start;
+        padding: 0rem 2rem;
         gap: 0rem;
     }
     .Home_center_footer{

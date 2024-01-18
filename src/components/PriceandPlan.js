@@ -50,7 +50,7 @@ const PriceandPlan = () => {
   const check = (index) => setSelectedIndex(index);
   return (
     <div className="">
-      <div className="tdi9mq0 tdi9mq4 py-5">
+      <div className="tdi9mq0 tdi9mq4 padingchose">
         <div className="price_font">
           Choose a package that fits your needs <br></br>with our{" "}
           <span className="convenient_style_price">convenient EMI</span>
@@ -60,7 +60,7 @@ const PriceandPlan = () => {
             <div className="">
               <div className="">
                 <section id="slider" className="">
-                  
+
                   <input
                     type="radio"
                     name="slider"
@@ -305,11 +305,13 @@ const PriceandPlan = () => {
       </div>
       <div>
         <div className="Hear_price">Hear from those we've helped</div>
-        <div className="Nexgen_pricewe pt-3">
-          At Nexgen, we specialize in Custom Web Design solutions tailored to
-          your specific
-          <br /> needs. Our team crafts Responsive Web Designs that adapt
-          seamlessly across{" "}
+        <div className="d-flex justify-content-center">
+          <div className="Nexgen_pricewe pt-3 px-2">
+            At Nexgen, we specialize in Custom Web Design solutions tailored to
+            your specific
+            needs. Our team crafts Responsive Web Designs that adapt
+            seamlessly across{" "}
+          </div>
         </div>
         <div className="">
           <div className="slideimg"></div>

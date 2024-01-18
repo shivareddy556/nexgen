@@ -59,21 +59,14 @@ const Navbarsecond = (args) => {
                                 Services
                             </Link>
                         </li>
-                        <li className="li1">
-                            <Link
-                                to="/price"
-                                 className={url === '/price' ? ' nav_bgfont' : 'nav_bgfont1'}
-                            >
-                                Price & Plan
-                            </Link>
-                        </li>
+                        
                         <li className="li1">
                             <Link
                                 to="/viewportfolio"
                                  className={url === '/viewportfolio' ? ' nav_bgfont' : 'nav_bgfont1'}
                             >
                                 {" "}
-                                View Portfolio
+                                Our Works
                             </Link>
                         </li>
                         <li className="li1">

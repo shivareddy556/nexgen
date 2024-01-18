@@ -272,14 +272,15 @@
     /* 19.2px */
 }
 
-.width_freedback{
+.width_freedback {
     width: 50%;
 }
 
 @media (max-width: 768px) {
-    .width_freedback{
+    .width_freedback {
         width: 100%;
     }
+
     .laptogaqimage_bg {
         background: #2c2762;
         background-blend-mode: overlay, normal;
@@ -289,6 +290,7 @@
         background-size: cover;
         /* height: 100vh; */
     }
+
     .Queries_handbook {
         color: #03B1FF;
         text-align: center;
@@ -448,8 +450,8 @@
     }
 
     .your_faq {
-        border-radius: 12px;
-        background: conic-gradient(from 21deg at 60.16% 50.15%, #892B85 0deg, #28005E 360deg);
+        border-radius: 13.329px;
+        background: linear-gradient(205deg, #892B85 45.86%, #28005E 72.96%);
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -476,7 +478,7 @@
     }
 
     .Call_faq_style {
-        border-radius: 17.901px;
+        border-radius: 7.901px;
         background: linear-gradient(180deg, #FFF264 0%, #FFB334 100%);
         color: #050427;
         text-align: center;

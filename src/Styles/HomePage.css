@@ -627,7 +627,7 @@
 }
 
 .home_bg_images {
-  background: url('../Images/AboutImages/bghomenew.svg');
+  background: url('../Images/AboutImages/bghomenew.png');
   background-blend-mode: overlay, normal;
   width: 100%;
   background-repeat: no-repeat;

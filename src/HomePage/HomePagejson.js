@@ -2,27 +2,22 @@ export const hamePage = [
     {
         id: 1,
         title: "Responsive Design & Development Services",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
+        discription: "Boost online presence with sleek designs. Google favors mobile-friendly sites; our responsive design ensures consistency, user-friendliness, and engagement."
     },
     {
         id: 2,
         title: "UI/UX Design Excellence",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
+        discription: "Nexgen crafts E-commerce Solutions, tailoring platforms to your brand, prioritizing user experience, ensuring secure payments, and data protection."
     },
     {
         id: 3,
         title: "E-commerce Solutions",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
+        discription: "Prioritize user-centric design, marrying aesthetics with functionality. Designs ensure beauty, usability, and cross-device performance."
     },
     {
         id: 4,
         title: "Social media Design & branding",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
-    },
-    {
-        id: 5,
-        title: "SEO Strategies",
-        discription: "At Nexgen, we specialize in Custom Web Design solutions tailored to your specific needs. Our team crafts Responsive Web Designs that adapt seamlessly across devices, ensuring an optimal user experience for your audience."
+        discription: "Create compelling stories with visuals for lasting impact. Ensure consistent brand image on social channels, reinforcing trust."
     },
 ]
 export const hamePageImage = [
